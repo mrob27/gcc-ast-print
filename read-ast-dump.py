@@ -209,6 +209,51 @@ def create_paths(tree, downpaths=[]):
     return res, uppaths
 
 
+leafcodes = { 'parm_decl': 1,
+              'integer_cst' : 2
+            }
+typecodes = { 'int32': 1,
+              'double64': 2,
+              'unsigned32': 3,
+            }
+nodecodes = { 'ge_expr': 1,
+              'gt_expr': 2,
+              'le_expr': 3,
+              'lt_expr': 4,
+              'eq_expr': 5,
+              'ne_expr': 6,
+              'if_stmt': 7,
+              'modify_expr': 8,
+              'plus_expr': 9,
+              'minus_expr': 10,
+              'expr_stmt': 11,
+              'statement_list': 12,
+              'return_expr': 13,
+              'float_expr': 14,
+              'cond_expr': 15,
+              'call_expr': 16,
+            }
+
+def encode_leaf(leaf):
+    if leaf[0] in [ 'parm_decl' ]:
+        res = [ leafcodes[leaf[0]], typecodes[leaf[1]] ]
+    elif leaf[0] in [ 'integer_cst' ]:
+        res = [ leafcodes[leaf[0]] ]
+    else:
+        res = leaf
+    return [ res ]
+
+def encode_nodes(path):
+    return [ nodecodes[n] for n in path ]
+
+def encode(path):
+    return encode_leaf(path[0]) + encode_nodes(path[1:-1]) + encode_leaf(path[-1])
+
+def print_codes(name, codes):
+    print('{}:'.format(name))
+    for c in codes:
+        print('  {}={}'.format(c, codes[c]))
+
 if __name__ == '__main__':
     import sys
     files = read_asts(sys.argv[1:])
@@ -220,3 +265,8 @@ if __name__ == '__main__':
         paths, _ = create_paths(tree)
         for p in paths:
             print(p)
+            coded = encode(p)
+            print(coded)
+    print_codes('leafcodes', leafcodes)
+    print_codes('typecodes', typecodes)
+    print_codes('nodecodes', nodecodes)
