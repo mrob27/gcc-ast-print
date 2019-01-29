@@ -9,6 +9,8 @@
 #include <plugin-version.h>
 #include <diagnostic.h>
 #include <tree-iterator.h>
+#include <langhooks.h>
+#include <tree-dump.h>
 #include <c-family/c-pragma.h>
 
 #include <iostream>
@@ -17,7 +19,28 @@
 int plugin_is_GPL_compatible;
 
 
+#define F << std::flush
+
 namespace {
+
+  template<typename _CharT, typename _Traits>
+  std::basic_ostream<_CharT, _Traits>&
+  operator<<(std::basic_ostream<_CharT, _Traits>& s, unsigned __int128 n)
+  {
+    char buf[64];
+    auto cp = &buf[sizeof(buf) - 1];
+    *cp = '\0';
+    if (n == 0)
+      *--cp = '0';
+    else
+      while (n != 0) {
+        *--cp = '0' + (n % 10);
+        n /= 10;
+      }
+    s << cp;
+    return s;
+  }
+
 
   plugin_info my_plugin_info = {
     VERSION,
@@ -42,6 +65,7 @@ namespace {
   void print_type(tree t)
   {
     auto code = TREE_CODE(t);
+    std::cerr << ' ' << TREE_CODE_CLASS_STRING(TREE_CODE_CLASS(code)) F;
     if (code == VOID_TYPE)
       std::cerr << " void\n";
     else if (POINTER_TYPE_P(t))
@@ -59,17 +83,26 @@ namespace {
   void print_node(tree t, tree_code code, unsigned level)
   {
     for (auto i = 0u; i < level; ++i)
-      std::cerr << "  ";
-    std::cerr << get_tree_code_name(code);
+      std::cerr << "  " F;
+    std::cerr << get_tree_code_name(code) F;
     switch (code) {
     case INTEGER_CST:
-      if (tree_fits_shwi_p(t))
-        std::cerr << " = " << TREE_INT_CST_LOW(t);
-      else
-        std::cerr << " = large integer";
+      if (tree_fits_shwi_p(t)) {
+        unsigned HOST_WIDE_INT n = tree_to_shwi(t);
+        if (TREE_CODE(TREE_TYPE(t)) == INTEGER_TYPE && 8*sizeof(decltype(n)) >= TYPE_PRECISION(TREE_TYPE(t))) {
+          auto mask = ~(decltype(n))0;
+          mask >>= 8*sizeof(mask) - TYPE_PRECISION(TREE_TYPE(t));
+          n &= mask;
+        }
+        std::cerr << " = " << n F;
+      } else
+        std::cerr << " = large integer" F;
       break;
     case PARM_DECL:
-      std::cerr << " = " << IDENTIFIER_POINTER(DECL_NAME(t));
+      std::cerr << " = " << IDENTIFIER_POINTER(DECL_NAME(t)) F;
+      break;
+    case HANDLER:
+      return;
       break;
     default:
       break;
@@ -82,8 +115,15 @@ namespace {
 
   }
 
+
   bool my_walk(tree t, unsigned level, std::unordered_set<tree>& visited)
   {
+    dump_info di = {};
+    di.stream = ::stderr;
+
+    return lang_hooks.tree_dump.dump_tree(&di, t);
+
+
     if (t == nullptr)
       return false;
 
@@ -189,6 +229,11 @@ namespace {
         my_walk(TYPE_SIZE_UNIT(t2), level + 1, visited);
         break;
       }
+    case HANDLER:
+      if (HANDLER_PARMS(t))
+        my_walk(HANDLER_PARMS(t), level + 1, visited);
+      my_walk(HANDLER_BODY(t), level+1, visited);
+      break;
     default:
       if (IS_EXPR_CODE_CLASS(TREE_CODE_CLASS(code))) {
         auto len = TREE_OPERAND_LENGTH(t);
@@ -212,7 +257,8 @@ namespace {
     print_decl(t);
     std::unordered_set<tree> visited;
     visited.insert(t);
-    my_walk(DECL_SAVED_TREE(t), 0, visited);
+    dump_node(DECL_SAVED_TREE(t), 0, ::stderr);
+    // my_walk(DECL_SAVED_TREE(t), 0, visited);
   }
 
   // For PLUGIN_FINISH_DECL.

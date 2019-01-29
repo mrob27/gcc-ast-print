@@ -1,8 +1,9 @@
 VERSION = 0.0
 
-CXX = g++ -std=gnu++2a $(COLOR)
+CXX = g++
 
-CXXFLAGS = $(OPT) $(DEBUG)
+CXXFLAGS = $(STD) $(OPT) $(DEBUG) $(COLOR)
+STD = -std=gnu++2a
 OPT = -Og
 DEBUG = -g
 PLUGINDIR = $(shell $(CXX) -print-file-name=plugin)
