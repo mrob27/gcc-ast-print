@@ -108,11 +108,21 @@ def create_tree(tree, nodenr = 1):
             res.append(create_tree(tree, node[str(cnt)]))
             cnt += 1
     elif nodestr == 'if_stmt':
-        res.append(get_type(tree, node['type']))
         res.append(create_tree(tree, node['cond']))
         res.append(create_tree(tree, node['then']))
         if 'else' in node:
-            res.append(create_tree(tree, node['else']))
+            elsetree = create_tree(tree, node['else'])
+            if res[1][0] == 'lt_expr':
+                res[1][0] = 'ge_expr'
+                res.insert(2, elsetree)
+            elif res[1][0] == 'le_expr':
+                res[1][0] = 'gt_expr'
+                res.insert(2, elsetree)
+            elif res[1][0] == 'ne_expr':
+                res[1][0] = 'eq_expr'
+                res.insert(2, elsetree)
+            else:
+                res.append(elsetree)
     elif nodestr == 'cleanup_point_expr':
         res = create_tree(tree, node['op 0'])
     elif nodestr in ['expr_stmt']:
@@ -173,9 +183,9 @@ def create_paths(tree, downpaths=[]):
         return res, [ [ tree ] ]
 
     start = -1
-    if tree[0] in ['statement_list', 'lt_expr', 'ne_expr', 'modify_expr', 'return_expr', 'plus_expr', 'minus_expr', 'cond_expr', 'le_expr', 'parameters']:
+    if tree[0] in ['statement_list', 'lt_expr', 'ne_expr', 'ge_expr', 'gt_expr', 'modify_expr', 'return_expr', 'plus_expr', 'minus_expr', 'cond_expr', 'le_expr', 'parameters', 'if_stmt']:
         start = 1
-    elif tree[0] in ['if_stmt', 'float_expr']:
+    elif tree[0] in ['float_expr']:
         start = 2
     elif tree[0] in ['call_expr']:
         start = 3
