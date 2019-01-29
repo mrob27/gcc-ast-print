@@ -2,3 +2,4 @@ astprint.so
 *.o
 astprint-plugin.sublime-project
 astprint-plugin.sublime-workspace
+test1.paths

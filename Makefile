@@ -22,6 +22,8 @@ ALLBIN = $(addsuffix .so,$(ALL))
 astprint_SRCS = astprint.cc
 astprint_OBJS = $(astprint_SRCS:.cc=.o)
 
+GENERATED = test1.paths
+
 .PHONY: all clean check
 all: $(ALLBIN)
 
@@ -36,7 +38,8 @@ endef
 $(foreach o,$(ALL),$(eval $(call SORULE,$o)))
 
 clean:
-	-rm -f $(ALLBIN) $(foreach a,$(ALL),$($(a)_OBJS))
+	-rm -f $(ALLBIN) $(foreach a,$(ALL),$($(a)_OBJS)) $(GENERATED)
 
 check: all
-	$(CXX) -fplugin=$$PWD/astprint.so -fplugin-arg-astprint-sds=3 -c test1.cc
+	-$(CXX) -fplugin=$$PWD/astprint.so -c test1.cc |& ./read-ast-dump.py > test1.paths
+	colordiff -u test1.expect test1.paths
