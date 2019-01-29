@@ -96,7 +96,7 @@ def get_string(tree, expect, nodenr):
     return tree[nodenr]['strg']
 
 
-def create_tree(tree, nodenr):
+def create_tree(tree, nodenr = 1):
     node = tree[nodenr]
     res = [ ]
     nodestr = node['node']
@@ -148,7 +148,7 @@ def create_tree(tree, nodenr):
     elif nodestr == 'call_expr':
         res.append(get_type(tree, node['type']))
         res.append(create_tree(tree, node['fn']))
-        args = []
+        args = ['parameters']
         cnt = 0
         while str(cnt) in node:
             args.append(create_tree(tree, node[str(cnt)]))
@@ -166,6 +166,39 @@ def create_tree(tree, nodenr):
 
     return res
 
+
+def create_paths(tree, downpaths=[]):
+    if tree[0] in ['parm_decl', 'integer_cst']:
+        res = [ p + [ tree ] for p in downpaths ]
+        return res, [ [ tree ] ]
+
+    start = -1
+    if tree[0] in ['statement_list', 'lt_expr', 'ne_expr', 'modify_expr', 'return_expr', 'plus_expr', 'minus_expr', 'cond_expr', 'le_expr', 'parameters']:
+        start = 1
+    elif tree[0] in ['if_stmt', 'float_expr']:
+        start = 2
+    elif tree[0] in ['call_expr']:
+        start = 3
+    # if start == -1:
+    #     print('missing=',tree[0])
+    assert start != -1
+
+    if not tree[0] in ['parameters']:
+        newdownpaths = [ p + [ tree[0] ] for p in downpaths ]
+    else:
+        newdownpaths = downpaths.copy()
+
+    res = []
+    uppaths = []
+    for i in range(start, len(tree)):
+        subres, subuppaths = create_paths(tree[i], newdownpaths)
+        newdownpaths += [ u + [ tree[0] ] for u in subuppaths ]
+        res += subres
+        uppaths += subuppaths
+
+    return res, uppaths
+
+
 if __name__ == '__main__':
     import sys
     files = read_asts(sys.argv[1:])
@@ -173,4 +206,7 @@ if __name__ == '__main__':
         file = files[k]
         ast = file['content']
         print("function={} in {}".format(k, file['source']))
-        print(create_tree(ast, 1))
+        tree = create_tree(ast)
+        paths, _ = create_paths(tree)
+        for p in paths:
+            print(p)
