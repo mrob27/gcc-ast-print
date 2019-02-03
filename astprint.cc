@@ -255,12 +255,13 @@ namespace {
     tree t(static_cast<tree>(gcc_data));
     assert(TREE_CODE(t) == FUNCTION_DECL);
     print_decl(t);
-    std::unordered_set<tree> visited;
-    visited.insert(t);
     dump_node(DECL_SAVED_TREE(t), 0, ::stderr);
+    // std::unordered_set<tree> visited;
+    // visited.insert(t);
     // my_walk(DECL_SAVED_TREE(t), 0, visited);
   }
 
+#if 0
   // For PLUGIN_FINISH_DECL.
   void finish_decl_cb(void* gcc_data, void* user_data)
   {
@@ -268,6 +269,7 @@ namespace {
     tree t(static_cast<tree>(gcc_data));
     print_decl(t);
   }
+#endif
 
   void finish_cb(void* gcc_data, void* data)
   {
@@ -289,7 +291,7 @@ int plugin_init(struct plugin_name_args *plugin_info, struct plugin_gcc_version 
 
   // Register all the callback functions.
   register_callback(plugin_info->base_name, PLUGIN_PRE_GENERICIZE, pre_genericize_cb, nullptr);
-  register_callback(plugin_info->base_name, PLUGIN_FINISH_DECL, finish_decl_cb, nullptr);
+  // register_callback(plugin_info->base_name, PLUGIN_FINISH_DECL, finish_decl_cb, nullptr);
   register_callback(plugin_info->base_name, PLUGIN_FINISH, finish_cb, nullptr);
 
   // Add more here if necessary.

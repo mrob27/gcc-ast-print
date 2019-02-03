@@ -3,3 +3,5 @@ astprint.so
 astprint-plugin.sublime-project
 astprint-plugin.sublime-workspace
 test1.paths
+gcc-ast-print.sublime-project
+gcc-ast-print.sublime-workspace
