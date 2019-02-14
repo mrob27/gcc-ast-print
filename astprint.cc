@@ -1,19 +1,19 @@
-#include <gcc-plugin.h>
 #include <cassert>
+#include <fstream>
+#include <iostream>
+#include <string>
 #include <unordered_set>
-#include "config.h"
-#include "system.h"
-#include "coretypes.h"
-#include "tree.h"
-#include <cp/cp-tree.h>//name-lookup.h>
+#include <gcc-plugin.h>
+#include <tree.h>
+#include <cp/cp-tree.h>
 #include <plugin-version.h>
-#include <diagnostic.h>
 #include <tree-iterator.h>
 #include <langhooks.h>
 #include <tree-dump.h>
 #include <c-family/c-pragma.h>
 
-#include <iostream>
+using namespace std::string_literals;
+
 
 // Required symbol.
 int plugin_is_GPL_compatible;
@@ -22,6 +22,9 @@ int plugin_is_GPL_compatible;
 #define F << std::flush
 
 namespace {
+
+  FILE* outfile = stderr;
+
 
   template<typename _CharT, typename _Traits>
   std::basic_ostream<_CharT, _Traits>&
@@ -54,9 +57,8 @@ namespace {
     tree id(DECL_NAME(decl));
     const char* name(id ? IDENTIFIER_POINTER(id) : "<unnamed>");
    
-    std::cerr << get_tree_code_name(tc) << " " << name << " at "
-              << DECL_SOURCE_FILE(decl) << ":"
-              << DECL_SOURCE_LINE(decl) << std::endl;
+   fprintf(outfile, "%s %s at %s:%d\n",
+           get_tree_code_name(tc), name, DECL_SOURCE_FILE(decl), DECL_SOURCE_LINE(decl));
 
     // if (tc == FUNCTION_DECL)
     //   std::cerr << "is function\n";
@@ -255,7 +257,7 @@ namespace {
     tree t(static_cast<tree>(gcc_data));
     assert(TREE_CODE(t) == FUNCTION_DECL);
     print_decl(t);
-    dump_node(DECL_SAVED_TREE(t), 0, ::stderr);
+    dump_node(DECL_SAVED_TREE(t), 0, outfile);
     // std::unordered_set<tree> visited;
     // visited.insert(t);
     // my_walk(DECL_SAVED_TREE(t), 0, visited);
@@ -273,7 +275,9 @@ namespace {
 
   void finish_cb(void* gcc_data, void* data)
   {
-    std::cerr << "finish compilation\n";
+    fputs("finish compilation\n", outfile);
+    fclose(outfile);
+    outfile = nullptr;
   }
 
 } // anonymous namespace
@@ -285,7 +289,13 @@ int plugin_init(struct plugin_name_args *plugin_info, struct plugin_gcc_version 
     return 1;
 
   for (int i = 0; i < plugin_info->argc; i++)
-    std::cerr << "Argument " << i << ": Key: " << plugin_info->argv[i]. key << ". Value: " << plugin_info->argv[i].value << "\n";
+    if (plugin_info->argv[i].key == "out"s) {
+      outfile = fopen(plugin_info->argv[i].value, "w");
+      if (outfile == nullptr) {
+        std::cerr << "cannot open " << plugin_info->argv[i].value << std::endl;
+        exit(1);
+      }
+    }
 
   register_callback(plugin_info->base_name, PLUGIN_INFO, nullptr, &my_plugin_info);
 

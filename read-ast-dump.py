@@ -33,33 +33,41 @@ def handle_asts(lines):
             content = [ {} ]
             count = 0
             continue
-        else:
-            assert fct != ''
 
+        assert fct != ''
         if l.startswith('@'):
             if count > 0:
                 content.append(dic)
                 assert len(content) == count + 1
             count = int(l[1:8])
             l = l[8:]
-            idx = l.index(' ')
+            try:
+                idx = l.index(' ')
+            except ValueError:
+                # There are no addition values on the line, such as in
+                # @712    error_mark
+                continue
             dic = { 'node': l[:idx] }
             l = l[idx:]
 
         l = l.lstrip(' ')
-        while l != '':
-            idx = l.index(':')
-            key = l[:idx].rstrip(' ')
-            l = l[idx+1:].lstrip(' ')
-            assert l != ''
-            try:
-                idx = l.index(' ')
-            except ValueError:
-                idx = len(l)
-            dic[key] = l[:idx]
-            if dic[key].startswith('@'):
-                dic[key] = int(dic[key][1:])
-            l = l[idx:].lstrip(' ')
+
+        if dic['node'] == 'string_cst':
+            pass
+        else:
+            while l != '':
+                idx = l.index(':')
+                key = l[:idx].rstrip(' ')
+                l = l[idx+1:].lstrip(' ')
+                try:
+                    idx = l.index(' ')
+                except ValueError:
+                    idx = len(l)
+                dic[key] = l[:idx]
+                if dic[key].startswith('@'):
+                    assert l != ''
+                    dic[key] = int(dic[key][1:])
+                l = l[idx:].lstrip(' ')
 
     assert count == 0
     return known
@@ -73,6 +81,8 @@ def read_asts(fname):
 
 
 def get_type(tree, nodenr):
+    """ Returns a string for each type
+    """
     node = tree[nodenr]
     nodestr = node['node']
     if nodestr in ['void_type', 'boolean_type']:
@@ -88,8 +98,27 @@ def get_type(tree, nodenr):
         assert identifier_node['node'] == 'identifier_node'
         size = tree[node['size']]
         return identifier_node['strg'] + size['int']
+    if nodestr == 'function_type':
+        nparams = get_tree_list_len(node['prms']) if 'prms' in node else 0
+        return nodestr + ":" + get_type(tree, node['retn']) + ":" + nparams
+    if nodestr == 'pointer_type':
+        # XYZ do we need more detailed information, i.e., know about the type of the object pointed to?
+        return nodestr
+    if nodestr == 'record_type':
+        return node['tag']
+    print("type=",nodestr)
+    sys.exit(1)
     return '???'
 
+def get_tree_list_len(tree, nodenr):
+    node = tree[nodenr]
+    if 'chan' in node:
+        return 1 + get_tree_list_len(tree, node['chan'])
+    return 1
+
+def get_field_types(tree, nodenr):
+    # XYZ should emit types in list but how to avoid recursion?
+    return [1]
 
 def get_string(tree, expect, nodenr):
     assert tree[nodenr]['node'] == expect
@@ -166,6 +195,8 @@ def create_tree(tree, nodenr = 1):
         res.append(args)
     elif nodestr == 'addr_expr':
         res = create_tree(tree, node['op 0'])
+    elif nodestr == 'nop_expr':
+        res = create_tree(tree, node['op 0'])
     elif nodestr == 'function_decl':
         if 'mngl' in node:
             res = get_string(tree, 'identifier_node', node['mngl'])
@@ -173,6 +204,16 @@ def create_tree(tree, nodenr = 1):
             res = get_string(tree, 'identifier_node', node['name'])
     elif nodestr == 'integer_cst':
         res.append(node['int'])
+    elif nodestr == 'view_convert_expr':
+        res.append(get_type(tree, node['type']))
+    elif nodestr == 'indirect_ref':
+        res.append(create_tree(tree, node['op 0']))
+    elif nodestr in ['postincrement_expr', 'component_ref']:
+        res.append(create_tree(tree, node['op 0']))
+        res.append(create_tree(tree, node['op 1']))
+    elif nodestr == 'field_decl':
+        res.append(get_type(tree, node['type']))
+        res.append(get_string(tree, 'identifier_node', node['name']))
 
     return res
 
@@ -183,14 +224,17 @@ def create_paths(tree, downpaths=[]):
         return res, [ [ tree ] ]
 
     start = -1
-    if tree[0] in ['statement_list', 'lt_expr', 'ne_expr', 'ge_expr', 'gt_expr', 'modify_expr', 'return_expr', 'plus_expr', 'minus_expr', 'cond_expr', 'le_expr', 'parameters', 'if_stmt']:
+    if tree[0] in ['statement_list', 'lt_expr', 'ne_expr', 'ge_expr', 'gt_expr', 'modify_expr',
+                   'return_expr', 'plus_expr', 'minus_expr', 'cond_expr', 'le_expr', 'parameters',
+                   'if_stmt', 'nop_expr', 'indirect_ref', 'postincrement_expr', 'component_ref',
+                   'var_decl', 'non_lvalue_expr', 'eh_spec_block', 'bind_expr', 'negate_expr']:
         start = 1
-    elif tree[0] in ['float_expr']:
+    elif tree[0] in ['float_expr', 'view_convert_expr', 'convert_expr']:
         start = 2
-    elif tree[0] in ['call_expr']:
+    elif tree[0] in ['call_expr', 'field_decl']:
         start = 3
-    # if start == -1:
-    #     print('missing=',tree[0])
+    if start == -1:
+        print('missing=',tree)
     assert start != -1
 
     if not tree[0] in ['parameters']:
@@ -232,13 +276,20 @@ nodecodes = { 'ge_expr': 1,
               'float_expr': 14,
               'cond_expr': 15,
               'call_expr': 16,
+              'postincrement_expr': 17,
+              'convert_expr': 18,
+              'indirect_ref': 19,
+              'component_ref': 20,
             }
 
 def encode_leaf(leaf):
-    if leaf[0] in [ 'parm_decl' ]:
-        res = [ leafcodes[leaf[0]], typecodes[leaf[1]] ]
-    elif leaf[0] in [ 'integer_cst' ]:
-        res = [ leafcodes[leaf[0]] ]
+    first = leaf[0]
+    if first in [ 'parm_decl' ]:
+        if not leaf[1] in typecodes:
+            typecodes[leaf[1]] = len(typecodes) + 1
+        res = [ leafcodes[first], typecodes[leaf[1]] ]
+    elif first in [ 'integer_cst' ]:
+        res = [ leafcodes[first] ]
     else:
         res = leaf
     return [ res ]

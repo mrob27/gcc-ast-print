@@ -181,3 +181,7 @@ nodecodes:
   float_expr=14
   cond_expr=15
   call_expr=16
+  postincrement_expr=17
+  convert_expr=18
+  indirect_ref=19
+  component_ref=20
