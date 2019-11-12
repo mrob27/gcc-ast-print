@@ -257,7 +257,7 @@ namespace {
     tree t(static_cast<tree>(gcc_data));
     assert(TREE_CODE(t) == FUNCTION_DECL);
     print_decl(t);
-    dump_node(DECL_SAVED_TREE(t), 0, outfile);
+    dump_node(DECL_SAVED_TREE(t), TDF_NONE, outfile);
     // std::unordered_set<tree> visited;
     // visited.insert(t);
     // my_walk(DECL_SAVED_TREE(t), 0, visited);
