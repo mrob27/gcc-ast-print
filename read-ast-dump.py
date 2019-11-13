@@ -44,7 +44,7 @@ def handle_asts(lines):
             try:
                 idx = l.index(' ')
             except ValueError:
-                # There are no addition values on the line, such as in
+                # There are no additional values on the line, such as in
                 # @712    error_mark
                 continue
             dic = { 'node': l[:idx] }
@@ -154,6 +154,8 @@ def create_tree(tree, nodenr = 1):
                 res.append(elsetree)
     elif nodestr == 'cleanup_point_expr':
         res = create_tree(tree, node['op 0'])
+    elif nodestr == 'non_lvalue_expr':
+        res = create_tree(tree, node['op 0'])
     elif nodestr in ['expr_stmt']:
         t = get_type(tree, node['type'])
         if t == 'void':
@@ -171,7 +173,8 @@ def create_tree(tree, nodenr = 1):
     elif nodestr == 'float_expr':
         res.append(get_type(tree, node['type']))
         res.append(create_tree(tree, node['op 0']))
-    elif nodestr in ['lt_expr', 'le_expr', 'modify_expr', 'plus_expr', 'minus_expr', 'cond_expr']:
+    elif nodestr in ['lt_expr', 'le_expr', 'ne_expr', 'eq_expr', 'ge_expr', 'gt_expr', 'modify_expr',
+                     'plus_expr', 'minus_expr', 'cond_expr', 'bit_and_expr']:
         # res.append(get_type(tree, node['type']))
         cnt = 0
         while ('op ' + str(cnt) in node):
@@ -206,6 +209,7 @@ def create_tree(tree, nodenr = 1):
         res.append(node['int'])
     elif nodestr == 'view_convert_expr':
         res.append(get_type(tree, node['type']))
+        res.append(create_tree(tree, node['op 0']))
     elif nodestr == 'indirect_ref':
         res.append(create_tree(tree, node['op 0']))
     elif nodestr in ['postincrement_expr', 'component_ref']:
@@ -227,7 +231,8 @@ def create_paths(tree, downpaths=[]):
     if tree[0] in ['statement_list', 'lt_expr', 'ne_expr', 'ge_expr', 'gt_expr', 'modify_expr',
                    'return_expr', 'plus_expr', 'minus_expr', 'cond_expr', 'le_expr', 'parameters',
                    'if_stmt', 'nop_expr', 'indirect_ref', 'postincrement_expr', 'component_ref',
-                   'var_decl', 'non_lvalue_expr', 'eh_spec_block', 'bind_expr', 'negate_expr']:
+                   'var_decl', 'non_lvalue_expr', 'eh_spec_block', 'bind_expr', 'negate_expr',
+                   'bit_and_expr']:
         start = 1
     elif tree[0] in ['float_expr', 'view_convert_expr', 'convert_expr']:
         start = 2
@@ -280,6 +285,9 @@ nodecodes = { 'ge_expr': 1,
               'convert_expr': 18,
               'indirect_ref': 19,
               'component_ref': 20,
+              'view_convert_expr': 21,
+              'bit_and_expr': 22,
+              'non_lvalue_expr': 23
             }
 
 def encode_leaf(leaf):
@@ -307,12 +315,13 @@ def print_codes(name, codes):
 
 if __name__ == '__main__':
     import sys
-    files = read_asts(sys.argv[1:])
-    for k in files:
-        file = files[k]
+    trees = read_asts(sys.argv[1:])
+    for k in trees:
+        file = trees[k]
         ast = file['content']
         print("function={} in {}".format(k, file['source']))
         tree = create_tree(ast)
+        # print(tree)
         paths, _ = create_paths(tree)
         for p in paths:
             print(p)

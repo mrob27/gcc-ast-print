@@ -26,25 +26,6 @@ namespace {
   FILE* outfile = stderr;
 
 
-  template<typename _CharT, typename _Traits>
-  std::basic_ostream<_CharT, _Traits>&
-  operator<<(std::basic_ostream<_CharT, _Traits>& s, unsigned __int128 n)
-  {
-    char buf[64];
-    auto cp = &buf[sizeof(buf) - 1];
-    *cp = '\0';
-    if (n == 0)
-      *--cp = '0';
-    else
-      while (n != 0) {
-        *--cp = '0' + (n % 10);
-        n /= 10;
-      }
-    s << cp;
-    return s;
-  }
-
-
   plugin_info my_plugin_info = {
     VERSION,
     "AST print plugin"
@@ -63,6 +44,26 @@ namespace {
     // if (tc == FUNCTION_DECL)
     //   std::cerr << "is function\n";
   }
+
+#if 0
+  template<typename _CharT, typename _Traits>
+  std::basic_ostream<_CharT, _Traits>&
+  operator<<(std::basic_ostream<_CharT, _Traits>& s, unsigned __int128 n)
+  {
+    char buf[64];
+    auto cp = &buf[sizeof(buf) - 1];
+    *cp = '\0';
+    if (n == 0)
+      *--cp = '0';
+    else
+      while (n != 0) {
+        *--cp = '0' + (n % 10);
+        n /= 10;
+      }
+    s << cp;
+    return s;
+  }
+
 
   void print_type(tree t)
   {
@@ -250,6 +251,7 @@ namespace {
 
     return true;
   }
+#endif
 
   // For PLUGIN_PRE_GENERICIZE.
   void pre_genericize_cb(void* gcc_data, void* user_data)
