@@ -285,7 +285,8 @@ foreach $fn (sort (keys %json_fns)) {
   # Function-specific output from previous pass is the input for the next
   $out60 = "out/60-$fn.txt";
 
-  # Get the parameter list of this function (this is used several steps later)
+  # Get the parameter list of this function (this is used by q50-canonvars.pl
+  # several steps later)
   $out65 = "out/65-$fn.txt";
   $err65 = "out/err65-$fn.txt";
   &sys1("cat $out60 | ./q15-parmlist.pl > $out65 2> $err65");
@@ -317,6 +318,7 @@ foreach $fn (sort (keys %json_fns)) {
     die "${avc_bd_red}q30-get-paths error on function $fn$avc_normal\n";
   }
 
+  # Print paths in simple text format (i.e. not JSON)
   $testpaths = "out/$fn.paths";
   $err90 = "out/err90-$fn.txt";
   &sys1("cat $rad30 | ./q40-print-paths.py > $testpaths 2> $err90");
@@ -326,6 +328,7 @@ foreach $fn (sort (keys %json_fns)) {
     die "${avc_bd_red}q40-print-paths error on function $fn$avc_normal\n";
   }
 
+  # Convert strings like 'while_stmt' into numeric tokens
   $out91 = "out/91-$fn.tok";
   $err91 = "out/err91-$fn.txt";
   &sys1("cat $rad30 | ./q41-tokenise.py > $out91 2> $err91");
@@ -335,6 +338,8 @@ foreach $fn (sort (keys %json_fns)) {
     die "${avc_bd_red}q41-tokenise error on function $fn$avc_normal\n";
   }
 
+  # Remove consecutive identical operators when the operator is of
+  # a reduction type (add, multiply)
   $out95 = "out/95-$fn.tok";
   $err95 = "out/err95-$fn.txt";
   &sys1("cat $out91 | ./q45-reductions.pl > $out95 2> $err95");
@@ -344,6 +349,8 @@ foreach $fn (sort (keys %json_fns)) {
     die "${avc_bd_red}q45-reductions error on function $fn$avc_normal\n";
   }
 
+  # Eliminate variations that are due only to the choice of
+  # names for parameters and variables
   $testtok = "out/$fn.tok";
   $err100 = "out/err100-$fn.txt";
   &sys1("./q50-canonvars.pl $out65 $out95 > $testtok 2> $err100");
@@ -370,4 +377,3 @@ foreach $fn (sort (keys %json_fns)) {
   $unique = `cat $testtok | wc -l` + 0;
   print sprintf(" %6s %5d %4d %4d\n", $fn, $paths, $unique, $duped);
 }
-

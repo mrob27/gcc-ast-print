@@ -17,3 +17,6 @@ z-old-versions/*
 .bmdcs-cache_x3.hid                                                     
 .bmrs-default.hid
 0-README.txt
+obj/
+out/
+t-def.h
