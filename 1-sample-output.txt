@@ -1,0 +1,227 @@
+CL16 /home/munafo/Projects-Chrono/20171203-PhD/gcc-ast-print
+ : date 
+Thu 16 Nov 23:00:53 EST 2023
+CL16 /home/munafo/Projects-Chrono/20171203-PhD/gcc-ast-print
+ : ./mk
+processing ASTs of test1.cc matching /./...
+dti: /usr/lib/gcc/x86_64-linux-gnu/9/plugin/include
+running: g++ -std=gnu++2a -Og -g -fdiagnostics-color=auto -DVERSION=\"0.0\" -Wall -I/usr/lib/gcc/x86_64-linux-gnu/9/plugin/include -c -fPIC -fno-rtti -o obj/test1.o astprint.cc
+running: g++ -shared -o obj/test1.so obj/test1.o 
+running: g++ -fplugin=obj/test1.so -c test1.cc -fdump-tree-all -fdump-rtl-all -o obj/test1.o > out/00.txt 2> out/err00.txt
+1819513951 test1.cc.004t.original
+3979583932 test1.cc.005t.gimple
+1002044388 test1.cc.007t.omplower
+3558607819 test1.cc.008t.lower
+3588947745 test1.cc.011t.eh
+2399411397 test1.cc.012t.cfg
+ 314253187 test1.cc.013t.ompexp
+3724742329 test1.cc.019t.ssa
+2837251081 test1.cc.024t.local-fnsummary1
+3724742329 test1.cc.025t.einline
+2771764193 test1.cc.046t.release_ssa
+2837251081 test1.cc.047t.local-fnsummary2
+3724742329 test1.cc.085t.fixup_cfg3
+1197755543 test1.cc.233r.expand
+1694417677 test1.cc.234r.vregs
+1961008988 test1.cc.235r.into_cfglayout
+1275273934 test1.cc.236r.jump
+2902339603 test1.cc.248r.reginfo
+ 667779666 test1.cc.270r.outof_cfglayout
+3525137166 test1.cc.271r.split1
+ 224368004 test1.cc.273r.dfinit
+2365598693 test1.cc.274r.mode_sw
+2183411737 test1.cc.275r.asmcons
+2045243273 test1.cc.280r.ira
+2632138949 test1.cc.281r.reload
+2681118701 test1.cc.285r.split2
+ 251737620 test1.cc.289r.pro_and_epilogue
+1923362607 test1.cc.292r.jump2
+ 237346565 test1.cc.305r.stack
+3633486110 test1.cc.306r.alignments
+2928223774 test1.cc.313r.cet
+1550667583 test1.cc.314r.shorten
+2999599660 test1.cc.316r.dwarf2
+1550667583 test1.cc.317r.final
+2227232507 test1.cc.318r.dfinish
+running: cat out/00.txt | ./p10-unwrap.pl > out/10.txt
+running: cat out/10.txt | ./p15-dechain.pl > out/15.txt 2> out/err15.txt
+running: cat out/15.txt | ./p20-strip-unused.pl > out/20.txt
+running: cat out/20.txt | ./p22-renumber.pl > out/22.txt
+running: cat out/22.txt | ./p30-keep-used.pl > out/30.txt
+running: cat out/30.txt | ./p22-renumber.pl > out/32.txt
+running: cat out/32.txt | ./p40-remove-invariants.pl > out/40.txt
+running: cat out/40.txt | ./p22-renumber.pl > out/50.txt
+cat out/50.txt | ./q10-astpr-to-json.py
+running: cat out/60-euler.txt | ./q15-parmlist.pl > out/65-euler.txt 2> out/err65-euler.txt
+running: ./q20-treeify.py out/rad10-euler.json >out/rad20-euler.json 2> out/err70-euler.txt
+running: cat out/rad20-euler.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-euler.json
+running: cat out/rad25-euler.json | ./q30-get-paths.py >out/rad30-euler.json 2> out/err80-euler.txt
+running: cat out/rad30-euler.json | ./q40-print-paths.py > out/euler.paths 2> out/err90-euler.txt
+running: cat out/rad30-euler.json | ./q41-tokenise.py > out/91-euler.tok 2> out/err91-euler.txt
+running: cat out/91-euler.tok | ./q45-reductions.pl > out/95-euler.tok 2> out/err95-euler.txt
+running: ./q50-canonvars.pl out/65-euler.txt out/95-euler.tok > out/euler.tok 2> out/err100-euler.txt
+running: /usr/bin/colordiff -u exp/euler.expect out/euler.tok
+running: cat out/60-f1.txt | ./q15-parmlist.pl > out/65-f1.txt 2> out/err65-f1.txt
+running: ./q20-treeify.py out/rad10-f1.json >out/rad20-f1.json 2> out/err70-f1.txt
+running: cat out/rad20-f1.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-f1.json
+running: cat out/rad25-f1.json | ./q30-get-paths.py >out/rad30-f1.json 2> out/err80-f1.txt
+running: cat out/rad30-f1.json | ./q40-print-paths.py > out/f1.paths 2> out/err90-f1.txt
+running: cat out/rad30-f1.json | ./q41-tokenise.py > out/91-f1.tok 2> out/err91-f1.txt
+running: cat out/91-f1.tok | ./q45-reductions.pl > out/95-f1.tok 2> out/err95-f1.txt
+running: ./q50-canonvars.pl out/65-f1.txt out/95-f1.tok > out/f1.tok 2> out/err100-f1.txt
+running: /usr/bin/colordiff -u exp/f1.expect out/f1.tok
+running: cat out/60-f2.txt | ./q15-parmlist.pl > out/65-f2.txt 2> out/err65-f2.txt
+running: ./q20-treeify.py out/rad10-f2.json >out/rad20-f2.json 2> out/err70-f2.txt
+running: cat out/rad20-f2.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-f2.json
+running: cat out/rad25-f2.json | ./q30-get-paths.py >out/rad30-f2.json 2> out/err80-f2.txt
+running: cat out/rad30-f2.json | ./q40-print-paths.py > out/f2.paths 2> out/err90-f2.txt
+running: cat out/rad30-f2.json | ./q41-tokenise.py > out/91-f2.tok 2> out/err91-f2.txt
+running: cat out/91-f2.tok | ./q45-reductions.pl > out/95-f2.tok 2> out/err95-f2.txt
+running: ./q50-canonvars.pl out/65-f2.txt out/95-f2.tok > out/f2.tok 2> out/err100-f2.txt
+running: /usr/bin/colordiff -u exp/f2.expect out/f2.tok
+running: cat out/60-fak.txt | ./q15-parmlist.pl > out/65-fak.txt 2> out/err65-fak.txt
+running: ./q20-treeify.py out/rad10-fak.json >out/rad20-fak.json 2> out/err70-fak.txt
+running: cat out/rad20-fak.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-fak.json
+running: cat out/rad25-fak.json | ./q30-get-paths.py >out/rad30-fak.json 2> out/err80-fak.txt
+running: cat out/rad30-fak.json | ./q40-print-paths.py > out/fak.paths 2> out/err90-fak.txt
+running: cat out/rad30-fak.json | ./q41-tokenise.py > out/91-fak.tok 2> out/err91-fak.txt
+running: cat out/91-fak.tok | ./q45-reductions.pl > out/95-fak.tok 2> out/err95-fak.txt
+running: ./q50-canonvars.pl out/65-fak.txt out/95-fak.tok > out/fak.tok 2> out/err100-fak.txt
+running: /usr/bin/colordiff -u exp/fak.expect out/fak.tok
+running: cat out/60-fbs.txt | ./q15-parmlist.pl > out/65-fbs.txt 2> out/err65-fbs.txt
+running: ./q20-treeify.py out/rad10-fbs.json >out/rad20-fbs.json 2> out/err70-fbs.txt
+running: cat out/rad20-fbs.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-fbs.json
+running: cat out/rad25-fbs.json | ./q30-get-paths.py >out/rad30-fbs.json 2> out/err80-fbs.txt
+running: cat out/rad30-fbs.json | ./q40-print-paths.py > out/fbs.paths 2> out/err90-fbs.txt
+running: cat out/rad30-fbs.json | ./q41-tokenise.py > out/91-fbs.tok 2> out/err91-fbs.txt
+running: cat out/91-fbs.tok | ./q45-reductions.pl > out/95-fbs.tok 2> out/err95-fbs.txt
+running: ./q50-canonvars.pl out/65-fbs.txt out/95-fbs.tok > out/fbs.tok 2> out/err100-fbs.txt
+running: /usr/bin/colordiff -u exp/fbs.expect out/fbs.tok
+running: cat out/60-fib.txt | ./q15-parmlist.pl > out/65-fib.txt 2> out/err65-fib.txt
+running: ./q20-treeify.py out/rad10-fib.json >out/rad20-fib.json 2> out/err70-fib.txt
+running: cat out/rad20-fib.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-fib.json
+running: cat out/rad25-fib.json | ./q30-get-paths.py >out/rad30-fib.json 2> out/err80-fib.txt
+running: cat out/rad30-fib.json | ./q40-print-paths.py > out/fib.paths 2> out/err90-fib.txt
+running: cat out/rad30-fib.json | ./q41-tokenise.py > out/91-fib.tok 2> out/err91-fib.txt
+running: cat out/91-fib.tok | ./q45-reductions.pl > out/95-fib.tok 2> out/err95-fib.txt
+running: ./q50-canonvars.pl out/65-fib.txt out/95-fib.tok > out/fib.tok 2> out/err100-fib.txt
+running: /usr/bin/colordiff -u exp/fib.expect out/fib.tok
+running: cat out/60-fibnr.txt | ./q15-parmlist.pl > out/65-fibnr.txt 2> out/err65-fibnr.txt
+running: ./q20-treeify.py out/rad10-fibnr.json >out/rad20-fibnr.json 2> out/err70-fibnr.txt
+running: cat out/rad20-fibnr.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-fibnr.json
+running: cat out/rad25-fibnr.json | ./q30-get-paths.py >out/rad30-fibnr.json 2> out/err80-fibnr.txt
+running: cat out/rad30-fibnr.json | ./q40-print-paths.py > out/fibnr.paths 2> out/err90-fibnr.txt
+running: cat out/rad30-fibnr.json | ./q41-tokenise.py > out/91-fibnr.tok 2> out/err91-fibnr.txt
+running: cat out/91-fibnr.tok | ./q45-reductions.pl > out/95-fibnr.tok 2> out/err95-fibnr.txt
+running: ./q50-canonvars.pl out/65-fibnr.txt out/95-fibnr.tok > out/fibnr.tok 2> out/err100-fibnr.txt
+running: /usr/bin/colordiff -u exp/fibnr.expect out/fibnr.tok
+running: cat out/60-fpow.txt | ./q15-parmlist.pl > out/65-fpow.txt 2> out/err65-fpow.txt
+running: ./q20-treeify.py out/rad10-fpow.json >out/rad20-fpow.json 2> out/err70-fpow.txt
+running: cat out/rad20-fpow.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-fpow.json
+running: cat out/rad25-fpow.json | ./q30-get-paths.py >out/rad30-fpow.json 2> out/err80-fpow.txt
+running: cat out/rad30-fpow.json | ./q40-print-paths.py > out/fpow.paths 2> out/err90-fpow.txt
+running: cat out/rad30-fpow.json | ./q41-tokenise.py > out/91-fpow.tok 2> out/err91-fpow.txt
+running: cat out/91-fpow.tok | ./q45-reductions.pl > out/95-fpow.tok 2> out/err95-fpow.txt
+running: ./q50-canonvars.pl out/65-fpow.txt out/95-fpow.tok > out/fpow.tok 2> out/err100-fpow.txt
+running: /usr/bin/colordiff -u exp/fpow.expect out/fpow.tok
+running: cat out/60-ipow.txt | ./q15-parmlist.pl > out/65-ipow.txt 2> out/err65-ipow.txt
+running: ./q20-treeify.py out/rad10-ipow.json >out/rad20-ipow.json 2> out/err70-ipow.txt
+running: cat out/rad20-ipow.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-ipow.json
+running: cat out/rad25-ipow.json | ./q30-get-paths.py >out/rad30-ipow.json 2> out/err80-ipow.txt
+running: cat out/rad30-ipow.json | ./q40-print-paths.py > out/ipow.paths 2> out/err90-ipow.txt
+running: cat out/rad30-ipow.json | ./q41-tokenise.py > out/91-ipow.tok 2> out/err91-ipow.txt
+running: cat out/91-ipow.tok | ./q45-reductions.pl > out/95-ipow.tok 2> out/err95-ipow.txt
+running: ./q50-canonvars.pl out/65-ipow.txt out/95-ipow.tok > out/ipow.tok 2> out/err100-ipow.txt
+running: /usr/bin/colordiff -u exp/ipow.expect out/ipow.tok
+running: cat out/60-llpow.txt | ./q15-parmlist.pl > out/65-llpow.txt 2> out/err65-llpow.txt
+running: ./q20-treeify.py out/rad10-llpow.json >out/rad20-llpow.json 2> out/err70-llpow.txt
+running: cat out/rad20-llpow.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-llpow.json
+running: cat out/rad25-llpow.json | ./q30-get-paths.py >out/rad30-llpow.json 2> out/err80-llpow.txt
+running: cat out/rad30-llpow.json | ./q40-print-paths.py > out/llpow.paths 2> out/err90-llpow.txt
+running: cat out/rad30-llpow.json | ./q41-tokenise.py > out/91-llpow.tok 2> out/err91-llpow.txt
+running: cat out/91-llpow.tok | ./q45-reductions.pl > out/95-llpow.tok 2> out/err95-llpow.txt
+running: ./q50-canonvars.pl out/65-llpow.txt out/95-llpow.tok > out/llpow.tok 2> out/err100-llpow.txt
+running: /usr/bin/colordiff -u exp/llpow.expect out/llpow.tok
+running: cat out/60-min.txt | ./q15-parmlist.pl > out/65-min.txt 2> out/err65-min.txt
+running: ./q20-treeify.py out/rad10-min.json >out/rad20-min.json 2> out/err70-min.txt
+running: cat out/rad20-min.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-min.json
+running: cat out/rad25-min.json | ./q30-get-paths.py >out/rad30-min.json 2> out/err80-min.txt
+running: cat out/rad30-min.json | ./q40-print-paths.py > out/min.paths 2> out/err90-min.txt
+running: cat out/rad30-min.json | ./q41-tokenise.py > out/91-min.tok 2> out/err91-min.txt
+running: cat out/91-min.tok | ./q45-reductions.pl > out/95-min.tok 2> out/err95-min.txt
+running: ./q50-canonvars.pl out/65-min.txt out/95-min.tok > out/min.tok 2> out/err100-min.txt
+running: /usr/bin/colordiff -u exp/min.expect out/min.tok
+running: cat out/60-qd2.txt | ./q15-parmlist.pl > out/65-qd2.txt 2> out/err65-qd2.txt
+running: ./q20-treeify.py out/rad10-qd2.json >out/rad20-qd2.json 2> out/err70-qd2.txt
+running: cat out/rad20-qd2.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-qd2.json
+running: cat out/rad25-qd2.json | ./q30-get-paths.py >out/rad30-qd2.json 2> out/err80-qd2.txt
+running: cat out/rad30-qd2.json | ./q40-print-paths.py > out/qd2.paths 2> out/err90-qd2.txt
+running: cat out/rad30-qd2.json | ./q41-tokenise.py > out/91-qd2.tok 2> out/err91-qd2.txt
+running: cat out/91-qd2.tok | ./q45-reductions.pl > out/95-qd2.tok 2> out/err95-qd2.txt
+running: ./q50-canonvars.pl out/65-qd2.txt out/95-qd2.tok > out/qd2.tok 2> out/err100-qd2.txt
+running: /usr/bin/colordiff -u exp/qd2.expect out/qd2.tok
+running: cat out/60-qd3.txt | ./q15-parmlist.pl > out/65-qd3.txt 2> out/err65-qd3.txt
+running: ./q20-treeify.py out/rad10-qd3.json >out/rad20-qd3.json 2> out/err70-qd3.txt
+running: cat out/rad20-qd3.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-qd3.json
+running: cat out/rad25-qd3.json | ./q30-get-paths.py >out/rad30-qd3.json 2> out/err80-qd3.txt
+running: cat out/rad30-qd3.json | ./q40-print-paths.py > out/qd3.paths 2> out/err90-qd3.txt
+running: cat out/rad30-qd3.json | ./q41-tokenise.py > out/91-qd3.tok 2> out/err91-qd3.txt
+running: cat out/91-qd3.tok | ./q45-reductions.pl > out/95-qd3.tok 2> out/err95-qd3.txt
+running: ./q50-canonvars.pl out/65-qd3.txt out/95-qd3.tok > out/qd3.tok 2> out/err100-qd3.txt
+running: /usr/bin/colordiff -u exp/qd3.expect out/qd3.tok
+running: cat out/60-qdf.txt | ./q15-parmlist.pl > out/65-qdf.txt 2> out/err65-qdf.txt
+running: ./q20-treeify.py out/rad10-qdf.json >out/rad20-qdf.json 2> out/err70-qdf.txt
+running: cat out/rad20-qdf.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-qdf.json
+running: cat out/rad25-qdf.json | ./q30-get-paths.py >out/rad30-qdf.json 2> out/err80-qdf.txt
+running: cat out/rad30-qdf.json | ./q40-print-paths.py > out/qdf.paths 2> out/err90-qdf.txt
+running: cat out/rad30-qdf.json | ./q41-tokenise.py > out/91-qdf.tok 2> out/err91-qdf.txt
+running: cat out/91-qdf.tok | ./q45-reductions.pl > out/95-qdf.tok 2> out/err95-qdf.txt
+running: ./q50-canonvars.pl out/65-qdf.txt out/95-qdf.tok > out/qdf.tok 2> out/err100-qdf.txt
+running: /usr/bin/colordiff -u exp/qdf.expect out/qdf.tok
+running: cat out/60-qdisc.txt | ./q15-parmlist.pl > out/65-qdisc.txt 2> out/err65-qdisc.txt
+running: ./q20-treeify.py out/rad10-qdisc.json >out/rad20-qdisc.json 2> out/err70-qdisc.txt
+running: cat out/rad20-qdisc.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-qdisc.json
+running: cat out/rad25-qdisc.json | ./q30-get-paths.py >out/rad30-qdisc.json 2> out/err80-qdisc.txt
+running: cat out/rad30-qdisc.json | ./q40-print-paths.py > out/qdisc.paths 2> out/err90-qdisc.txt
+running: cat out/rad30-qdisc.json | ./q41-tokenise.py > out/91-qdisc.tok 2> out/err91-qdisc.txt
+running: cat out/91-qdisc.tok | ./q45-reductions.pl > out/95-qdisc.tok 2> out/err95-qdisc.txt
+running: ./q50-canonvars.pl out/65-qdisc.txt out/95-qdisc.tok > out/qdisc.tok 2> out/err100-qdisc.txt
+running: /usr/bin/colordiff -u exp/qdisc.expect out/qdisc.tok
+running: cat out/60-ror.txt | ./q15-parmlist.pl > out/65-ror.txt 2> out/err65-ror.txt
+running: ./q20-treeify.py out/rad10-ror.json >out/rad20-ror.json 2> out/err70-ror.txt
+running: cat out/rad20-ror.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-ror.json
+running: cat out/rad25-ror.json | ./q30-get-paths.py >out/rad30-ror.json 2> out/err80-ror.txt
+running: cat out/rad30-ror.json | ./q40-print-paths.py > out/ror.paths 2> out/err90-ror.txt
+running: cat out/rad30-ror.json | ./q41-tokenise.py > out/91-ror.tok 2> out/err91-ror.txt
+running: cat out/91-ror.tok | ./q45-reductions.pl > out/95-ror.tok 2> out/err95-ror.txt
+running: ./q50-canonvars.pl out/65-ror.txt out/95-ror.tok > out/ror.tok 2> out/err100-ror.txt
+running: /usr/bin/colordiff -u exp/ror.expect out/ror.tok
+running: cat out/60-slen.txt | ./q15-parmlist.pl > out/65-slen.txt 2> out/err65-slen.txt
+running: ./q20-treeify.py out/rad10-slen.json >out/rad20-slen.json 2> out/err70-slen.txt
+running: cat out/rad20-slen.json | grep -v '^#' | ./q25-genericise-types.pl > out/rad25-slen.json
+running: cat out/rad25-slen.json | ./q30-get-paths.py >out/rad30-slen.json 2> out/err80-slen.txt
+running: cat out/rad30-slen.json | ./q40-print-paths.py > out/slen.paths 2> out/err90-slen.txt
+running: cat out/rad30-slen.json | ./q41-tokenise.py > out/91-slen.tok 2> out/err91-slen.txt
+running: cat out/91-slen.tok | ./q45-reductions.pl > out/95-slen.tok 2> out/err95-slen.txt
+running: ./q50-canonvars.pl out/65-slen.txt out/95-slen.tok > out/slen.tok 2> out/err100-slen.txt
+running: /usr/bin/colordiff -u exp/slen.expect out/slen.tok
+  fname paths uniq dupe
+  euler    55   45   10
+     f1    36   33    3
+     f2    45   45    0
+    fak    78   71    7
+    fbs    21   18    3
+    fib    21   18    3
+  fibnr   300  257   41
+   fpow    91   91    0
+   ipow    91   91    0
+  llpow    91   91    0
+    min     6    6    0
+    qd2    10   10    0
+    qd3    45   35   10
+    qdf     3    2    1
+  qdisc    10    7    3
+    ror    10   10    0
+   slen    28   28    0
+CL16 /home/munafo/Projects-Chrono/20171203-PhD/gcc-ast-print
+ : 

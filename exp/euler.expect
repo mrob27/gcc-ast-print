@@ -1,0 +1,45 @@
+ I a 10 8 7 27 12 13 I a 
+ I a 10 8 7 8 10 I a 
+ I a 10 8 7 8 10 I b 
+ I a 10 8 7 8 I b 
+ I a 10 I b 
+ I a 2 7 27 12 13 I a 
+ I a 2 7 8 10 I a 
+ I a 2 7 8 10 I b 
+ I a 2 7 8 I a 
+ I a 2 7 8 I b 
+ I a 2 I b 
+ I a 6 27 12 13 I a 
+ I a 6 27 7 2 I a 
+ I a 6 27 7 2 I b 
+ I a 6 27 7 8 10 I a 
+ I a 6 27 7 8 10 I b 
+ I a 6 27 7 8 I a 
+ I a 6 27 7 8 I b 
+ I a 6 I b 
+ I a 8 10 I a 
+ I a 8 10 I b 
+ I a 8 7 27 12 13 I a 
+ I a 8 7 8 10 I a 
+ I a 8 7 8 10 I b 
+ I a 8 7 8 I b 
+ I b 10 8 7 27 12 13 I a 
+ I b 10 8 7 8 10 I a 
+ I b 10 8 7 8 10 I b 
+ I b 10 8 7 8 I b 
+ I b 10 I a 
+ I b 2 7 27 12 13 I a 
+ I b 2 7 8 10 I a 
+ I b 2 7 8 10 I b 
+ I b 2 7 8 I a 
+ I b 2 7 8 I b 
+ I b 6 27 12 13 I a 
+ I b 6 27 7 2 I a 
+ I b 6 27 7 2 I b 
+ I b 6 27 7 8 10 I a 
+ I b 6 27 7 8 10 I b 
+ I b 6 27 7 8 I a 
+ I b 6 27 7 8 I b 
+ I b 8 10 I a 
+ I b 8 10 I b 
+ I b 8 7 27 12 13 I a 

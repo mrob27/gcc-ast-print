@@ -1,0 +1,45 @@
+ Ki -1 15 14 9 8 7 12 13 R g 
+ Ki -1 15 Ki 1 
+ Ki 0 4 15 14 9 8 7 12 13 R g 
+ Ki 0 4 15 Ki -1 
+ Ki 0 4 15 Ki 1 
+ Ki 0 6 7 12 13 R g 
+ Ki 0 6 7 8 9 14 15 4 Ki 0 
+ Ki 0 6 7 8 9 14 15 4 i a 
+ Ki 0 6 7 8 9 14 15 Ki -1 
+ Ki 0 6 7 8 9 14 15 Ki 1 
+ Ki 0 6 7 8 9 R g 
+ Ki 0 6 7 8 R g 
+ Ki 1 15 14 9 8 7 12 13 R g 
+ Ki 1 23 6 7 12 13 R g 
+ Ki 1 23 6 7 8 9 14 15 4 Ki 0 
+ Ki 1 23 6 7 8 9 14 15 4 i a 
+ Ki 1 23 6 7 8 9 14 15 Ki -1 
+ Ki 1 23 6 7 8 9 14 15 Ki 1 
+ Ki 1 23 6 7 8 9 R g 
+ Ki 1 23 6 7 8 R g 
+ Ki 1 23 6 Ki 0 
+ R g 8 7 12 13 R g 
+ R g 8 9 14 15 4 Ki 0 
+ R g 8 9 14 15 4 i a 
+ R g 8 9 14 15 Ki -1 
+ R g 8 9 14 15 Ki 1 
+ R g 8 9 R g 
+ R g 9 14 15 4 Ki 0 
+ R g 9 14 15 4 i a 
+ R g 9 14 15 Ki -1 
+ R g 9 14 15 Ki 1 
+ R g 9 8 7 12 13 R g 
+ i a 23 6 7 12 13 R g 
+ i a 23 6 7 8 9 14 15 4 Ki 0 
+ i a 23 6 7 8 9 14 15 4 i a 
+ i a 23 6 7 8 9 14 15 Ki -1 
+ i a 23 6 7 8 9 14 15 Ki 1 
+ i a 23 6 7 8 9 R g 
+ i a 23 6 7 8 R g 
+ i a 23 6 Ki 0 
+ i a 23 Ki 1 
+ i a 4 15 14 9 8 7 12 13 R g 
+ i a 4 15 Ki -1 
+ i a 4 15 Ki 1 
+ i a 4 Ki 0 

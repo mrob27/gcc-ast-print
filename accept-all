@@ -1,0 +1,16 @@
+#! /usr/bin/env perl
+#
+# 20201116 First version
+
+$| = 1;
+
+opendir($DIR, "out");
+while($fn = readdir($DIR)) {
+  if ($fn =~ m/^([a-z][0-9a-z]+)\.tok$/) {
+    $fns{$1} = 1;
+    @cmd = ('cp', "out/$1.tok", "exp/$1.expect");
+    print "@cmd\n";
+    system(@cmd);
+  }
+}
+closedir($DIR);

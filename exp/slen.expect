@@ -1,0 +1,28 @@
+ Ki 0 6 27 12 13 i rv 
+ Ki 0 6 27 12 17 18 Ki 1 
+ Ki 0 6 27 12 17 Ki 1 
+ Ki 0 6 27 12 17 i rv 
+ Ki 0 6 27 12 17 p s 
+ Ki 1 17 12 17 18 Ki 1 
+ Ki 1 17 12 17 p s 
+ Ki 1 17 12 27 12 13 i rv 
+ Ki 1 18 17 12 27 12 13 i rv 
+ i rv 12 13 i rv 
+ i rv 12 27 12 17 18 Ki 1 
+ i rv 12 27 12 17 Ki 1 
+ i rv 12 27 12 17 i rv 
+ i rv 12 27 12 17 p s 
+ i rv 12 27 6 19 p s 
+ i rv 12 27 6 Ki 0 
+ i rv 17 12 17 18 Ki 1 
+ i rv 17 12 17 p s 
+ i rv 17 12 27 12 13 i rv 
+ i rv 17 Ki 1 
+ p s 17 12 27 12 13 i rv 
+ p s 17 18 Ki 1 
+ p s 19 6 27 12 13 i rv 
+ p s 19 6 27 12 17 18 Ki 1 
+ p s 19 6 27 12 17 Ki 1 
+ p s 19 6 27 12 17 i rv 
+ p s 19 6 27 12 17 p s 
+ p s 19 6 Ki 0 

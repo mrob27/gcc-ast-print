@@ -1,0 +1,33 @@
+ Ki 1 10 8 7 12 13 i a 
+ Ki 1 10 8 7 8 9 Ki 1 
+ Ki 1 10 8 7 8 9 i a 
+ Ki 1 10 8 7 8 i a 
+ Ki 1 9 8 7 12 13 i a 
+ Ki 10 1 7 12 13 i a 
+ Ki 10 1 7 8 10 Ki 1 
+ Ki 10 1 7 8 10 i a 
+ Ki 10 1 7 8 9 Ki 1 
+ Ki 10 1 7 8 9 i a 
+ Ki 10 1 7 8 i a 
+ i a 1 7 12 13 i a 
+ i a 1 7 8 10 Ki 1 
+ i a 1 7 8 10 i a 
+ i a 1 7 8 9 Ki 1 
+ i a 1 7 8 9 i a 
+ i a 1 7 8 i a 
+ i a 1 Ki 10 
+ i a 10 8 7 12 13 i a 
+ i a 10 8 7 8 9 Ki 1 
+ i a 10 8 7 8 9 i a 
+ i a 10 8 7 8 i a 
+ i a 10 Ki 1 
+ i a 8 10 Ki 1 
+ i a 8 10 i a 
+ i a 8 7 12 13 i a 
+ i a 8 7 8 9 Ki 1 
+ i a 8 7 8 9 i a 
+ i a 8 7 8 i a 
+ i a 8 9 Ki 1 
+ i a 8 9 i a 
+ i a 9 8 7 12 13 i a 
+ i a 9 Ki 1 

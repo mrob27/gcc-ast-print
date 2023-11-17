@@ -1,0 +1,91 @@
+ Ki 0 8 12 13 R rv 
+ Ki 0 8 12 21 17 Ki 1 
+ Ki 0 8 12 21 17 i i 
+ Ki 0 8 12 21 4 i i 
+ Ki 0 8 12 21 4 i n 
+ Ki 0 8 12 21 8 22 R b 
+ Ki 0 8 12 21 8 22 R rv 
+ Ki 0 8 12 21 8 R rv 
+ Ki 1 17 21 12 13 R rv 
+ Kr 1.0 8 12 13 R rv 
+ Kr 1.0 8 12 21 17 Ki 1 
+ Kr 1.0 8 12 21 17 i i 
+ Kr 1.0 8 12 21 4 i i 
+ Kr 1.0 8 12 21 4 i n 
+ Kr 1.0 8 12 21 8 22 R b 
+ Kr 1.0 8 12 21 8 22 R rv 
+ Kr 1.0 8 12 21 8 R rv 
+ Kr 1.0 8 12 8 Ki 0 
+ Kr 1.0 8 12 8 i i 
+ R b 22 8 21 12 13 R rv 
+ R b 22 8 21 17 Ki 1 
+ R b 22 8 21 17 i i 
+ R rv 12 13 R rv 
+ R rv 12 21 17 Ki 1 
+ R rv 12 21 17 i i 
+ R rv 12 21 4 i i 
+ R rv 12 21 4 i n 
+ R rv 12 21 8 22 R b 
+ R rv 12 21 8 22 R rv 
+ R rv 12 21 8 R rv 
+ R rv 12 8 Ki 0 
+ R rv 12 8 Kr 1.0 
+ R rv 12 8 R rv 
+ R rv 12 8 i i 
+ R rv 22 8 21 12 13 R rv 
+ R rv 22 8 21 17 Ki 1 
+ R rv 22 8 21 17 i i 
+ R rv 22 R b 
+ R rv 8 12 13 R rv 
+ R rv 8 12 21 17 Ki 1 
+ R rv 8 12 21 17 i i 
+ R rv 8 12 21 4 i i 
+ R rv 8 12 21 4 i n 
+ R rv 8 12 21 8 22 R b 
+ R rv 8 12 21 8 22 R rv 
+ R rv 8 12 21 8 R rv 
+ R rv 8 12 8 Ki 0 
+ R rv 8 12 8 i i 
+ R rv 8 21 12 13 R rv 
+ R rv 8 21 17 Ki 1 
+ R rv 8 21 17 i i 
+ R rv 8 22 R b 
+ R rv 8 22 R rv 
+ R rv 8 Kr 1.0 
+ i i 12 13 R rv 
+ i i 12 21 17 Ki 1 
+ i i 12 21 17 i i 
+ i i 12 21 4 i i 
+ i i 12 21 4 i n 
+ i i 12 21 8 22 R b 
+ i i 12 21 8 22 R rv 
+ i i 12 21 8 R rv 
+ i i 12 8 Ki 0 
+ i i 12 8 Kr 1.0 
+ i i 12 8 R rv 
+ i i 12 8 i i 
+ i i 12 R rv 
+ i i 17 21 12 13 R rv 
+ i i 17 Ki 1 
+ i i 4 21 12 13 R rv 
+ i i 4 21 17 Ki 1 
+ i i 4 21 17 i i 
+ i i 4 21 8 22 R b 
+ i i 4 21 8 22 R rv 
+ i i 4 21 8 R rv 
+ i i 4 i n 
+ i i 8 12 13 R rv 
+ i i 8 12 21 17 Ki 1 
+ i i 8 12 21 17 i i 
+ i i 8 12 21 4 i i 
+ i i 8 12 21 4 i n 
+ i i 8 12 21 8 22 R b 
+ i i 8 12 21 8 22 R rv 
+ i i 8 12 21 8 R rv 
+ i i 8 Ki 0 
+ i n 4 21 12 13 R rv 
+ i n 4 21 17 Ki 1 
+ i n 4 21 17 i i 
+ i n 4 21 8 22 R b 
+ i n 4 21 8 22 R rv 
+ i n 4 21 8 R rv 

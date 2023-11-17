@@ -1,0 +1,35 @@
+ Kr 4.0 22 10 8 12 13 R rv 
+ Kr 4.0 22 R a 
+ Kr 4.0 22 R c 
+ R a 22 10 8 12 13 R rv 
+ R a 22 R c 
+ R b 22 8 12 13 R rv 
+ R b 22 8 12 8 10 22 Kr 4.0 
+ R b 22 8 12 8 10 22 R a 
+ R b 22 8 12 8 10 22 R c 
+ R b 22 8 12 8 10 R rv 
+ R b 22 8 12 8 R rv 
+ R b 22 R b 
+ R c 22 10 8 12 13 R rv 
+ R rv 10 22 Kr 4.0 
+ R rv 10 22 R a 
+ R rv 10 22 R c 
+ R rv 10 8 12 13 R rv 
+ R rv 12 13 R rv 
+ R rv 12 8 10 22 Kr 4.0 
+ R rv 12 8 10 22 R a 
+ R rv 12 8 10 22 R c 
+ R rv 12 8 10 R rv 
+ R rv 12 8 22 R b 
+ R rv 12 8 R rv 
+ R rv 8 10 22 Kr 4.0 
+ R rv 8 10 22 R a 
+ R rv 8 10 22 R c 
+ R rv 8 10 R rv 
+ R rv 8 12 13 R rv 
+ R rv 8 12 8 10 22 Kr 4.0 
+ R rv 8 12 8 10 22 R a 
+ R rv 8 12 8 10 22 R c 
+ R rv 8 12 8 10 R rv 
+ R rv 8 12 8 R rv 
+ R rv 8 22 R b 
