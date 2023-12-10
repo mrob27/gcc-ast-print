@@ -64,6 +64,7 @@ def create_paths(tree, downpaths=[], lvl=""):
 
   start = -1
   if tree[0] in ['bind_expr', 'bit_and_expr', 'bit_ior_expr', 'bit_not_expr',
+           'bit_xor_expr',
            'component_ref', 'cond_expr',
            'eh_spec_block',
            'for_stmt',
@@ -72,12 +73,13 @@ def create_paths(tree, downpaths=[], lvl=""):
            'le_expr', 'lshift_expr', 'lt_expr',
            'minus_expr', 'modify_expr', 'mult_expr',
            'ne_expr', 'negate_expr', 'nop_expr',
-           'parameters', 'plus_expr',
+           'parameters', 'plus_expr', 'pointer_plus_expr',
            'return_expr', 'rshift_expr',
            'sizeof_expr',
            'var_decl',
            'while_stmt',
-           'indirect_ref', 'postincrement_expr',
+           'indirect_ref',
+           'postincrement_expr', 'preincrement_expr',
            'non_lvalue_expr',
            'statement_list']:
     start = 1

@@ -1,0 +1,3119 @@
+ Ki 0 14 8 8 12 13 i i 
+ Ki 0 14 8 8 12 21 12 7 1 35 Ki 1 
+ Ki 0 14 8 8 12 21 12 7 1 35 i m 
+ Ki 0 14 8 8 12 21 12 7 1 i ref_period 
+ Ki 0 14 8 8 12 21 12 7 12 8 19 32 22 Ki 4 
+ Ki 0 14 8 8 12 21 12 7 12 8 19 32 22 i m 
+ Ki 0 14 8 8 12 21 12 7 12 8 19 32 p Zref_i 
+ Ki 0 14 8 8 12 21 12 7 12 8 19 32 p Zref_r 
+ Ki 0 14 8 8 12 21 12 7 12 8 9 r Zr 
+ Ki 0 14 8 8 12 21 12 7 12 8 9 r zr 
+ Ki 0 14 8 8 12 21 12 7 12 8 Ki 0 
+ Ki 0 14 8 8 12 21 12 7 12 8 i m 
+ Ki 0 14 8 8 12 21 12 7 12 8 r Zi 
+ Ki 0 14 8 8 12 21 12 7 12 8 r Zr 
+ Ki 0 14 8 8 12 21 12 7 12 8 r zr 
+ Ki 0 14 8 8 12 21 12 7 13 i i 
+ Ki 0 14 8 8 12 21 12 7 2 Kr 8.0 
+ Ki 0 14 8 8 12 21 12 7 2 r abs_Zz 
+ Ki 0 14 8 8 12 21 12 7 4 r abs_Zz 
+ Ki 0 14 8 8 12 21 12 7 4 r abs_z 
+ Ki 0 14 8 8 12 21 12 7 8 Ki 0 
+ Ki 0 14 8 8 12 21 12 7 8 i m 
+ Ki 0 14 8 8 12 21 12 8 19 32 22 Ki 4 
+ Ki 0 14 8 8 12 21 12 8 19 32 22 i m 
+ Ki 0 14 8 8 12 21 12 8 19 32 p Zref_i 
+ Ki 0 14 8 8 12 21 12 8 19 32 p Zref_r 
+ Ki 0 14 8 8 12 21 12 8 9 10 22 r zi 
+ Ki 0 14 8 8 12 21 12 8 9 10 22 r zi2 
+ Ki 0 14 8 8 12 21 12 8 9 10 22 r zr 
+ Ki 0 14 8 8 12 21 12 8 9 10 22 r zr2 
+ Ki 0 14 8 8 12 21 12 8 9 22 9 r Zi 
+ Ki 0 14 8 8 12 21 12 8 9 22 9 r Zr 
+ Ki 0 14 8 8 12 21 12 8 9 22 9 r zi 
+ Ki 0 14 8 8 12 21 12 8 9 22 9 r zr 
+ Ki 0 14 8 8 12 21 12 8 9 22 Kr 2.0 
+ Ki 0 14 8 8 12 21 12 8 9 22 r Zi 
+ Ki 0 14 8 8 12 21 12 8 9 22 r Zr 
+ Ki 0 14 8 8 12 21 12 8 9 22 r zi 
+ Ki 0 14 8 8 12 21 12 8 9 22 r zi2 
+ Ki 0 14 8 8 12 21 12 8 9 22 r zr 
+ Ki 0 14 8 8 12 21 12 8 9 22 r zr2 
+ Ki 0 14 8 8 12 21 12 8 9 r ci 
+ Ki 0 14 8 8 12 21 12 8 9 r cr 
+ Ki 0 14 8 8 12 21 12 8 9 r zi 
+ Ki 0 14 8 8 12 21 12 8 9 r zr 
+ Ki 0 14 8 8 12 21 12 8 r Zi 
+ Ki 0 14 8 8 12 21 12 8 r Zr 
+ Ki 0 14 8 8 12 21 12 8 r abs_Zz 
+ Ki 0 14 8 8 12 21 12 8 r abs_z 
+ Ki 0 14 8 8 12 21 12 8 r zi 
+ Ki 0 14 8 8 12 21 12 8 r zi2 
+ Ki 0 14 8 8 12 21 12 8 r zi3 
+ Ki 0 14 8 8 12 21 12 8 r zr 
+ Ki 0 14 8 8 12 21 12 8 r zr2 
+ Ki 0 14 8 8 12 21 12 8 r zr3 
+ Ki 0 14 8 8 12 21 35 Ki 1 
+ Ki 0 14 8 8 12 21 35 i i 
+ Ki 0 14 8 8 12 21 4 i i 
+ Ki 0 14 8 8 12 21 4 i nmax 
+ Ki 0 14 8 8 12 8 Ki 0 
+ Ki 0 14 8 8 12 8 i i 
+ Ki 0 8 12 13 i i 
+ Ki 0 8 12 21 12 7 1 35 Ki 1 
+ Ki 0 8 12 21 12 7 1 35 i m 
+ Ki 0 8 12 21 12 7 1 i ref_period 
+ Ki 0 8 12 21 12 7 12 8 19 32 22 Ki 4 
+ Ki 0 8 12 21 12 7 12 8 19 32 22 i m 
+ Ki 0 8 12 21 12 7 12 8 19 32 p Zref_i 
+ Ki 0 8 12 21 12 7 12 8 19 32 p Zref_r 
+ Ki 0 8 12 21 12 7 12 8 9 r Zr 
+ Ki 0 8 12 21 12 7 12 8 9 r zr 
+ Ki 0 8 12 21 12 7 12 8 Ki 0 
+ Ki 0 8 12 21 12 7 12 8 i m 
+ Ki 0 8 12 21 12 7 12 8 r Zi 
+ Ki 0 8 12 21 12 7 12 8 r Zr 
+ Ki 0 8 12 21 12 7 12 8 r zr 
+ Ki 0 8 12 21 12 7 13 i i 
+ Ki 0 8 12 21 12 7 2 Kr 8.0 
+ Ki 0 8 12 21 12 7 2 r abs_Zz 
+ Ki 0 8 12 21 12 7 4 r abs_Zz 
+ Ki 0 8 12 21 12 7 4 r abs_z 
+ Ki 0 8 12 21 12 7 8 Ki 0 
+ Ki 0 8 12 21 12 7 8 i m 
+ Ki 0 8 12 21 12 8 19 32 22 Ki 4 
+ Ki 0 8 12 21 12 8 19 32 22 i m 
+ Ki 0 8 12 21 12 8 19 32 p Zref_i 
+ Ki 0 8 12 21 12 8 19 32 p Zref_r 
+ Ki 0 8 12 21 12 8 9 10 22 r zi 
+ Ki 0 8 12 21 12 8 9 10 22 r zi2 
+ Ki 0 8 12 21 12 8 9 10 22 r zr 
+ Ki 0 8 12 21 12 8 9 10 22 r zr2 
+ Ki 0 8 12 21 12 8 9 22 9 r Zi 
+ Ki 0 8 12 21 12 8 9 22 9 r Zr 
+ Ki 0 8 12 21 12 8 9 22 9 r zi 
+ Ki 0 8 12 21 12 8 9 22 9 r zr 
+ Ki 0 8 12 21 12 8 9 22 Kr 2.0 
+ Ki 0 8 12 21 12 8 9 22 r Zi 
+ Ki 0 8 12 21 12 8 9 22 r Zr 
+ Ki 0 8 12 21 12 8 9 22 r zi 
+ Ki 0 8 12 21 12 8 9 22 r zi2 
+ Ki 0 8 12 21 12 8 9 22 r zr 
+ Ki 0 8 12 21 12 8 9 22 r zr2 
+ Ki 0 8 12 21 12 8 9 r ci 
+ Ki 0 8 12 21 12 8 9 r cr 
+ Ki 0 8 12 21 12 8 9 r zi 
+ Ki 0 8 12 21 12 8 9 r zr 
+ Ki 0 8 12 21 12 8 r Zi 
+ Ki 0 8 12 21 12 8 r Zr 
+ Ki 0 8 12 21 12 8 r abs_Zz 
+ Ki 0 8 12 21 12 8 r abs_z 
+ Ki 0 8 12 21 12 8 r zi 
+ Ki 0 8 12 21 12 8 r zi2 
+ Ki 0 8 12 21 12 8 r zi3 
+ Ki 0 8 12 21 12 8 r zr 
+ Ki 0 8 12 21 12 8 r zr2 
+ Ki 0 8 12 21 12 8 r zr3 
+ Ki 0 8 12 21 35 Ki 1 
+ Ki 0 8 12 21 35 i i 
+ Ki 0 8 12 21 4 i i 
+ Ki 0 8 12 21 4 i nmax 
+ Ki 0 8 12 7 12 21 12 13 i i 
+ Ki 0 8 12 7 12 21 35 Ki 1 
+ Ki 0 8 12 7 12 21 35 i i 
+ Ki 0 8 12 7 12 7 1 35 Ki 1 
+ Ki 0 8 12 7 12 7 1 35 i m 
+ Ki 0 8 12 7 12 7 1 i ref_period 
+ Ki 0 8 12 7 12 7 13 i i 
+ Ki 0 8 12 7 12 7 2 Kr 8.0 
+ Ki 0 8 12 7 12 7 2 r abs_Zz 
+ Ki 0 8 12 7 12 7 8 Ki 0 
+ Ki 0 8 12 7 12 7 8 i m 
+ Ki 0 8 12 7 12 8 9 10 22 r zi 
+ Ki 0 8 12 7 12 8 9 10 22 r zi2 
+ Ki 0 8 12 7 12 8 9 10 22 r zr 
+ Ki 0 8 12 7 12 8 9 10 22 r zr2 
+ Ki 0 8 12 7 12 8 9 22 9 r Zi 
+ Ki 0 8 12 7 12 8 9 22 9 r Zr 
+ Ki 0 8 12 7 12 8 9 22 9 r zi 
+ Ki 0 8 12 7 12 8 9 22 9 r zr 
+ Ki 0 8 12 7 12 8 9 22 Kr 2.0 
+ Ki 0 8 12 7 12 8 9 22 r Zi 
+ Ki 0 8 12 7 12 8 9 22 r Zr 
+ Ki 0 8 12 7 12 8 9 22 r zi 
+ Ki 0 8 12 7 12 8 9 22 r zi2 
+ Ki 0 8 12 7 12 8 9 22 r zr 
+ Ki 0 8 12 7 12 8 9 22 r zr2 
+ Ki 0 8 12 7 12 8 9 r ci 
+ Ki 0 8 12 7 12 8 9 r cr 
+ Ki 0 8 12 7 12 8 9 r zi 
+ Ki 0 8 12 7 12 8 9 r zr 
+ Ki 0 8 12 7 12 8 r abs_Zz 
+ Ki 0 8 12 7 12 8 r zi 
+ Ki 0 8 12 7 12 8 r zi2 
+ Ki 0 8 12 7 12 8 r zi3 
+ Ki 0 8 12 7 12 8 r zr 
+ Ki 0 8 12 7 12 8 r zr2 
+ Ki 0 8 12 7 12 8 r zr3 
+ Ki 0 8 12 8 19 32 22 Ki 4 
+ Ki 0 8 12 8 19 32 22 i m 
+ Ki 0 8 12 8 19 32 p Zref_i 
+ Ki 0 8 12 8 19 32 p Zref_r 
+ Ki 0 8 12 8 8 14 Ki 0 
+ Ki 0 8 12 8 8 r zi 
+ Ki 0 8 12 8 Ki 0 
+ Ki 0 8 12 8 i i 
+ Ki 0 8 12 8 r Zi 
+ Ki 0 8 12 8 r Zr 
+ Ki 0 8 12 8 r zr 
+ Ki 0 8 7 12 21 12 13 i i 
+ Ki 0 8 7 12 21 35 Ki 1 
+ Ki 0 8 7 12 21 35 i i 
+ Ki 1 35 1 7 12 21 12 13 i i 
+ Ki 1 35 1 7 12 21 35 Ki 1 
+ Ki 1 35 1 7 12 21 35 i i 
+ Ki 1 35 1 7 8 Ki 0 
+ Ki 1 35 1 7 8 i m 
+ Ki 1 35 1 i ref_period 
+ Ki 1 35 21 12 13 i i 
+ Ki 4 22 32 19 8 12 21 12 13 i i 
+ Ki 4 22 32 19 8 12 21 35 Ki 1 
+ Ki 4 22 32 19 8 12 21 35 i i 
+ Ki 4 22 32 19 8 12 7 1 35 Ki 1 
+ Ki 4 22 32 19 8 12 7 1 35 i m 
+ Ki 4 22 32 19 8 12 7 1 i ref_period 
+ Ki 4 22 32 19 8 12 7 12 21 12 13 i i 
+ Ki 4 22 32 19 8 12 7 12 21 35 Ki 1 
+ Ki 4 22 32 19 8 12 7 12 21 35 i i 
+ Ki 4 22 32 19 8 12 7 12 7 1 35 Ki 1 
+ Ki 4 22 32 19 8 12 7 12 7 1 35 i m 
+ Ki 4 22 32 19 8 12 7 12 7 1 i ref_period 
+ Ki 4 22 32 19 8 12 7 12 7 13 i i 
+ Ki 4 22 32 19 8 12 7 12 7 2 Kr 8.0 
+ Ki 4 22 32 19 8 12 7 12 7 2 r abs_Zz 
+ Ki 4 22 32 19 8 12 7 12 7 8 Ki 0 
+ Ki 4 22 32 19 8 12 7 12 7 8 i m 
+ Ki 4 22 32 19 8 12 7 12 8 19 32 22 Ki 4 
+ Ki 4 22 32 19 8 12 7 12 8 19 32 22 i m 
+ Ki 4 22 32 19 8 12 7 12 8 19 32 p Zref_i 
+ Ki 4 22 32 19 8 12 7 12 8 19 32 p Zref_r 
+ Ki 4 22 32 19 8 12 7 12 8 9 10 22 r zi 
+ Ki 4 22 32 19 8 12 7 12 8 9 10 22 r zi2 
+ Ki 4 22 32 19 8 12 7 12 8 9 10 22 r zr 
+ Ki 4 22 32 19 8 12 7 12 8 9 10 22 r zr2 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 9 r Zi 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 9 r Zr 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 9 r zi 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 9 r zr 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 Kr 2.0 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 r Zi 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 r Zr 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 r zi 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 r zi2 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 r zr 
+ Ki 4 22 32 19 8 12 7 12 8 9 22 r zr2 
+ Ki 4 22 32 19 8 12 7 12 8 9 r Zr 
+ Ki 4 22 32 19 8 12 7 12 8 9 r ci 
+ Ki 4 22 32 19 8 12 7 12 8 9 r cr 
+ Ki 4 22 32 19 8 12 7 12 8 9 r zi 
+ Ki 4 22 32 19 8 12 7 12 8 9 r zr 
+ Ki 4 22 32 19 8 12 7 12 8 Ki 0 
+ Ki 4 22 32 19 8 12 7 12 8 i m 
+ Ki 4 22 32 19 8 12 7 12 8 r Zi 
+ Ki 4 22 32 19 8 12 7 12 8 r Zr 
+ Ki 4 22 32 19 8 12 7 12 8 r abs_Zz 
+ Ki 4 22 32 19 8 12 7 12 8 r zi 
+ Ki 4 22 32 19 8 12 7 12 8 r zi2 
+ Ki 4 22 32 19 8 12 7 12 8 r zi3 
+ Ki 4 22 32 19 8 12 7 12 8 r zr 
+ Ki 4 22 32 19 8 12 7 12 8 r zr2 
+ Ki 4 22 32 19 8 12 7 12 8 r zr3 
+ Ki 4 22 32 19 8 12 7 13 i i 
+ Ki 4 22 32 19 8 12 7 2 Kr 8.0 
+ Ki 4 22 32 19 8 12 7 2 r abs_Zz 
+ Ki 4 22 32 19 8 12 7 4 r abs_Zz 
+ Ki 4 22 32 19 8 12 7 4 r abs_z 
+ Ki 4 22 32 19 8 12 7 8 Ki 0 
+ Ki 4 22 32 19 8 12 7 8 i m 
+ Ki 4 22 32 19 8 12 8 19 32 22 Ki 4 
+ Ki 4 22 32 19 8 12 8 19 32 22 i m 
+ Ki 4 22 32 19 8 12 8 19 32 p Zref_i 
+ Ki 4 22 32 19 8 12 8 9 10 22 r zi 
+ Ki 4 22 32 19 8 12 8 9 10 22 r zi2 
+ Ki 4 22 32 19 8 12 8 9 10 22 r zr 
+ Ki 4 22 32 19 8 12 8 9 10 22 r zr2 
+ Ki 4 22 32 19 8 12 8 9 22 9 r Zi 
+ Ki 4 22 32 19 8 12 8 9 22 9 r Zr 
+ Ki 4 22 32 19 8 12 8 9 22 9 r zi 
+ Ki 4 22 32 19 8 12 8 9 22 9 r zr 
+ Ki 4 22 32 19 8 12 8 9 22 Kr 2.0 
+ Ki 4 22 32 19 8 12 8 9 22 r Zi 
+ Ki 4 22 32 19 8 12 8 9 22 r Zr 
+ Ki 4 22 32 19 8 12 8 9 22 r zi 
+ Ki 4 22 32 19 8 12 8 9 22 r zi2 
+ Ki 4 22 32 19 8 12 8 9 22 r zr 
+ Ki 4 22 32 19 8 12 8 9 22 r zr2 
+ Ki 4 22 32 19 8 12 8 9 r ci 
+ Ki 4 22 32 19 8 12 8 9 r cr 
+ Ki 4 22 32 19 8 12 8 9 r zi 
+ Ki 4 22 32 19 8 12 8 9 r zr 
+ Ki 4 22 32 19 8 12 8 r Zi 
+ Ki 4 22 32 19 8 12 8 r abs_Zz 
+ Ki 4 22 32 19 8 12 8 r abs_z 
+ Ki 4 22 32 19 8 12 8 r zi 
+ Ki 4 22 32 19 8 12 8 r zi2 
+ Ki 4 22 32 19 8 12 8 r zi3 
+ Ki 4 22 32 19 8 12 8 r zr 
+ Ki 4 22 32 19 8 12 8 r zr2 
+ Ki 4 22 32 19 8 12 8 r zr3 
+ Kr 2.0 22 9 8 12 21 12 13 i i 
+ Kr 2.0 22 9 8 12 21 35 Ki 1 
+ Kr 2.0 22 9 8 12 21 35 i i 
+ Kr 2.0 22 9 8 12 7 1 35 Ki 1 
+ Kr 2.0 22 9 8 12 7 1 35 i m 
+ Kr 2.0 22 9 8 12 7 1 i ref_period 
+ Kr 2.0 22 9 8 12 7 8 Ki 0 
+ Kr 2.0 22 9 8 12 7 8 i m 
+ Kr 2.0 22 9 8 12 8 9 10 22 r zi 
+ Kr 2.0 22 9 8 12 8 9 10 22 r zi2 
+ Kr 2.0 22 9 8 12 8 9 10 22 r zr 
+ Kr 2.0 22 9 8 12 8 9 10 22 r zr2 
+ Kr 2.0 22 9 8 12 8 9 22 Kr 2.0 
+ Kr 2.0 22 9 8 12 8 9 22 r Zi 
+ Kr 2.0 22 9 8 12 8 9 22 r zi 
+ Kr 2.0 22 9 8 12 8 9 22 r zi2 
+ Kr 2.0 22 9 8 12 8 9 22 r zr 
+ Kr 2.0 22 9 8 12 8 9 22 r zr2 
+ Kr 2.0 22 9 8 12 8 9 r ci 
+ Kr 2.0 22 9 8 12 8 9 r cr 
+ Kr 2.0 22 9 8 12 8 9 r zi 
+ Kr 2.0 22 9 8 12 8 r zi 
+ Kr 2.0 22 9 8 12 8 r zi2 
+ Kr 2.0 22 9 8 12 8 r zi3 
+ Kr 2.0 22 9 8 12 8 r zr 
+ Kr 2.0 22 9 8 12 8 r zr3 
+ Kr 2.0 22 9 r zi 
+ Kr 2.0 22 9 r zr 
+ Kr 8.0 2 7 12 21 12 13 i i 
+ Kr 8.0 2 7 12 21 35 Ki 1 
+ Kr 8.0 2 7 12 21 35 i i 
+ Kr 8.0 2 7 12 7 1 35 Ki 1 
+ Kr 8.0 2 7 12 7 1 35 i m 
+ Kr 8.0 2 7 12 7 1 i ref_period 
+ Kr 8.0 2 7 12 7 8 Ki 0 
+ Kr 8.0 2 7 12 7 8 i m 
+ Kr 8.0 2 7 12 8 9 10 22 r zi 
+ Kr 8.0 2 7 12 8 9 10 22 r zi2 
+ Kr 8.0 2 7 12 8 9 10 22 r zr 
+ Kr 8.0 2 7 12 8 9 10 22 r zr2 
+ Kr 8.0 2 7 12 8 9 22 Kr 2.0 
+ Kr 8.0 2 7 12 8 9 22 r Zi 
+ Kr 8.0 2 7 12 8 9 22 r Zr 
+ Kr 8.0 2 7 12 8 9 22 r zi 
+ Kr 8.0 2 7 12 8 9 22 r zi2 
+ Kr 8.0 2 7 12 8 9 22 r zr 
+ Kr 8.0 2 7 12 8 9 22 r zr2 
+ Kr 8.0 2 7 12 8 9 r ci 
+ Kr 8.0 2 7 12 8 9 r cr 
+ Kr 8.0 2 7 12 8 9 r zi 
+ Kr 8.0 2 7 12 8 9 r zr 
+ Kr 8.0 2 7 12 8 r zi 
+ Kr 8.0 2 7 12 8 r zi2 
+ Kr 8.0 2 7 12 8 r zi3 
+ Kr 8.0 2 7 12 8 r zr 
+ Kr 8.0 2 7 12 8 r zr2 
+ Kr 8.0 2 7 12 8 r zr3 
+ Kr 8.0 2 7 13 i i 
+ i i 12 13 i i 
+ i i 12 21 12 7 1 35 Ki 1 
+ i i 12 21 12 7 1 35 i m 
+ i i 12 21 12 7 1 i ref_period 
+ i i 12 21 12 7 12 8 19 32 22 Ki 4 
+ i i 12 21 12 7 12 8 19 32 22 i m 
+ i i 12 21 12 7 12 8 19 32 p Zref_i 
+ i i 12 21 12 7 12 8 19 32 p Zref_r 
+ i i 12 21 12 7 12 8 9 r Zr 
+ i i 12 21 12 7 12 8 9 r zr 
+ i i 12 21 12 7 12 8 Ki 0 
+ i i 12 21 12 7 12 8 i m 
+ i i 12 21 12 7 12 8 r Zi 
+ i i 12 21 12 7 12 8 r Zr 
+ i i 12 21 12 7 12 8 r zr 
+ i i 12 21 12 7 13 i i 
+ i i 12 21 12 7 2 Kr 8.0 
+ i i 12 21 12 7 2 r abs_Zz 
+ i i 12 21 12 7 4 r abs_Zz 
+ i i 12 21 12 7 4 r abs_z 
+ i i 12 21 12 7 8 Ki 0 
+ i i 12 21 12 7 8 i m 
+ i i 12 21 12 8 19 32 22 Ki 4 
+ i i 12 21 12 8 19 32 22 i m 
+ i i 12 21 12 8 19 32 p Zref_i 
+ i i 12 21 12 8 19 32 p Zref_r 
+ i i 12 21 12 8 9 10 22 r zi 
+ i i 12 21 12 8 9 10 22 r zi2 
+ i i 12 21 12 8 9 10 22 r zr 
+ i i 12 21 12 8 9 10 22 r zr2 
+ i i 12 21 12 8 9 22 9 r Zi 
+ i i 12 21 12 8 9 22 9 r Zr 
+ i i 12 21 12 8 9 22 9 r zi 
+ i i 12 21 12 8 9 22 9 r zr 
+ i i 12 21 12 8 9 22 Kr 2.0 
+ i i 12 21 12 8 9 22 r Zi 
+ i i 12 21 12 8 9 22 r Zr 
+ i i 12 21 12 8 9 22 r zi 
+ i i 12 21 12 8 9 22 r zi2 
+ i i 12 21 12 8 9 22 r zr 
+ i i 12 21 12 8 9 22 r zr2 
+ i i 12 21 12 8 9 r ci 
+ i i 12 21 12 8 9 r cr 
+ i i 12 21 12 8 9 r zi 
+ i i 12 21 12 8 9 r zr 
+ i i 12 21 12 8 r Zi 
+ i i 12 21 12 8 r Zr 
+ i i 12 21 12 8 r abs_Zz 
+ i i 12 21 12 8 r abs_z 
+ i i 12 21 12 8 r zi 
+ i i 12 21 12 8 r zi2 
+ i i 12 21 12 8 r zi3 
+ i i 12 21 12 8 r zr 
+ i i 12 21 12 8 r zr2 
+ i i 12 21 12 8 r zr3 
+ i i 12 21 35 Ki 1 
+ i i 12 21 35 i i 
+ i i 12 21 4 i i 
+ i i 12 21 4 i nmax 
+ i i 12 8 8 14 Ki 0 
+ i i 12 8 8 r zi 
+ i i 12 8 Ki 0 
+ i i 12 8 i i 
+ i i 12 8 i m 
+ i i 12 8 r zr 
+ i i 12 i m 
+ i i 13 7 12 21 12 13 i i 
+ i i 13 7 12 21 35 Ki 1 
+ i i 13 7 12 21 35 i i 
+ i i 13 7 12 7 1 35 Ki 1 
+ i i 13 7 12 7 1 35 i m 
+ i i 13 7 12 7 1 i ref_period 
+ i i 13 7 12 7 8 Ki 0 
+ i i 13 7 12 7 8 i m 
+ i i 13 7 12 8 9 10 22 r zi 
+ i i 13 7 12 8 9 10 22 r zi2 
+ i i 13 7 12 8 9 10 22 r zr 
+ i i 13 7 12 8 9 10 22 r zr2 
+ i i 13 7 12 8 9 22 Kr 2.0 
+ i i 13 7 12 8 9 22 r Zi 
+ i i 13 7 12 8 9 22 r Zr 
+ i i 13 7 12 8 9 22 r zi 
+ i i 13 7 12 8 9 22 r zi2 
+ i i 13 7 12 8 9 22 r zr 
+ i i 13 7 12 8 9 22 r zr2 
+ i i 13 7 12 8 9 r ci 
+ i i 13 7 12 8 9 r cr 
+ i i 13 7 12 8 9 r zi 
+ i i 13 7 12 8 9 r zr 
+ i i 13 7 12 8 r zi 
+ i i 13 7 12 8 r zi2 
+ i i 13 7 12 8 r zi3 
+ i i 13 7 12 8 r zr 
+ i i 13 7 12 8 r zr2 
+ i i 13 7 12 8 r zr3 
+ i i 35 21 12 13 i i 
+ i i 35 Ki 1 
+ i i 4 21 12 13 i i 
+ i i 4 21 12 7 1 35 Ki 1 
+ i i 4 21 12 7 1 35 i m 
+ i i 4 21 12 7 1 i ref_period 
+ i i 4 21 12 7 12 8 19 32 22 Ki 4 
+ i i 4 21 12 7 12 8 19 32 22 i m 
+ i i 4 21 12 7 12 8 19 32 p Zref_i 
+ i i 4 21 12 7 12 8 19 32 p Zref_r 
+ i i 4 21 12 7 12 8 9 r Zr 
+ i i 4 21 12 7 12 8 9 r zr 
+ i i 4 21 12 7 12 8 Ki 0 
+ i i 4 21 12 7 12 8 i m 
+ i i 4 21 12 7 12 8 r Zi 
+ i i 4 21 12 7 12 8 r Zr 
+ i i 4 21 12 7 12 8 r zr 
+ i i 4 21 12 7 13 i i 
+ i i 4 21 12 7 2 Kr 8.0 
+ i i 4 21 12 7 2 r abs_Zz 
+ i i 4 21 12 7 4 r abs_Zz 
+ i i 4 21 12 7 4 r abs_z 
+ i i 4 21 12 7 8 Ki 0 
+ i i 4 21 12 7 8 i m 
+ i i 4 21 12 8 19 32 22 Ki 4 
+ i i 4 21 12 8 19 32 22 i m 
+ i i 4 21 12 8 19 32 p Zref_i 
+ i i 4 21 12 8 19 32 p Zref_r 
+ i i 4 21 12 8 9 10 22 r zi 
+ i i 4 21 12 8 9 10 22 r zi2 
+ i i 4 21 12 8 9 10 22 r zr 
+ i i 4 21 12 8 9 10 22 r zr2 
+ i i 4 21 12 8 9 22 9 r Zi 
+ i i 4 21 12 8 9 22 9 r Zr 
+ i i 4 21 12 8 9 22 9 r zi 
+ i i 4 21 12 8 9 22 9 r zr 
+ i i 4 21 12 8 9 22 Kr 2.0 
+ i i 4 21 12 8 9 22 r Zi 
+ i i 4 21 12 8 9 22 r Zr 
+ i i 4 21 12 8 9 22 r zi 
+ i i 4 21 12 8 9 22 r zi2 
+ i i 4 21 12 8 9 22 r zr 
+ i i 4 21 12 8 9 22 r zr2 
+ i i 4 21 12 8 9 r ci 
+ i i 4 21 12 8 9 r cr 
+ i i 4 21 12 8 9 r zi 
+ i i 4 21 12 8 9 r zr 
+ i i 4 21 12 8 r Zi 
+ i i 4 21 12 8 r Zr 
+ i i 4 21 12 8 r abs_Zz 
+ i i 4 21 12 8 r abs_z 
+ i i 4 21 12 8 r zi 
+ i i 4 21 12 8 r zi2 
+ i i 4 21 12 8 r zi3 
+ i i 4 21 12 8 r zr 
+ i i 4 21 12 8 r zr2 
+ i i 4 21 12 8 r zr3 
+ i i 4 21 35 Ki 1 
+ i i 4 21 35 i i 
+ i i 4 i nmax 
+ i i 8 12 13 i i 
+ i i 8 12 21 12 7 1 35 Ki 1 
+ i i 8 12 21 12 7 1 35 i m 
+ i i 8 12 21 12 7 1 i ref_period 
+ i i 8 12 21 12 7 12 8 19 32 22 Ki 4 
+ i i 8 12 21 12 7 12 8 19 32 22 i m 
+ i i 8 12 21 12 7 12 8 19 32 p Zref_i 
+ i i 8 12 21 12 7 12 8 19 32 p Zref_r 
+ i i 8 12 21 12 7 12 8 9 r Zr 
+ i i 8 12 21 12 7 12 8 9 r zr 
+ i i 8 12 21 12 7 12 8 Ki 0 
+ i i 8 12 21 12 7 12 8 i m 
+ i i 8 12 21 12 7 12 8 r Zi 
+ i i 8 12 21 12 7 12 8 r Zr 
+ i i 8 12 21 12 7 12 8 r zr 
+ i i 8 12 21 12 7 13 i i 
+ i i 8 12 21 12 7 2 Kr 8.0 
+ i i 8 12 21 12 7 2 r abs_Zz 
+ i i 8 12 21 12 7 4 r abs_Zz 
+ i i 8 12 21 12 7 4 r abs_z 
+ i i 8 12 21 12 7 8 Ki 0 
+ i i 8 12 21 12 7 8 i m 
+ i i 8 12 21 12 8 19 32 22 Ki 4 
+ i i 8 12 21 12 8 19 32 22 i m 
+ i i 8 12 21 12 8 19 32 p Zref_i 
+ i i 8 12 21 12 8 19 32 p Zref_r 
+ i i 8 12 21 12 8 9 10 22 r zi 
+ i i 8 12 21 12 8 9 10 22 r zi2 
+ i i 8 12 21 12 8 9 10 22 r zr 
+ i i 8 12 21 12 8 9 10 22 r zr2 
+ i i 8 12 21 12 8 9 22 9 r Zi 
+ i i 8 12 21 12 8 9 22 9 r Zr 
+ i i 8 12 21 12 8 9 22 9 r zi 
+ i i 8 12 21 12 8 9 22 9 r zr 
+ i i 8 12 21 12 8 9 22 Kr 2.0 
+ i i 8 12 21 12 8 9 22 r Zi 
+ i i 8 12 21 12 8 9 22 r Zr 
+ i i 8 12 21 12 8 9 22 r zi 
+ i i 8 12 21 12 8 9 22 r zi2 
+ i i 8 12 21 12 8 9 22 r zr 
+ i i 8 12 21 12 8 9 22 r zr2 
+ i i 8 12 21 12 8 9 r ci 
+ i i 8 12 21 12 8 9 r cr 
+ i i 8 12 21 12 8 9 r zi 
+ i i 8 12 21 12 8 9 r zr 
+ i i 8 12 21 12 8 r Zi 
+ i i 8 12 21 12 8 r Zr 
+ i i 8 12 21 12 8 r abs_Zz 
+ i i 8 12 21 12 8 r abs_z 
+ i i 8 12 21 12 8 r zi 
+ i i 8 12 21 12 8 r zi2 
+ i i 8 12 21 12 8 r zi3 
+ i i 8 12 21 12 8 r zr 
+ i i 8 12 21 12 8 r zr2 
+ i i 8 12 21 12 8 r zr3 
+ i i 8 12 21 35 Ki 1 
+ i i 8 12 21 35 i i 
+ i i 8 12 21 4 i i 
+ i i 8 12 21 4 i nmax 
+ i i 8 Ki 0 
+ i m 12 13 i i 
+ i m 12 21 12 7 1 35 Ki 1 
+ i m 12 21 12 7 1 35 i m 
+ i m 12 21 12 7 1 i ref_period 
+ i m 12 21 12 7 12 8 19 32 22 Ki 4 
+ i m 12 21 12 7 12 8 19 32 22 i m 
+ i m 12 21 12 7 12 8 19 32 p Zref_i 
+ i m 12 21 12 7 12 8 19 32 p Zref_r 
+ i m 12 21 12 7 12 8 9 r Zr 
+ i m 12 21 12 7 12 8 9 r zr 
+ i m 12 21 12 7 12 8 Ki 0 
+ i m 12 21 12 7 12 8 i m 
+ i m 12 21 12 7 12 8 r Zi 
+ i m 12 21 12 7 12 8 r Zr 
+ i m 12 21 12 7 12 8 r zr 
+ i m 12 21 12 7 13 i i 
+ i m 12 21 12 7 2 Kr 8.0 
+ i m 12 21 12 7 2 r abs_Zz 
+ i m 12 21 12 7 4 r abs_Zz 
+ i m 12 21 12 7 4 r abs_z 
+ i m 12 21 12 7 8 Ki 0 
+ i m 12 21 12 7 8 i m 
+ i m 12 21 12 8 19 32 22 Ki 4 
+ i m 12 21 12 8 19 32 22 i m 
+ i m 12 21 12 8 19 32 p Zref_i 
+ i m 12 21 12 8 19 32 p Zref_r 
+ i m 12 21 12 8 9 10 22 r zi 
+ i m 12 21 12 8 9 10 22 r zi2 
+ i m 12 21 12 8 9 10 22 r zr 
+ i m 12 21 12 8 9 10 22 r zr2 
+ i m 12 21 12 8 9 22 9 r Zi 
+ i m 12 21 12 8 9 22 9 r Zr 
+ i m 12 21 12 8 9 22 9 r zi 
+ i m 12 21 12 8 9 22 9 r zr 
+ i m 12 21 12 8 9 22 Kr 2.0 
+ i m 12 21 12 8 9 22 r Zi 
+ i m 12 21 12 8 9 22 r Zr 
+ i m 12 21 12 8 9 22 r zi 
+ i m 12 21 12 8 9 22 r zi2 
+ i m 12 21 12 8 9 22 r zr 
+ i m 12 21 12 8 9 22 r zr2 
+ i m 12 21 12 8 9 r ci 
+ i m 12 21 12 8 9 r cr 
+ i m 12 21 12 8 9 r zi 
+ i m 12 21 12 8 9 r zr 
+ i m 12 21 12 8 r Zi 
+ i m 12 21 12 8 r Zr 
+ i m 12 21 12 8 r abs_Zz 
+ i m 12 21 12 8 r abs_z 
+ i m 12 21 12 8 r zi 
+ i m 12 21 12 8 r zi2 
+ i m 12 21 12 8 r zi3 
+ i m 12 21 12 8 r zr 
+ i m 12 21 12 8 r zr2 
+ i m 12 21 12 8 r zr3 
+ i m 12 21 35 Ki 1 
+ i m 12 21 35 i i 
+ i m 12 21 4 i i 
+ i m 12 21 4 i nmax 
+ i m 12 8 8 14 Ki 0 
+ i m 12 8 8 r zi 
+ i m 12 8 Ki 0 
+ i m 12 8 i i 
+ i m 12 8 i m 
+ i m 12 8 r zr 
+ i m 22 32 19 8 12 21 12 13 i i 
+ i m 22 32 19 8 12 21 35 Ki 1 
+ i m 22 32 19 8 12 21 35 i i 
+ i m 22 32 19 8 12 7 1 35 Ki 1 
+ i m 22 32 19 8 12 7 1 35 i m 
+ i m 22 32 19 8 12 7 1 i ref_period 
+ i m 22 32 19 8 12 7 12 21 12 13 i i 
+ i m 22 32 19 8 12 7 12 21 35 Ki 1 
+ i m 22 32 19 8 12 7 12 21 35 i i 
+ i m 22 32 19 8 12 7 12 7 1 35 Ki 1 
+ i m 22 32 19 8 12 7 12 7 1 35 i m 
+ i m 22 32 19 8 12 7 12 7 1 i ref_period 
+ i m 22 32 19 8 12 7 12 7 13 i i 
+ i m 22 32 19 8 12 7 12 7 2 Kr 8.0 
+ i m 22 32 19 8 12 7 12 7 2 r abs_Zz 
+ i m 22 32 19 8 12 7 12 7 8 Ki 0 
+ i m 22 32 19 8 12 7 12 7 8 i m 
+ i m 22 32 19 8 12 7 12 8 19 32 22 Ki 4 
+ i m 22 32 19 8 12 7 12 8 19 32 22 i m 
+ i m 22 32 19 8 12 7 12 8 19 32 p Zref_i 
+ i m 22 32 19 8 12 7 12 8 19 32 p Zref_r 
+ i m 22 32 19 8 12 7 12 8 9 10 22 r zi 
+ i m 22 32 19 8 12 7 12 8 9 10 22 r zi2 
+ i m 22 32 19 8 12 7 12 8 9 10 22 r zr 
+ i m 22 32 19 8 12 7 12 8 9 10 22 r zr2 
+ i m 22 32 19 8 12 7 12 8 9 22 9 r Zi 
+ i m 22 32 19 8 12 7 12 8 9 22 9 r Zr 
+ i m 22 32 19 8 12 7 12 8 9 22 9 r zi 
+ i m 22 32 19 8 12 7 12 8 9 22 9 r zr 
+ i m 22 32 19 8 12 7 12 8 9 22 Kr 2.0 
+ i m 22 32 19 8 12 7 12 8 9 22 r Zi 
+ i m 22 32 19 8 12 7 12 8 9 22 r Zr 
+ i m 22 32 19 8 12 7 12 8 9 22 r zi 
+ i m 22 32 19 8 12 7 12 8 9 22 r zi2 
+ i m 22 32 19 8 12 7 12 8 9 22 r zr 
+ i m 22 32 19 8 12 7 12 8 9 22 r zr2 
+ i m 22 32 19 8 12 7 12 8 9 r Zr 
+ i m 22 32 19 8 12 7 12 8 9 r ci 
+ i m 22 32 19 8 12 7 12 8 9 r cr 
+ i m 22 32 19 8 12 7 12 8 9 r zi 
+ i m 22 32 19 8 12 7 12 8 9 r zr 
+ i m 22 32 19 8 12 7 12 8 Ki 0 
+ i m 22 32 19 8 12 7 12 8 i m 
+ i m 22 32 19 8 12 7 12 8 r Zi 
+ i m 22 32 19 8 12 7 12 8 r Zr 
+ i m 22 32 19 8 12 7 12 8 r abs_Zz 
+ i m 22 32 19 8 12 7 12 8 r zi 
+ i m 22 32 19 8 12 7 12 8 r zi2 
+ i m 22 32 19 8 12 7 12 8 r zi3 
+ i m 22 32 19 8 12 7 12 8 r zr 
+ i m 22 32 19 8 12 7 12 8 r zr2 
+ i m 22 32 19 8 12 7 12 8 r zr3 
+ i m 22 32 19 8 12 7 13 i i 
+ i m 22 32 19 8 12 7 2 Kr 8.0 
+ i m 22 32 19 8 12 7 2 r abs_Zz 
+ i m 22 32 19 8 12 7 4 r abs_Zz 
+ i m 22 32 19 8 12 7 4 r abs_z 
+ i m 22 32 19 8 12 7 8 Ki 0 
+ i m 22 32 19 8 12 7 8 i m 
+ i m 22 32 19 8 12 8 19 32 22 Ki 4 
+ i m 22 32 19 8 12 8 19 32 22 i m 
+ i m 22 32 19 8 12 8 19 32 p Zref_i 
+ i m 22 32 19 8 12 8 9 10 22 r zi 
+ i m 22 32 19 8 12 8 9 10 22 r zi2 
+ i m 22 32 19 8 12 8 9 10 22 r zr 
+ i m 22 32 19 8 12 8 9 10 22 r zr2 
+ i m 22 32 19 8 12 8 9 22 9 r Zi 
+ i m 22 32 19 8 12 8 9 22 9 r Zr 
+ i m 22 32 19 8 12 8 9 22 9 r zi 
+ i m 22 32 19 8 12 8 9 22 9 r zr 
+ i m 22 32 19 8 12 8 9 22 Kr 2.0 
+ i m 22 32 19 8 12 8 9 22 r Zi 
+ i m 22 32 19 8 12 8 9 22 r Zr 
+ i m 22 32 19 8 12 8 9 22 r zi 
+ i m 22 32 19 8 12 8 9 22 r zi2 
+ i m 22 32 19 8 12 8 9 22 r zr 
+ i m 22 32 19 8 12 8 9 22 r zr2 
+ i m 22 32 19 8 12 8 9 r ci 
+ i m 22 32 19 8 12 8 9 r cr 
+ i m 22 32 19 8 12 8 9 r zi 
+ i m 22 32 19 8 12 8 9 r zr 
+ i m 22 32 19 8 12 8 r Zi 
+ i m 22 32 19 8 12 8 r abs_Zz 
+ i m 22 32 19 8 12 8 r abs_z 
+ i m 22 32 19 8 12 8 r zi 
+ i m 22 32 19 8 12 8 r zi2 
+ i m 22 32 19 8 12 8 r zi3 
+ i m 22 32 19 8 12 8 r zr 
+ i m 22 32 19 8 12 8 r zr2 
+ i m 22 32 19 8 12 8 r zr3 
+ i m 22 Ki 4 
+ i m 35 1 7 12 21 12 13 i i 
+ i m 35 1 7 12 21 35 Ki 1 
+ i m 35 1 7 12 21 35 i i 
+ i m 35 1 7 8 Ki 0 
+ i m 35 1 7 8 i m 
+ i m 35 1 i ref_period 
+ i m 35 Ki 1 
+ i m 8 12 13 i i 
+ i m 8 12 21 12 7 1 35 Ki 1 
+ i m 8 12 21 12 7 1 35 i m 
+ i m 8 12 21 12 7 1 i ref_period 
+ i m 8 12 21 12 7 12 8 19 32 22 Ki 4 
+ i m 8 12 21 12 7 12 8 19 32 22 i m 
+ i m 8 12 21 12 7 12 8 19 32 p Zref_i 
+ i m 8 12 21 12 7 12 8 19 32 p Zref_r 
+ i m 8 12 21 12 7 12 8 9 r Zr 
+ i m 8 12 21 12 7 12 8 9 r zr 
+ i m 8 12 21 12 7 12 8 Ki 0 
+ i m 8 12 21 12 7 12 8 i m 
+ i m 8 12 21 12 7 12 8 r Zi 
+ i m 8 12 21 12 7 12 8 r Zr 
+ i m 8 12 21 12 7 12 8 r zr 
+ i m 8 12 21 12 7 13 i i 
+ i m 8 12 21 12 7 2 Kr 8.0 
+ i m 8 12 21 12 7 2 r abs_Zz 
+ i m 8 12 21 12 7 4 r abs_Zz 
+ i m 8 12 21 12 7 4 r abs_z 
+ i m 8 12 21 12 7 8 Ki 0 
+ i m 8 12 21 12 7 8 i m 
+ i m 8 12 21 12 8 19 32 22 Ki 4 
+ i m 8 12 21 12 8 19 32 22 i m 
+ i m 8 12 21 12 8 19 32 p Zref_i 
+ i m 8 12 21 12 8 19 32 p Zref_r 
+ i m 8 12 21 12 8 9 10 22 r zi 
+ i m 8 12 21 12 8 9 10 22 r zi2 
+ i m 8 12 21 12 8 9 10 22 r zr 
+ i m 8 12 21 12 8 9 10 22 r zr2 
+ i m 8 12 21 12 8 9 22 9 r Zi 
+ i m 8 12 21 12 8 9 22 9 r Zr 
+ i m 8 12 21 12 8 9 22 9 r zi 
+ i m 8 12 21 12 8 9 22 9 r zr 
+ i m 8 12 21 12 8 9 22 Kr 2.0 
+ i m 8 12 21 12 8 9 22 r Zi 
+ i m 8 12 21 12 8 9 22 r Zr 
+ i m 8 12 21 12 8 9 22 r zi 
+ i m 8 12 21 12 8 9 22 r zi2 
+ i m 8 12 21 12 8 9 22 r zr 
+ i m 8 12 21 12 8 9 22 r zr2 
+ i m 8 12 21 12 8 9 r ci 
+ i m 8 12 21 12 8 9 r cr 
+ i m 8 12 21 12 8 9 r zi 
+ i m 8 12 21 12 8 9 r zr 
+ i m 8 12 21 12 8 r Zi 
+ i m 8 12 21 12 8 r Zr 
+ i m 8 12 21 12 8 r abs_Zz 
+ i m 8 12 21 12 8 r abs_z 
+ i m 8 12 21 12 8 r zi 
+ i m 8 12 21 12 8 r zi2 
+ i m 8 12 21 12 8 r zi3 
+ i m 8 12 21 12 8 r zr 
+ i m 8 12 21 12 8 r zr2 
+ i m 8 12 21 12 8 r zr3 
+ i m 8 12 21 35 Ki 1 
+ i m 8 12 21 35 i i 
+ i m 8 12 21 4 i i 
+ i m 8 12 21 4 i nmax 
+ i m 8 12 7 12 21 12 13 i i 
+ i m 8 12 7 12 21 35 Ki 1 
+ i m 8 12 7 12 21 35 i i 
+ i m 8 12 7 12 7 1 35 Ki 1 
+ i m 8 12 7 12 7 1 35 i m 
+ i m 8 12 7 12 7 1 i ref_period 
+ i m 8 12 7 12 7 13 i i 
+ i m 8 12 7 12 7 2 Kr 8.0 
+ i m 8 12 7 12 7 2 r abs_Zz 
+ i m 8 12 7 12 7 8 Ki 0 
+ i m 8 12 7 12 7 8 i m 
+ i m 8 12 7 12 8 9 10 22 r zi 
+ i m 8 12 7 12 8 9 10 22 r zi2 
+ i m 8 12 7 12 8 9 10 22 r zr 
+ i m 8 12 7 12 8 9 10 22 r zr2 
+ i m 8 12 7 12 8 9 22 9 r Zi 
+ i m 8 12 7 12 8 9 22 9 r Zr 
+ i m 8 12 7 12 8 9 22 9 r zi 
+ i m 8 12 7 12 8 9 22 9 r zr 
+ i m 8 12 7 12 8 9 22 Kr 2.0 
+ i m 8 12 7 12 8 9 22 r Zi 
+ i m 8 12 7 12 8 9 22 r Zr 
+ i m 8 12 7 12 8 9 22 r zi 
+ i m 8 12 7 12 8 9 22 r zi2 
+ i m 8 12 7 12 8 9 22 r zr 
+ i m 8 12 7 12 8 9 22 r zr2 
+ i m 8 12 7 12 8 9 r ci 
+ i m 8 12 7 12 8 9 r cr 
+ i m 8 12 7 12 8 9 r zi 
+ i m 8 12 7 12 8 9 r zr 
+ i m 8 12 7 12 8 r abs_Zz 
+ i m 8 12 7 12 8 r zi 
+ i m 8 12 7 12 8 r zi2 
+ i m 8 12 7 12 8 r zi3 
+ i m 8 12 7 12 8 r zr 
+ i m 8 12 7 12 8 r zr2 
+ i m 8 12 7 12 8 r zr3 
+ i m 8 12 8 19 32 22 Ki 4 
+ i m 8 12 8 19 32 22 i m 
+ i m 8 12 8 19 32 p Zref_i 
+ i m 8 12 8 19 32 p Zref_r 
+ i m 8 12 8 8 14 Ki 0 
+ i m 8 12 8 8 r zi 
+ i m 8 12 8 Ki 0 
+ i m 8 12 8 i i 
+ i m 8 12 8 r Zi 
+ i m 8 12 8 r Zr 
+ i m 8 12 8 r zr 
+ i m 8 7 12 21 12 13 i i 
+ i m 8 7 12 21 35 Ki 1 
+ i m 8 7 12 21 35 i i 
+ i m 8 Ki 0 
+ i nmax 4 21 12 13 i i 
+ i nmax 4 21 12 7 1 35 Ki 1 
+ i nmax 4 21 12 7 1 35 i m 
+ i nmax 4 21 12 7 1 i ref_period 
+ i nmax 4 21 12 7 12 8 19 32 22 Ki 4 
+ i nmax 4 21 12 7 12 8 19 32 22 i m 
+ i nmax 4 21 12 7 12 8 19 32 p Zref_i 
+ i nmax 4 21 12 7 12 8 19 32 p Zref_r 
+ i nmax 4 21 12 7 12 8 9 r Zr 
+ i nmax 4 21 12 7 12 8 9 r zr 
+ i nmax 4 21 12 7 12 8 Ki 0 
+ i nmax 4 21 12 7 12 8 i m 
+ i nmax 4 21 12 7 12 8 r Zi 
+ i nmax 4 21 12 7 12 8 r Zr 
+ i nmax 4 21 12 7 12 8 r zr 
+ i nmax 4 21 12 7 13 i i 
+ i nmax 4 21 12 7 2 Kr 8.0 
+ i nmax 4 21 12 7 2 r abs_Zz 
+ i nmax 4 21 12 7 4 r abs_Zz 
+ i nmax 4 21 12 7 4 r abs_z 
+ i nmax 4 21 12 7 8 Ki 0 
+ i nmax 4 21 12 7 8 i m 
+ i nmax 4 21 12 8 19 32 22 Ki 4 
+ i nmax 4 21 12 8 19 32 22 i m 
+ i nmax 4 21 12 8 19 32 p Zref_i 
+ i nmax 4 21 12 8 19 32 p Zref_r 
+ i nmax 4 21 12 8 9 10 22 r zi 
+ i nmax 4 21 12 8 9 10 22 r zi2 
+ i nmax 4 21 12 8 9 10 22 r zr 
+ i nmax 4 21 12 8 9 10 22 r zr2 
+ i nmax 4 21 12 8 9 22 9 r Zi 
+ i nmax 4 21 12 8 9 22 9 r Zr 
+ i nmax 4 21 12 8 9 22 9 r zi 
+ i nmax 4 21 12 8 9 22 9 r zr 
+ i nmax 4 21 12 8 9 22 Kr 2.0 
+ i nmax 4 21 12 8 9 22 r Zi 
+ i nmax 4 21 12 8 9 22 r Zr 
+ i nmax 4 21 12 8 9 22 r zi 
+ i nmax 4 21 12 8 9 22 r zi2 
+ i nmax 4 21 12 8 9 22 r zr 
+ i nmax 4 21 12 8 9 22 r zr2 
+ i nmax 4 21 12 8 9 r ci 
+ i nmax 4 21 12 8 9 r cr 
+ i nmax 4 21 12 8 9 r zi 
+ i nmax 4 21 12 8 9 r zr 
+ i nmax 4 21 12 8 r Zi 
+ i nmax 4 21 12 8 r Zr 
+ i nmax 4 21 12 8 r abs_Zz 
+ i nmax 4 21 12 8 r abs_z 
+ i nmax 4 21 12 8 r zi 
+ i nmax 4 21 12 8 r zi2 
+ i nmax 4 21 12 8 r zi3 
+ i nmax 4 21 12 8 r zr 
+ i nmax 4 21 12 8 r zr2 
+ i nmax 4 21 12 8 r zr3 
+ i nmax 4 21 35 Ki 1 
+ i nmax 4 21 35 i i 
+ i ref_period 1 7 12 21 12 13 i i 
+ i ref_period 1 7 12 21 35 Ki 1 
+ i ref_period 1 7 12 21 35 i i 
+ i ref_period 1 7 8 Ki 0 
+ i ref_period 1 7 8 i m 
+ p Zref_i 32 19 8 12 21 12 13 i i 
+ p Zref_i 32 19 8 12 21 35 Ki 1 
+ p Zref_i 32 19 8 12 21 35 i i 
+ p Zref_i 32 19 8 12 7 1 35 Ki 1 
+ p Zref_i 32 19 8 12 7 1 35 i m 
+ p Zref_i 32 19 8 12 7 1 i ref_period 
+ p Zref_i 32 19 8 12 7 12 21 12 13 i i 
+ p Zref_i 32 19 8 12 7 12 21 35 Ki 1 
+ p Zref_i 32 19 8 12 7 12 21 35 i i 
+ p Zref_i 32 19 8 12 7 12 7 1 35 Ki 1 
+ p Zref_i 32 19 8 12 7 12 7 1 35 i m 
+ p Zref_i 32 19 8 12 7 12 7 1 i ref_period 
+ p Zref_i 32 19 8 12 7 12 7 13 i i 
+ p Zref_i 32 19 8 12 7 12 7 2 Kr 8.0 
+ p Zref_i 32 19 8 12 7 12 7 2 r abs_Zz 
+ p Zref_i 32 19 8 12 7 12 7 8 Ki 0 
+ p Zref_i 32 19 8 12 7 12 7 8 i m 
+ p Zref_i 32 19 8 12 7 12 8 19 32 22 Ki 4 
+ p Zref_i 32 19 8 12 7 12 8 19 32 22 i m 
+ p Zref_i 32 19 8 12 7 12 8 19 32 p Zref_i 
+ p Zref_i 32 19 8 12 7 12 8 19 32 p Zref_r 
+ p Zref_i 32 19 8 12 7 12 8 9 10 22 r zi 
+ p Zref_i 32 19 8 12 7 12 8 9 10 22 r zi2 
+ p Zref_i 32 19 8 12 7 12 8 9 10 22 r zr 
+ p Zref_i 32 19 8 12 7 12 8 9 10 22 r zr2 
+ p Zref_i 32 19 8 12 7 12 8 9 22 9 r Zi 
+ p Zref_i 32 19 8 12 7 12 8 9 22 9 r Zr 
+ p Zref_i 32 19 8 12 7 12 8 9 22 9 r zi 
+ p Zref_i 32 19 8 12 7 12 8 9 22 9 r zr 
+ p Zref_i 32 19 8 12 7 12 8 9 22 Kr 2.0 
+ p Zref_i 32 19 8 12 7 12 8 9 22 r Zi 
+ p Zref_i 32 19 8 12 7 12 8 9 22 r Zr 
+ p Zref_i 32 19 8 12 7 12 8 9 22 r zi 
+ p Zref_i 32 19 8 12 7 12 8 9 22 r zi2 
+ p Zref_i 32 19 8 12 7 12 8 9 22 r zr 
+ p Zref_i 32 19 8 12 7 12 8 9 22 r zr2 
+ p Zref_i 32 19 8 12 7 12 8 9 r Zr 
+ p Zref_i 32 19 8 12 7 12 8 9 r ci 
+ p Zref_i 32 19 8 12 7 12 8 9 r cr 
+ p Zref_i 32 19 8 12 7 12 8 9 r zi 
+ p Zref_i 32 19 8 12 7 12 8 9 r zr 
+ p Zref_i 32 19 8 12 7 12 8 Ki 0 
+ p Zref_i 32 19 8 12 7 12 8 i m 
+ p Zref_i 32 19 8 12 7 12 8 r Zi 
+ p Zref_i 32 19 8 12 7 12 8 r Zr 
+ p Zref_i 32 19 8 12 7 12 8 r abs_Zz 
+ p Zref_i 32 19 8 12 7 12 8 r zi 
+ p Zref_i 32 19 8 12 7 12 8 r zi2 
+ p Zref_i 32 19 8 12 7 12 8 r zi3 
+ p Zref_i 32 19 8 12 7 12 8 r zr 
+ p Zref_i 32 19 8 12 7 12 8 r zr2 
+ p Zref_i 32 19 8 12 7 12 8 r zr3 
+ p Zref_i 32 19 8 12 7 13 i i 
+ p Zref_i 32 19 8 12 7 2 Kr 8.0 
+ p Zref_i 32 19 8 12 7 2 r abs_Zz 
+ p Zref_i 32 19 8 12 7 4 r abs_Zz 
+ p Zref_i 32 19 8 12 7 4 r abs_z 
+ p Zref_i 32 19 8 12 7 8 Ki 0 
+ p Zref_i 32 19 8 12 7 8 i m 
+ p Zref_i 32 19 8 12 8 9 10 22 r zi 
+ p Zref_i 32 19 8 12 8 9 10 22 r zi2 
+ p Zref_i 32 19 8 12 8 9 10 22 r zr 
+ p Zref_i 32 19 8 12 8 9 10 22 r zr2 
+ p Zref_i 32 19 8 12 8 9 22 9 r Zi 
+ p Zref_i 32 19 8 12 8 9 22 9 r Zr 
+ p Zref_i 32 19 8 12 8 9 22 9 r zi 
+ p Zref_i 32 19 8 12 8 9 22 9 r zr 
+ p Zref_i 32 19 8 12 8 9 22 Kr 2.0 
+ p Zref_i 32 19 8 12 8 9 22 r Zi 
+ p Zref_i 32 19 8 12 8 9 22 r Zr 
+ p Zref_i 32 19 8 12 8 9 22 r zi 
+ p Zref_i 32 19 8 12 8 9 22 r zi2 
+ p Zref_i 32 19 8 12 8 9 22 r zr 
+ p Zref_i 32 19 8 12 8 9 22 r zr2 
+ p Zref_i 32 19 8 12 8 9 r ci 
+ p Zref_i 32 19 8 12 8 9 r cr 
+ p Zref_i 32 19 8 12 8 9 r zi 
+ p Zref_i 32 19 8 12 8 9 r zr 
+ p Zref_i 32 19 8 12 8 r abs_Zz 
+ p Zref_i 32 19 8 12 8 r abs_z 
+ p Zref_i 32 19 8 12 8 r zi 
+ p Zref_i 32 19 8 12 8 r zi2 
+ p Zref_i 32 19 8 12 8 r zi3 
+ p Zref_i 32 19 8 12 8 r zr 
+ p Zref_i 32 19 8 12 8 r zr2 
+ p Zref_i 32 19 8 12 8 r zr3 
+ p Zref_i 32 22 Ki 4 
+ p Zref_i 32 22 i m 
+ p Zref_r 32 19 8 12 21 12 13 i i 
+ p Zref_r 32 19 8 12 21 35 Ki 1 
+ p Zref_r 32 19 8 12 21 35 i i 
+ p Zref_r 32 19 8 12 7 1 35 Ki 1 
+ p Zref_r 32 19 8 12 7 1 35 i m 
+ p Zref_r 32 19 8 12 7 1 i ref_period 
+ p Zref_r 32 19 8 12 7 12 21 12 13 i i 
+ p Zref_r 32 19 8 12 7 12 21 35 Ki 1 
+ p Zref_r 32 19 8 12 7 12 21 35 i i 
+ p Zref_r 32 19 8 12 7 12 7 1 35 Ki 1 
+ p Zref_r 32 19 8 12 7 12 7 1 35 i m 
+ p Zref_r 32 19 8 12 7 12 7 1 i ref_period 
+ p Zref_r 32 19 8 12 7 12 7 13 i i 
+ p Zref_r 32 19 8 12 7 12 7 2 Kr 8.0 
+ p Zref_r 32 19 8 12 7 12 7 2 r abs_Zz 
+ p Zref_r 32 19 8 12 7 12 7 8 Ki 0 
+ p Zref_r 32 19 8 12 7 12 7 8 i m 
+ p Zref_r 32 19 8 12 7 12 8 19 32 22 Ki 4 
+ p Zref_r 32 19 8 12 7 12 8 19 32 22 i m 
+ p Zref_r 32 19 8 12 7 12 8 19 32 p Zref_i 
+ p Zref_r 32 19 8 12 7 12 8 19 32 p Zref_r 
+ p Zref_r 32 19 8 12 7 12 8 9 10 22 r zi 
+ p Zref_r 32 19 8 12 7 12 8 9 10 22 r zi2 
+ p Zref_r 32 19 8 12 7 12 8 9 10 22 r zr 
+ p Zref_r 32 19 8 12 7 12 8 9 10 22 r zr2 
+ p Zref_r 32 19 8 12 7 12 8 9 22 9 r Zi 
+ p Zref_r 32 19 8 12 7 12 8 9 22 9 r Zr 
+ p Zref_r 32 19 8 12 7 12 8 9 22 9 r zi 
+ p Zref_r 32 19 8 12 7 12 8 9 22 9 r zr 
+ p Zref_r 32 19 8 12 7 12 8 9 22 Kr 2.0 
+ p Zref_r 32 19 8 12 7 12 8 9 22 r Zi 
+ p Zref_r 32 19 8 12 7 12 8 9 22 r Zr 
+ p Zref_r 32 19 8 12 7 12 8 9 22 r zi 
+ p Zref_r 32 19 8 12 7 12 8 9 22 r zi2 
+ p Zref_r 32 19 8 12 7 12 8 9 22 r zr 
+ p Zref_r 32 19 8 12 7 12 8 9 22 r zr2 
+ p Zref_r 32 19 8 12 7 12 8 9 r Zr 
+ p Zref_r 32 19 8 12 7 12 8 9 r ci 
+ p Zref_r 32 19 8 12 7 12 8 9 r cr 
+ p Zref_r 32 19 8 12 7 12 8 9 r zi 
+ p Zref_r 32 19 8 12 7 12 8 9 r zr 
+ p Zref_r 32 19 8 12 7 12 8 Ki 0 
+ p Zref_r 32 19 8 12 7 12 8 i m 
+ p Zref_r 32 19 8 12 7 12 8 r Zi 
+ p Zref_r 32 19 8 12 7 12 8 r Zr 
+ p Zref_r 32 19 8 12 7 12 8 r abs_Zz 
+ p Zref_r 32 19 8 12 7 12 8 r zi 
+ p Zref_r 32 19 8 12 7 12 8 r zi2 
+ p Zref_r 32 19 8 12 7 12 8 r zi3 
+ p Zref_r 32 19 8 12 7 12 8 r zr 
+ p Zref_r 32 19 8 12 7 12 8 r zr2 
+ p Zref_r 32 19 8 12 7 12 8 r zr3 
+ p Zref_r 32 19 8 12 7 13 i i 
+ p Zref_r 32 19 8 12 7 2 Kr 8.0 
+ p Zref_r 32 19 8 12 7 2 r abs_Zz 
+ p Zref_r 32 19 8 12 7 4 r abs_Zz 
+ p Zref_r 32 19 8 12 7 4 r abs_z 
+ p Zref_r 32 19 8 12 7 8 Ki 0 
+ p Zref_r 32 19 8 12 7 8 i m 
+ p Zref_r 32 19 8 12 8 19 32 22 Ki 4 
+ p Zref_r 32 19 8 12 8 19 32 22 i m 
+ p Zref_r 32 19 8 12 8 19 32 p Zref_i 
+ p Zref_r 32 19 8 12 8 9 10 22 r zi 
+ p Zref_r 32 19 8 12 8 9 10 22 r zi2 
+ p Zref_r 32 19 8 12 8 9 10 22 r zr 
+ p Zref_r 32 19 8 12 8 9 10 22 r zr2 
+ p Zref_r 32 19 8 12 8 9 22 9 r Zi 
+ p Zref_r 32 19 8 12 8 9 22 9 r Zr 
+ p Zref_r 32 19 8 12 8 9 22 9 r zi 
+ p Zref_r 32 19 8 12 8 9 22 9 r zr 
+ p Zref_r 32 19 8 12 8 9 22 Kr 2.0 
+ p Zref_r 32 19 8 12 8 9 22 r Zi 
+ p Zref_r 32 19 8 12 8 9 22 r Zr 
+ p Zref_r 32 19 8 12 8 9 22 r zi 
+ p Zref_r 32 19 8 12 8 9 22 r zi2 
+ p Zref_r 32 19 8 12 8 9 22 r zr 
+ p Zref_r 32 19 8 12 8 9 22 r zr2 
+ p Zref_r 32 19 8 12 8 9 r ci 
+ p Zref_r 32 19 8 12 8 9 r cr 
+ p Zref_r 32 19 8 12 8 9 r zi 
+ p Zref_r 32 19 8 12 8 9 r zr 
+ p Zref_r 32 19 8 12 8 r Zi 
+ p Zref_r 32 19 8 12 8 r abs_Zz 
+ p Zref_r 32 19 8 12 8 r abs_z 
+ p Zref_r 32 19 8 12 8 r zi 
+ p Zref_r 32 19 8 12 8 r zi2 
+ p Zref_r 32 19 8 12 8 r zi3 
+ p Zref_r 32 19 8 12 8 r zr 
+ p Zref_r 32 19 8 12 8 r zr2 
+ p Zref_r 32 19 8 12 8 r zr3 
+ p Zref_r 32 22 Ki 4 
+ p Zref_r 32 22 i m 
+ r Zi 12 13 i i 
+ r Zi 12 21 12 7 1 35 Ki 1 
+ r Zi 12 21 12 7 1 35 i m 
+ r Zi 12 21 12 7 1 i ref_period 
+ r Zi 12 21 12 7 12 8 19 32 22 Ki 4 
+ r Zi 12 21 12 7 12 8 19 32 22 i m 
+ r Zi 12 21 12 7 12 8 19 32 p Zref_i 
+ r Zi 12 21 12 7 12 8 19 32 p Zref_r 
+ r Zi 12 21 12 7 12 8 9 r Zr 
+ r Zi 12 21 12 7 12 8 9 r zr 
+ r Zi 12 21 12 7 12 8 Ki 0 
+ r Zi 12 21 12 7 12 8 i m 
+ r Zi 12 21 12 7 12 8 r Zi 
+ r Zi 12 21 12 7 12 8 r Zr 
+ r Zi 12 21 12 7 12 8 r zr 
+ r Zi 12 21 12 7 13 i i 
+ r Zi 12 21 12 7 2 Kr 8.0 
+ r Zi 12 21 12 7 2 r abs_Zz 
+ r Zi 12 21 12 7 4 r abs_Zz 
+ r Zi 12 21 12 7 4 r abs_z 
+ r Zi 12 21 12 7 8 Ki 0 
+ r Zi 12 21 12 7 8 i m 
+ r Zi 12 21 12 8 19 32 22 Ki 4 
+ r Zi 12 21 12 8 19 32 22 i m 
+ r Zi 12 21 12 8 19 32 p Zref_i 
+ r Zi 12 21 12 8 19 32 p Zref_r 
+ r Zi 12 21 12 8 9 10 22 r zi 
+ r Zi 12 21 12 8 9 10 22 r zi2 
+ r Zi 12 21 12 8 9 10 22 r zr 
+ r Zi 12 21 12 8 9 10 22 r zr2 
+ r Zi 12 21 12 8 9 22 9 r Zi 
+ r Zi 12 21 12 8 9 22 9 r Zr 
+ r Zi 12 21 12 8 9 22 9 r zi 
+ r Zi 12 21 12 8 9 22 9 r zr 
+ r Zi 12 21 12 8 9 22 Kr 2.0 
+ r Zi 12 21 12 8 9 22 r Zi 
+ r Zi 12 21 12 8 9 22 r Zr 
+ r Zi 12 21 12 8 9 22 r zi 
+ r Zi 12 21 12 8 9 22 r zi2 
+ r Zi 12 21 12 8 9 22 r zr 
+ r Zi 12 21 12 8 9 22 r zr2 
+ r Zi 12 21 12 8 9 r ci 
+ r Zi 12 21 12 8 9 r cr 
+ r Zi 12 21 12 8 9 r zi 
+ r Zi 12 21 12 8 9 r zr 
+ r Zi 12 21 12 8 r Zi 
+ r Zi 12 21 12 8 r Zr 
+ r Zi 12 21 12 8 r abs_Zz 
+ r Zi 12 21 12 8 r abs_z 
+ r Zi 12 21 12 8 r zi 
+ r Zi 12 21 12 8 r zi2 
+ r Zi 12 21 12 8 r zi3 
+ r Zi 12 21 12 8 r zr 
+ r Zi 12 21 12 8 r zr2 
+ r Zi 12 21 12 8 r zr3 
+ r Zi 12 21 35 Ki 1 
+ r Zi 12 21 35 i i 
+ r Zi 12 21 4 i i 
+ r Zi 12 21 4 i nmax 
+ r Zi 12 8 8 14 Ki 0 
+ r Zi 12 8 8 r zi 
+ r Zi 12 8 Ki 0 
+ r Zi 12 8 i i 
+ r Zi 12 8 i m 
+ r Zi 12 8 r zr 
+ r Zi 12 i i 
+ r Zi 12 i m 
+ r Zi 12 r abs_Zz 
+ r Zi 12 r abs_z 
+ r Zi 12 r zi3 
+ r Zi 12 r zr3 
+ r Zi 22 9 8 12 21 12 13 i i 
+ r Zi 22 9 8 12 21 35 Ki 1 
+ r Zi 22 9 8 12 21 35 i i 
+ r Zi 22 9 8 12 7 1 35 Ki 1 
+ r Zi 22 9 8 12 7 1 35 i m 
+ r Zi 22 9 8 12 7 1 i ref_period 
+ r Zi 22 9 8 12 7 8 Ki 0 
+ r Zi 22 9 8 12 7 8 i m 
+ r Zi 22 9 8 12 8 9 10 22 r zi 
+ r Zi 22 9 8 12 8 9 10 22 r zi2 
+ r Zi 22 9 8 12 8 9 10 22 r zr 
+ r Zi 22 9 8 12 8 9 10 22 r zr2 
+ r Zi 22 9 8 12 8 9 22 r zi 
+ r Zi 22 9 8 12 8 9 22 r zi2 
+ r Zi 22 9 8 12 8 9 22 r zr 
+ r Zi 22 9 8 12 8 9 22 r zr2 
+ r Zi 22 9 8 12 8 9 r ci 
+ r Zi 22 9 8 12 8 9 r cr 
+ r Zi 22 9 8 12 8 r zi 
+ r Zi 22 9 8 12 8 r zi3 
+ r Zi 22 9 8 12 8 r zr 
+ r Zi 22 9 8 12 8 r zr3 
+ r Zi 22 9 r zi 
+ r Zi 22 Kr 2.0 
+ r Zi 8 12 21 12 13 i i 
+ r Zi 8 12 21 35 Ki 1 
+ r Zi 8 12 21 35 i i 
+ r Zi 8 12 7 1 35 Ki 1 
+ r Zi 8 12 7 1 35 i m 
+ r Zi 8 12 7 1 i ref_period 
+ r Zi 8 12 7 12 21 12 13 i i 
+ r Zi 8 12 7 12 21 35 Ki 1 
+ r Zi 8 12 7 12 21 35 i i 
+ r Zi 8 12 7 12 7 1 35 Ki 1 
+ r Zi 8 12 7 12 7 1 35 i m 
+ r Zi 8 12 7 12 7 1 i ref_period 
+ r Zi 8 12 7 12 7 13 i i 
+ r Zi 8 12 7 12 7 2 Kr 8.0 
+ r Zi 8 12 7 12 7 2 r abs_Zz 
+ r Zi 8 12 7 12 7 8 Ki 0 
+ r Zi 8 12 7 12 7 8 i m 
+ r Zi 8 12 7 12 8 19 32 22 Ki 4 
+ r Zi 8 12 7 12 8 19 32 22 i m 
+ r Zi 8 12 7 12 8 19 32 p Zref_i 
+ r Zi 8 12 7 12 8 19 32 p Zref_r 
+ r Zi 8 12 7 12 8 9 10 22 r zi 
+ r Zi 8 12 7 12 8 9 10 22 r zi2 
+ r Zi 8 12 7 12 8 9 10 22 r zr 
+ r Zi 8 12 7 12 8 9 10 22 r zr2 
+ r Zi 8 12 7 12 8 9 22 9 r Zi 
+ r Zi 8 12 7 12 8 9 22 9 r Zr 
+ r Zi 8 12 7 12 8 9 22 9 r zi 
+ r Zi 8 12 7 12 8 9 22 9 r zr 
+ r Zi 8 12 7 12 8 9 22 Kr 2.0 
+ r Zi 8 12 7 12 8 9 22 r Zi 
+ r Zi 8 12 7 12 8 9 22 r Zr 
+ r Zi 8 12 7 12 8 9 22 r zi 
+ r Zi 8 12 7 12 8 9 22 r zi2 
+ r Zi 8 12 7 12 8 9 22 r zr 
+ r Zi 8 12 7 12 8 9 22 r zr2 
+ r Zi 8 12 7 12 8 9 r Zr 
+ r Zi 8 12 7 12 8 9 r ci 
+ r Zi 8 12 7 12 8 9 r cr 
+ r Zi 8 12 7 12 8 9 r zi 
+ r Zi 8 12 7 12 8 9 r zr 
+ r Zi 8 12 7 12 8 Ki 0 
+ r Zi 8 12 7 12 8 i m 
+ r Zi 8 12 7 12 8 r Zi 
+ r Zi 8 12 7 12 8 r Zr 
+ r Zi 8 12 7 12 8 r abs_Zz 
+ r Zi 8 12 7 12 8 r zi 
+ r Zi 8 12 7 12 8 r zi2 
+ r Zi 8 12 7 12 8 r zi3 
+ r Zi 8 12 7 12 8 r zr 
+ r Zi 8 12 7 12 8 r zr2 
+ r Zi 8 12 7 12 8 r zr3 
+ r Zi 8 12 7 13 i i 
+ r Zi 8 12 7 2 Kr 8.0 
+ r Zi 8 12 7 2 r abs_Zz 
+ r Zi 8 12 7 4 r abs_Zz 
+ r Zi 8 12 7 4 r abs_z 
+ r Zi 8 12 7 8 Ki 0 
+ r Zi 8 12 7 8 i m 
+ r Zi 8 12 8 9 10 22 r zi 
+ r Zi 8 12 8 9 10 22 r zi2 
+ r Zi 8 12 8 9 10 22 r zr 
+ r Zi 8 12 8 9 10 22 r zr2 
+ r Zi 8 12 8 9 22 9 r Zi 
+ r Zi 8 12 8 9 22 9 r Zr 
+ r Zi 8 12 8 9 22 9 r zi 
+ r Zi 8 12 8 9 22 9 r zr 
+ r Zi 8 12 8 9 22 Kr 2.0 
+ r Zi 8 12 8 9 22 r Zi 
+ r Zi 8 12 8 9 22 r Zr 
+ r Zi 8 12 8 9 22 r zi 
+ r Zi 8 12 8 9 22 r zi2 
+ r Zi 8 12 8 9 22 r zr 
+ r Zi 8 12 8 9 22 r zr2 
+ r Zi 8 12 8 9 r ci 
+ r Zi 8 12 8 9 r cr 
+ r Zi 8 12 8 9 r zi 
+ r Zi 8 12 8 9 r zr 
+ r Zi 8 12 8 r abs_Zz 
+ r Zi 8 12 8 r abs_z 
+ r Zi 8 12 8 r zi 
+ r Zi 8 12 8 r zi2 
+ r Zi 8 12 8 r zi3 
+ r Zi 8 12 8 r zr 
+ r Zi 8 12 8 r zr2 
+ r Zi 8 12 8 r zr3 
+ r Zi 8 19 32 22 Ki 4 
+ r Zi 8 19 32 22 i m 
+ r Zi 8 19 32 p Zref_i 
+ r Zi 9 22 9 8 12 21 12 13 i i 
+ r Zi 9 22 9 8 12 21 35 Ki 1 
+ r Zi 9 22 9 8 12 21 35 i i 
+ r Zi 9 22 9 8 12 7 1 35 Ki 1 
+ r Zi 9 22 9 8 12 7 1 35 i m 
+ r Zi 9 22 9 8 12 7 1 i ref_period 
+ r Zi 9 22 9 8 12 7 12 8 19 32 22 Ki 4 
+ r Zi 9 22 9 8 12 7 12 8 19 32 22 i m 
+ r Zi 9 22 9 8 12 7 12 8 19 32 p Zref_i 
+ r Zi 9 22 9 8 12 7 12 8 19 32 p Zref_r 
+ r Zi 9 22 9 8 12 7 12 8 9 r Zr 
+ r Zi 9 22 9 8 12 7 12 8 9 r zr 
+ r Zi 9 22 9 8 12 7 12 8 Ki 0 
+ r Zi 9 22 9 8 12 7 12 8 i m 
+ r Zi 9 22 9 8 12 7 12 8 r Zi 
+ r Zi 9 22 9 8 12 7 12 8 r Zr 
+ r Zi 9 22 9 8 12 7 12 8 r zr 
+ r Zi 9 22 9 8 12 7 13 i i 
+ r Zi 9 22 9 8 12 7 2 Kr 8.0 
+ r Zi 9 22 9 8 12 7 2 r abs_Zz 
+ r Zi 9 22 9 8 12 7 4 r abs_Zz 
+ r Zi 9 22 9 8 12 7 4 r abs_z 
+ r Zi 9 22 9 8 12 7 8 Ki 0 
+ r Zi 9 22 9 8 12 7 8 i m 
+ r Zi 9 22 9 8 12 8 9 10 22 r zi 
+ r Zi 9 22 9 8 12 8 9 10 22 r zi2 
+ r Zi 9 22 9 8 12 8 9 10 22 r zr 
+ r Zi 9 22 9 8 12 8 9 10 22 r zr2 
+ r Zi 9 22 9 8 12 8 9 22 9 r Zi 
+ r Zi 9 22 9 8 12 8 9 22 9 r Zr 
+ r Zi 9 22 9 8 12 8 9 22 9 r zi 
+ r Zi 9 22 9 8 12 8 9 22 9 r zr 
+ r Zi 9 22 9 8 12 8 9 22 Kr 2.0 
+ r Zi 9 22 9 8 12 8 9 22 r Zi 
+ r Zi 9 22 9 8 12 8 9 22 r Zr 
+ r Zi 9 22 9 8 12 8 9 22 r zi 
+ r Zi 9 22 9 8 12 8 9 22 r zi2 
+ r Zi 9 22 9 8 12 8 9 22 r zr 
+ r Zi 9 22 9 8 12 8 9 22 r zr2 
+ r Zi 9 22 9 8 12 8 9 r ci 
+ r Zi 9 22 9 8 12 8 9 r cr 
+ r Zi 9 22 9 8 12 8 9 r zi 
+ r Zi 9 22 9 8 12 8 9 r zr 
+ r Zi 9 22 9 8 12 8 r abs_Zz 
+ r Zi 9 22 9 8 12 8 r abs_z 
+ r Zi 9 22 9 8 12 8 r zi 
+ r Zi 9 22 9 8 12 8 r zi2 
+ r Zi 9 22 9 8 12 8 r zi3 
+ r Zi 9 22 9 8 12 8 r zr 
+ r Zi 9 22 9 8 12 8 r zr2 
+ r Zi 9 22 9 8 12 8 r zr3 
+ r Zi 9 22 9 r Zi 
+ r Zi 9 22 9 r zi 
+ r Zi 9 r zi 
+ r Zr 12 13 i i 
+ r Zr 12 21 12 7 1 35 Ki 1 
+ r Zr 12 21 12 7 1 35 i m 
+ r Zr 12 21 12 7 1 i ref_period 
+ r Zr 12 21 12 7 12 8 19 32 22 Ki 4 
+ r Zr 12 21 12 7 12 8 19 32 22 i m 
+ r Zr 12 21 12 7 12 8 19 32 p Zref_i 
+ r Zr 12 21 12 7 12 8 19 32 p Zref_r 
+ r Zr 12 21 12 7 12 8 9 r Zr 
+ r Zr 12 21 12 7 12 8 9 r zr 
+ r Zr 12 21 12 7 12 8 Ki 0 
+ r Zr 12 21 12 7 12 8 i m 
+ r Zr 12 21 12 7 12 8 r Zi 
+ r Zr 12 21 12 7 12 8 r Zr 
+ r Zr 12 21 12 7 12 8 r zr 
+ r Zr 12 21 12 7 13 i i 
+ r Zr 12 21 12 7 2 Kr 8.0 
+ r Zr 12 21 12 7 2 r abs_Zz 
+ r Zr 12 21 12 7 4 r abs_Zz 
+ r Zr 12 21 12 7 4 r abs_z 
+ r Zr 12 21 12 7 8 Ki 0 
+ r Zr 12 21 12 7 8 i m 
+ r Zr 12 21 12 8 19 32 22 Ki 4 
+ r Zr 12 21 12 8 19 32 22 i m 
+ r Zr 12 21 12 8 19 32 p Zref_i 
+ r Zr 12 21 12 8 19 32 p Zref_r 
+ r Zr 12 21 12 8 9 10 22 r zi 
+ r Zr 12 21 12 8 9 10 22 r zi2 
+ r Zr 12 21 12 8 9 10 22 r zr 
+ r Zr 12 21 12 8 9 10 22 r zr2 
+ r Zr 12 21 12 8 9 22 9 r Zi 
+ r Zr 12 21 12 8 9 22 9 r Zr 
+ r Zr 12 21 12 8 9 22 9 r zi 
+ r Zr 12 21 12 8 9 22 9 r zr 
+ r Zr 12 21 12 8 9 22 Kr 2.0 
+ r Zr 12 21 12 8 9 22 r Zi 
+ r Zr 12 21 12 8 9 22 r Zr 
+ r Zr 12 21 12 8 9 22 r zi 
+ r Zr 12 21 12 8 9 22 r zi2 
+ r Zr 12 21 12 8 9 22 r zr 
+ r Zr 12 21 12 8 9 22 r zr2 
+ r Zr 12 21 12 8 9 r ci 
+ r Zr 12 21 12 8 9 r cr 
+ r Zr 12 21 12 8 9 r zi 
+ r Zr 12 21 12 8 9 r zr 
+ r Zr 12 21 12 8 r Zi 
+ r Zr 12 21 12 8 r Zr 
+ r Zr 12 21 12 8 r abs_Zz 
+ r Zr 12 21 12 8 r abs_z 
+ r Zr 12 21 12 8 r zi 
+ r Zr 12 21 12 8 r zi2 
+ r Zr 12 21 12 8 r zi3 
+ r Zr 12 21 12 8 r zr 
+ r Zr 12 21 12 8 r zr2 
+ r Zr 12 21 12 8 r zr3 
+ r Zr 12 21 35 Ki 1 
+ r Zr 12 21 35 i i 
+ r Zr 12 21 4 i i 
+ r Zr 12 21 4 i nmax 
+ r Zr 12 8 8 14 Ki 0 
+ r Zr 12 8 8 r zi 
+ r Zr 12 8 Ki 0 
+ r Zr 12 8 i i 
+ r Zr 12 8 i m 
+ r Zr 12 8 r zr 
+ r Zr 12 i i 
+ r Zr 12 i m 
+ r Zr 12 r Zi 
+ r Zr 12 r abs_Zz 
+ r Zr 12 r abs_z 
+ r Zr 12 r zi3 
+ r Zr 12 r zr3 
+ r Zr 22 9 8 12 21 12 13 i i 
+ r Zr 22 9 8 12 21 35 Ki 1 
+ r Zr 22 9 8 12 21 35 i i 
+ r Zr 22 9 8 12 7 1 35 Ki 1 
+ r Zr 22 9 8 12 7 1 35 i m 
+ r Zr 22 9 8 12 7 1 i ref_period 
+ r Zr 22 9 8 12 7 8 Ki 0 
+ r Zr 22 9 8 12 7 8 i m 
+ r Zr 22 9 8 12 8 9 10 22 r zi 
+ r Zr 22 9 8 12 8 9 10 22 r zi2 
+ r Zr 22 9 8 12 8 9 10 22 r zr 
+ r Zr 22 9 8 12 8 9 10 22 r zr2 
+ r Zr 22 9 8 12 8 9 22 Kr 2.0 
+ r Zr 22 9 8 12 8 9 22 r Zi 
+ r Zr 22 9 8 12 8 9 22 r zi 
+ r Zr 22 9 8 12 8 9 22 r zi2 
+ r Zr 22 9 8 12 8 9 22 r zr 
+ r Zr 22 9 8 12 8 9 22 r zr2 
+ r Zr 22 9 8 12 8 9 r ci 
+ r Zr 22 9 8 12 8 9 r cr 
+ r Zr 22 9 8 12 8 9 r zi 
+ r Zr 22 9 8 12 8 r zi 
+ r Zr 22 9 8 12 8 r zi2 
+ r Zr 22 9 8 12 8 r zi3 
+ r Zr 22 9 8 12 8 r zr 
+ r Zr 22 9 8 12 8 r zr3 
+ r Zr 22 9 r zr 
+ r Zr 22 Kr 2.0 
+ r Zr 8 12 21 12 13 i i 
+ r Zr 8 12 21 35 Ki 1 
+ r Zr 8 12 21 35 i i 
+ r Zr 8 12 7 1 35 Ki 1 
+ r Zr 8 12 7 1 35 i m 
+ r Zr 8 12 7 1 i ref_period 
+ r Zr 8 12 7 12 21 12 13 i i 
+ r Zr 8 12 7 12 21 35 Ki 1 
+ r Zr 8 12 7 12 21 35 i i 
+ r Zr 8 12 7 12 7 1 35 Ki 1 
+ r Zr 8 12 7 12 7 1 35 i m 
+ r Zr 8 12 7 12 7 1 i ref_period 
+ r Zr 8 12 7 12 7 13 i i 
+ r Zr 8 12 7 12 7 2 Kr 8.0 
+ r Zr 8 12 7 12 7 2 r abs_Zz 
+ r Zr 8 12 7 12 7 8 Ki 0 
+ r Zr 8 12 7 12 7 8 i m 
+ r Zr 8 12 7 12 8 19 32 22 Ki 4 
+ r Zr 8 12 7 12 8 19 32 22 i m 
+ r Zr 8 12 7 12 8 19 32 p Zref_i 
+ r Zr 8 12 7 12 8 19 32 p Zref_r 
+ r Zr 8 12 7 12 8 9 10 22 r zi 
+ r Zr 8 12 7 12 8 9 10 22 r zi2 
+ r Zr 8 12 7 12 8 9 10 22 r zr 
+ r Zr 8 12 7 12 8 9 10 22 r zr2 
+ r Zr 8 12 7 12 8 9 22 9 r Zi 
+ r Zr 8 12 7 12 8 9 22 9 r Zr 
+ r Zr 8 12 7 12 8 9 22 9 r zi 
+ r Zr 8 12 7 12 8 9 22 9 r zr 
+ r Zr 8 12 7 12 8 9 22 Kr 2.0 
+ r Zr 8 12 7 12 8 9 22 r Zi 
+ r Zr 8 12 7 12 8 9 22 r Zr 
+ r Zr 8 12 7 12 8 9 22 r zi 
+ r Zr 8 12 7 12 8 9 22 r zi2 
+ r Zr 8 12 7 12 8 9 22 r zr 
+ r Zr 8 12 7 12 8 9 22 r zr2 
+ r Zr 8 12 7 12 8 9 r Zr 
+ r Zr 8 12 7 12 8 9 r ci 
+ r Zr 8 12 7 12 8 9 r cr 
+ r Zr 8 12 7 12 8 9 r zi 
+ r Zr 8 12 7 12 8 9 r zr 
+ r Zr 8 12 7 12 8 Ki 0 
+ r Zr 8 12 7 12 8 i m 
+ r Zr 8 12 7 12 8 r Zi 
+ r Zr 8 12 7 12 8 r Zr 
+ r Zr 8 12 7 12 8 r abs_Zz 
+ r Zr 8 12 7 12 8 r zi 
+ r Zr 8 12 7 12 8 r zi2 
+ r Zr 8 12 7 12 8 r zi3 
+ r Zr 8 12 7 12 8 r zr 
+ r Zr 8 12 7 12 8 r zr2 
+ r Zr 8 12 7 12 8 r zr3 
+ r Zr 8 12 7 13 i i 
+ r Zr 8 12 7 2 Kr 8.0 
+ r Zr 8 12 7 2 r abs_Zz 
+ r Zr 8 12 7 4 r abs_Zz 
+ r Zr 8 12 7 4 r abs_z 
+ r Zr 8 12 7 8 Ki 0 
+ r Zr 8 12 7 8 i m 
+ r Zr 8 12 8 19 32 22 Ki 4 
+ r Zr 8 12 8 19 32 22 i m 
+ r Zr 8 12 8 19 32 p Zref_i 
+ r Zr 8 12 8 9 10 22 r zi 
+ r Zr 8 12 8 9 10 22 r zi2 
+ r Zr 8 12 8 9 10 22 r zr 
+ r Zr 8 12 8 9 10 22 r zr2 
+ r Zr 8 12 8 9 22 9 r Zi 
+ r Zr 8 12 8 9 22 9 r Zr 
+ r Zr 8 12 8 9 22 9 r zi 
+ r Zr 8 12 8 9 22 9 r zr 
+ r Zr 8 12 8 9 22 Kr 2.0 
+ r Zr 8 12 8 9 22 r Zi 
+ r Zr 8 12 8 9 22 r Zr 
+ r Zr 8 12 8 9 22 r zi 
+ r Zr 8 12 8 9 22 r zi2 
+ r Zr 8 12 8 9 22 r zr 
+ r Zr 8 12 8 9 22 r zr2 
+ r Zr 8 12 8 9 r ci 
+ r Zr 8 12 8 9 r cr 
+ r Zr 8 12 8 9 r zi 
+ r Zr 8 12 8 9 r zr 
+ r Zr 8 12 8 r Zi 
+ r Zr 8 12 8 r abs_Zz 
+ r Zr 8 12 8 r abs_z 
+ r Zr 8 12 8 r zi 
+ r Zr 8 12 8 r zi2 
+ r Zr 8 12 8 r zi3 
+ r Zr 8 12 8 r zr 
+ r Zr 8 12 8 r zr2 
+ r Zr 8 12 8 r zr3 
+ r Zr 8 19 32 22 Ki 4 
+ r Zr 8 19 32 22 i m 
+ r Zr 8 19 32 p Zref_r 
+ r Zr 9 22 9 22 9 r Zi 
+ r Zr 9 22 9 22 9 r zi 
+ r Zr 9 22 9 8 12 21 12 13 i i 
+ r Zr 9 22 9 8 12 21 35 Ki 1 
+ r Zr 9 22 9 8 12 21 35 i i 
+ r Zr 9 22 9 8 12 7 1 35 Ki 1 
+ r Zr 9 22 9 8 12 7 1 35 i m 
+ r Zr 9 22 9 8 12 7 1 i ref_period 
+ r Zr 9 22 9 8 12 7 12 8 19 32 22 Ki 4 
+ r Zr 9 22 9 8 12 7 12 8 19 32 22 i m 
+ r Zr 9 22 9 8 12 7 12 8 19 32 p Zref_i 
+ r Zr 9 22 9 8 12 7 12 8 19 32 p Zref_r 
+ r Zr 9 22 9 8 12 7 12 8 9 r Zr 
+ r Zr 9 22 9 8 12 7 12 8 9 r zr 
+ r Zr 9 22 9 8 12 7 12 8 Ki 0 
+ r Zr 9 22 9 8 12 7 12 8 i m 
+ r Zr 9 22 9 8 12 7 12 8 r Zi 
+ r Zr 9 22 9 8 12 7 12 8 r Zr 
+ r Zr 9 22 9 8 12 7 12 8 r zr 
+ r Zr 9 22 9 8 12 7 13 i i 
+ r Zr 9 22 9 8 12 7 2 Kr 8.0 
+ r Zr 9 22 9 8 12 7 2 r abs_Zz 
+ r Zr 9 22 9 8 12 7 4 r abs_Zz 
+ r Zr 9 22 9 8 12 7 4 r abs_z 
+ r Zr 9 22 9 8 12 7 8 Ki 0 
+ r Zr 9 22 9 8 12 7 8 i m 
+ r Zr 9 22 9 8 12 8 9 10 22 r zi 
+ r Zr 9 22 9 8 12 8 9 10 22 r zi2 
+ r Zr 9 22 9 8 12 8 9 10 22 r zr 
+ r Zr 9 22 9 8 12 8 9 10 22 r zr2 
+ r Zr 9 22 9 8 12 8 9 22 9 r Zi 
+ r Zr 9 22 9 8 12 8 9 22 9 r Zr 
+ r Zr 9 22 9 8 12 8 9 22 9 r zi 
+ r Zr 9 22 9 8 12 8 9 22 9 r zr 
+ r Zr 9 22 9 8 12 8 9 22 Kr 2.0 
+ r Zr 9 22 9 8 12 8 9 22 r Zi 
+ r Zr 9 22 9 8 12 8 9 22 r Zr 
+ r Zr 9 22 9 8 12 8 9 22 r zi 
+ r Zr 9 22 9 8 12 8 9 22 r zi2 
+ r Zr 9 22 9 8 12 8 9 22 r zr 
+ r Zr 9 22 9 8 12 8 9 22 r zr2 
+ r Zr 9 22 9 8 12 8 9 r ci 
+ r Zr 9 22 9 8 12 8 9 r cr 
+ r Zr 9 22 9 8 12 8 9 r zi 
+ r Zr 9 22 9 8 12 8 9 r zr 
+ r Zr 9 22 9 8 12 8 r abs_Zz 
+ r Zr 9 22 9 8 12 8 r abs_z 
+ r Zr 9 22 9 8 12 8 r zi 
+ r Zr 9 22 9 8 12 8 r zi2 
+ r Zr 9 22 9 8 12 8 r zi3 
+ r Zr 9 22 9 8 12 8 r zr 
+ r Zr 9 22 9 8 12 8 r zr2 
+ r Zr 9 22 9 8 12 8 r zr3 
+ r Zr 9 22 9 r Zr 
+ r Zr 9 22 9 r zr 
+ r Zr 9 8 12 7 12 21 12 13 i i 
+ r Zr 9 8 12 7 12 21 35 Ki 1 
+ r Zr 9 8 12 7 12 21 35 i i 
+ r Zr 9 8 12 7 12 7 1 35 Ki 1 
+ r Zr 9 8 12 7 12 7 1 35 i m 
+ r Zr 9 8 12 7 12 7 1 i ref_period 
+ r Zr 9 8 12 7 12 7 13 i i 
+ r Zr 9 8 12 7 12 7 2 Kr 8.0 
+ r Zr 9 8 12 7 12 7 2 r abs_Zz 
+ r Zr 9 8 12 7 12 7 8 Ki 0 
+ r Zr 9 8 12 7 12 7 8 i m 
+ r Zr 9 8 12 7 12 8 9 10 22 r zi 
+ r Zr 9 8 12 7 12 8 9 10 22 r zi2 
+ r Zr 9 8 12 7 12 8 9 10 22 r zr 
+ r Zr 9 8 12 7 12 8 9 10 22 r zr2 
+ r Zr 9 8 12 7 12 8 9 22 9 r Zi 
+ r Zr 9 8 12 7 12 8 9 22 9 r Zr 
+ r Zr 9 8 12 7 12 8 9 22 9 r zi 
+ r Zr 9 8 12 7 12 8 9 22 9 r zr 
+ r Zr 9 8 12 7 12 8 9 22 Kr 2.0 
+ r Zr 9 8 12 7 12 8 9 22 r Zi 
+ r Zr 9 8 12 7 12 8 9 22 r Zr 
+ r Zr 9 8 12 7 12 8 9 22 r zi 
+ r Zr 9 8 12 7 12 8 9 22 r zi2 
+ r Zr 9 8 12 7 12 8 9 22 r zr 
+ r Zr 9 8 12 7 12 8 9 22 r zr2 
+ r Zr 9 8 12 7 12 8 9 r ci 
+ r Zr 9 8 12 7 12 8 9 r cr 
+ r Zr 9 8 12 7 12 8 9 r zi 
+ r Zr 9 8 12 7 12 8 9 r zr 
+ r Zr 9 8 12 7 12 8 r abs_Zz 
+ r Zr 9 8 12 7 12 8 r zi 
+ r Zr 9 8 12 7 12 8 r zi2 
+ r Zr 9 8 12 7 12 8 r zi3 
+ r Zr 9 8 12 7 12 8 r zr 
+ r Zr 9 8 12 7 12 8 r zr2 
+ r Zr 9 8 12 7 12 8 r zr3 
+ r Zr 9 8 12 8 19 32 22 Ki 4 
+ r Zr 9 8 12 8 19 32 22 i m 
+ r Zr 9 8 12 8 19 32 p Zref_i 
+ r Zr 9 8 12 8 19 32 p Zref_r 
+ r Zr 9 8 12 8 Ki 0 
+ r Zr 9 8 12 8 i m 
+ r Zr 9 8 12 8 r Zi 
+ r Zr 9 8 12 8 r Zr 
+ r Zr 9 r zr 
+ r abs_Zz 12 13 i i 
+ r abs_Zz 12 21 12 7 1 35 Ki 1 
+ r abs_Zz 12 21 12 7 1 35 i m 
+ r abs_Zz 12 21 12 7 1 i ref_period 
+ r abs_Zz 12 21 12 7 12 8 19 32 22 Ki 4 
+ r abs_Zz 12 21 12 7 12 8 19 32 22 i m 
+ r abs_Zz 12 21 12 7 12 8 19 32 p Zref_i 
+ r abs_Zz 12 21 12 7 12 8 19 32 p Zref_r 
+ r abs_Zz 12 21 12 7 12 8 9 r Zr 
+ r abs_Zz 12 21 12 7 12 8 9 r zr 
+ r abs_Zz 12 21 12 7 12 8 Ki 0 
+ r abs_Zz 12 21 12 7 12 8 i m 
+ r abs_Zz 12 21 12 7 12 8 r Zi 
+ r abs_Zz 12 21 12 7 12 8 r Zr 
+ r abs_Zz 12 21 12 7 12 8 r zr 
+ r abs_Zz 12 21 12 7 13 i i 
+ r abs_Zz 12 21 12 7 2 Kr 8.0 
+ r abs_Zz 12 21 12 7 2 r abs_Zz 
+ r abs_Zz 12 21 12 7 4 r abs_Zz 
+ r abs_Zz 12 21 12 7 4 r abs_z 
+ r abs_Zz 12 21 12 7 8 Ki 0 
+ r abs_Zz 12 21 12 7 8 i m 
+ r abs_Zz 12 21 12 8 19 32 22 Ki 4 
+ r abs_Zz 12 21 12 8 19 32 22 i m 
+ r abs_Zz 12 21 12 8 19 32 p Zref_i 
+ r abs_Zz 12 21 12 8 19 32 p Zref_r 
+ r abs_Zz 12 21 12 8 9 10 22 r zi 
+ r abs_Zz 12 21 12 8 9 10 22 r zi2 
+ r abs_Zz 12 21 12 8 9 10 22 r zr 
+ r abs_Zz 12 21 12 8 9 10 22 r zr2 
+ r abs_Zz 12 21 12 8 9 22 9 r Zi 
+ r abs_Zz 12 21 12 8 9 22 9 r Zr 
+ r abs_Zz 12 21 12 8 9 22 9 r zi 
+ r abs_Zz 12 21 12 8 9 22 9 r zr 
+ r abs_Zz 12 21 12 8 9 22 Kr 2.0 
+ r abs_Zz 12 21 12 8 9 22 r Zi 
+ r abs_Zz 12 21 12 8 9 22 r Zr 
+ r abs_Zz 12 21 12 8 9 22 r zi 
+ r abs_Zz 12 21 12 8 9 22 r zi2 
+ r abs_Zz 12 21 12 8 9 22 r zr 
+ r abs_Zz 12 21 12 8 9 22 r zr2 
+ r abs_Zz 12 21 12 8 9 r ci 
+ r abs_Zz 12 21 12 8 9 r cr 
+ r abs_Zz 12 21 12 8 9 r zi 
+ r abs_Zz 12 21 12 8 9 r zr 
+ r abs_Zz 12 21 12 8 r Zi 
+ r abs_Zz 12 21 12 8 r Zr 
+ r abs_Zz 12 21 12 8 r abs_Zz 
+ r abs_Zz 12 21 12 8 r abs_z 
+ r abs_Zz 12 21 12 8 r zi 
+ r abs_Zz 12 21 12 8 r zi2 
+ r abs_Zz 12 21 12 8 r zi3 
+ r abs_Zz 12 21 12 8 r zr 
+ r abs_Zz 12 21 12 8 r zr2 
+ r abs_Zz 12 21 12 8 r zr3 
+ r abs_Zz 12 21 35 Ki 1 
+ r abs_Zz 12 21 35 i i 
+ r abs_Zz 12 21 4 i i 
+ r abs_Zz 12 21 4 i nmax 
+ r abs_Zz 12 8 8 14 Ki 0 
+ r abs_Zz 12 8 8 r zi 
+ r abs_Zz 12 8 Ki 0 
+ r abs_Zz 12 8 i i 
+ r abs_Zz 12 8 i m 
+ r abs_Zz 12 8 r zr 
+ r abs_Zz 12 i i 
+ r abs_Zz 12 i m 
+ r abs_Zz 12 r zi3 
+ r abs_Zz 12 r zr3 
+ r abs_Zz 2 7 12 21 12 13 i i 
+ r abs_Zz 2 7 12 21 35 Ki 1 
+ r abs_Zz 2 7 12 21 35 i i 
+ r abs_Zz 2 7 12 7 1 35 Ki 1 
+ r abs_Zz 2 7 12 7 1 35 i m 
+ r abs_Zz 2 7 12 7 1 i ref_period 
+ r abs_Zz 2 7 12 7 8 Ki 0 
+ r abs_Zz 2 7 12 7 8 i m 
+ r abs_Zz 2 7 12 8 9 10 22 r zi 
+ r abs_Zz 2 7 12 8 9 10 22 r zi2 
+ r abs_Zz 2 7 12 8 9 10 22 r zr 
+ r abs_Zz 2 7 12 8 9 10 22 r zr2 
+ r abs_Zz 2 7 12 8 9 22 Kr 2.0 
+ r abs_Zz 2 7 12 8 9 22 r Zi 
+ r abs_Zz 2 7 12 8 9 22 r Zr 
+ r abs_Zz 2 7 12 8 9 22 r zi 
+ r abs_Zz 2 7 12 8 9 22 r zi2 
+ r abs_Zz 2 7 12 8 9 22 r zr 
+ r abs_Zz 2 7 12 8 9 22 r zr2 
+ r abs_Zz 2 7 12 8 9 r ci 
+ r abs_Zz 2 7 12 8 9 r cr 
+ r abs_Zz 2 7 12 8 9 r zi 
+ r abs_Zz 2 7 12 8 9 r zr 
+ r abs_Zz 2 7 12 8 r zi 
+ r abs_Zz 2 7 12 8 r zi2 
+ r abs_Zz 2 7 12 8 r zi3 
+ r abs_Zz 2 7 12 8 r zr 
+ r abs_Zz 2 7 12 8 r zr2 
+ r abs_Zz 2 7 12 8 r zr3 
+ r abs_Zz 2 7 13 i i 
+ r abs_Zz 2 Kr 8.0 
+ r abs_Zz 4 7 12 21 12 13 i i 
+ r abs_Zz 4 7 12 21 35 Ki 1 
+ r abs_Zz 4 7 12 21 35 i i 
+ r abs_Zz 4 7 12 7 1 35 Ki 1 
+ r abs_Zz 4 7 12 7 1 35 i m 
+ r abs_Zz 4 7 12 7 1 i ref_period 
+ r abs_Zz 4 7 12 7 13 i i 
+ r abs_Zz 4 7 12 7 2 Kr 8.0 
+ r abs_Zz 4 7 12 7 2 r abs_Zz 
+ r abs_Zz 4 7 12 7 8 Ki 0 
+ r abs_Zz 4 7 12 7 8 i m 
+ r abs_Zz 4 7 12 8 19 32 22 Ki 4 
+ r abs_Zz 4 7 12 8 19 32 22 i m 
+ r abs_Zz 4 7 12 8 19 32 p Zref_i 
+ r abs_Zz 4 7 12 8 19 32 p Zref_r 
+ r abs_Zz 4 7 12 8 9 10 22 r zi 
+ r abs_Zz 4 7 12 8 9 10 22 r zi2 
+ r abs_Zz 4 7 12 8 9 10 22 r zr 
+ r abs_Zz 4 7 12 8 9 10 22 r zr2 
+ r abs_Zz 4 7 12 8 9 22 9 r Zi 
+ r abs_Zz 4 7 12 8 9 22 9 r Zr 
+ r abs_Zz 4 7 12 8 9 22 9 r zi 
+ r abs_Zz 4 7 12 8 9 22 9 r zr 
+ r abs_Zz 4 7 12 8 9 22 Kr 2.0 
+ r abs_Zz 4 7 12 8 9 22 r Zi 
+ r abs_Zz 4 7 12 8 9 22 r Zr 
+ r abs_Zz 4 7 12 8 9 22 r zi 
+ r abs_Zz 4 7 12 8 9 22 r zi2 
+ r abs_Zz 4 7 12 8 9 22 r zr 
+ r abs_Zz 4 7 12 8 9 22 r zr2 
+ r abs_Zz 4 7 12 8 9 r Zr 
+ r abs_Zz 4 7 12 8 9 r ci 
+ r abs_Zz 4 7 12 8 9 r cr 
+ r abs_Zz 4 7 12 8 9 r zi 
+ r abs_Zz 4 7 12 8 9 r zr 
+ r abs_Zz 4 7 12 8 Ki 0 
+ r abs_Zz 4 7 12 8 i m 
+ r abs_Zz 4 7 12 8 r Zi 
+ r abs_Zz 4 7 12 8 r Zr 
+ r abs_Zz 4 7 12 8 r abs_Zz 
+ r abs_Zz 4 7 12 8 r zi 
+ r abs_Zz 4 7 12 8 r zi2 
+ r abs_Zz 4 7 12 8 r zi3 
+ r abs_Zz 4 7 12 8 r zr 
+ r abs_Zz 4 7 12 8 r zr2 
+ r abs_Zz 4 7 12 8 r zr3 
+ r abs_Zz 4 r abs_z 
+ r abs_Zz 8 12 21 12 13 i i 
+ r abs_Zz 8 12 21 35 Ki 1 
+ r abs_Zz 8 12 21 35 i i 
+ r abs_Zz 8 12 7 1 35 Ki 1 
+ r abs_Zz 8 12 7 1 35 i m 
+ r abs_Zz 8 12 7 1 i ref_period 
+ r abs_Zz 8 12 7 12 8 19 32 22 Ki 4 
+ r abs_Zz 8 12 7 12 8 19 32 22 i m 
+ r abs_Zz 8 12 7 12 8 19 32 p Zref_i 
+ r abs_Zz 8 12 7 12 8 19 32 p Zref_r 
+ r abs_Zz 8 12 7 12 8 9 r Zr 
+ r abs_Zz 8 12 7 12 8 9 r zr 
+ r abs_Zz 8 12 7 12 8 Ki 0 
+ r abs_Zz 8 12 7 12 8 i m 
+ r abs_Zz 8 12 7 12 8 r Zi 
+ r abs_Zz 8 12 7 12 8 r Zr 
+ r abs_Zz 8 12 7 12 8 r zr 
+ r abs_Zz 8 12 7 13 i i 
+ r abs_Zz 8 12 7 2 Kr 8.0 
+ r abs_Zz 8 12 7 2 r abs_Zz 
+ r abs_Zz 8 12 7 4 r abs_Zz 
+ r abs_Zz 8 12 7 4 r abs_z 
+ r abs_Zz 8 12 7 8 Ki 0 
+ r abs_Zz 8 12 7 8 i m 
+ r abs_Zz 8 12 8 9 10 22 r zi 
+ r abs_Zz 8 12 8 9 10 22 r zi2 
+ r abs_Zz 8 12 8 9 10 22 r zr 
+ r abs_Zz 8 12 8 9 10 22 r zr2 
+ r abs_Zz 8 12 8 9 22 9 r Zi 
+ r abs_Zz 8 12 8 9 22 9 r Zr 
+ r abs_Zz 8 12 8 9 22 9 r zi 
+ r abs_Zz 8 12 8 9 22 9 r zr 
+ r abs_Zz 8 12 8 9 22 Kr 2.0 
+ r abs_Zz 8 12 8 9 22 r Zi 
+ r abs_Zz 8 12 8 9 22 r Zr 
+ r abs_Zz 8 12 8 9 22 r zi 
+ r abs_Zz 8 12 8 9 22 r zi2 
+ r abs_Zz 8 12 8 9 22 r zr 
+ r abs_Zz 8 12 8 9 22 r zr2 
+ r abs_Zz 8 12 8 9 r ci 
+ r abs_Zz 8 12 8 9 r cr 
+ r abs_Zz 8 12 8 9 r zi 
+ r abs_Zz 8 12 8 9 r zr 
+ r abs_Zz 8 12 8 r abs_Zz 
+ r abs_Zz 8 12 8 r abs_z 
+ r abs_Zz 8 12 8 r zi 
+ r abs_Zz 8 12 8 r zi2 
+ r abs_Zz 8 12 8 r zi3 
+ r abs_Zz 8 12 8 r zr 
+ r abs_Zz 8 12 8 r zr2 
+ r abs_Zz 8 12 8 r zr3 
+ r abs_Zz 8 9 22 9 r Zi 
+ r abs_Zz 8 9 22 9 r Zr 
+ r abs_Zz 8 9 22 9 r zi 
+ r abs_Zz 8 9 22 9 r zr 
+ r abs_z 12 13 i i 
+ r abs_z 12 21 12 7 1 35 Ki 1 
+ r abs_z 12 21 12 7 1 35 i m 
+ r abs_z 12 21 12 7 1 i ref_period 
+ r abs_z 12 21 12 7 12 8 19 32 22 Ki 4 
+ r abs_z 12 21 12 7 12 8 19 32 22 i m 
+ r abs_z 12 21 12 7 12 8 19 32 p Zref_i 
+ r abs_z 12 21 12 7 12 8 19 32 p Zref_r 
+ r abs_z 12 21 12 7 12 8 9 r Zr 
+ r abs_z 12 21 12 7 12 8 9 r zr 
+ r abs_z 12 21 12 7 12 8 Ki 0 
+ r abs_z 12 21 12 7 12 8 i m 
+ r abs_z 12 21 12 7 12 8 r Zi 
+ r abs_z 12 21 12 7 12 8 r Zr 
+ r abs_z 12 21 12 7 12 8 r zr 
+ r abs_z 12 21 12 7 13 i i 
+ r abs_z 12 21 12 7 2 Kr 8.0 
+ r abs_z 12 21 12 7 2 r abs_Zz 
+ r abs_z 12 21 12 7 4 r abs_Zz 
+ r abs_z 12 21 12 7 4 r abs_z 
+ r abs_z 12 21 12 7 8 Ki 0 
+ r abs_z 12 21 12 7 8 i m 
+ r abs_z 12 21 12 8 19 32 22 Ki 4 
+ r abs_z 12 21 12 8 19 32 22 i m 
+ r abs_z 12 21 12 8 19 32 p Zref_i 
+ r abs_z 12 21 12 8 19 32 p Zref_r 
+ r abs_z 12 21 12 8 9 10 22 r zi 
+ r abs_z 12 21 12 8 9 10 22 r zi2 
+ r abs_z 12 21 12 8 9 10 22 r zr 
+ r abs_z 12 21 12 8 9 10 22 r zr2 
+ r abs_z 12 21 12 8 9 22 9 r Zi 
+ r abs_z 12 21 12 8 9 22 9 r Zr 
+ r abs_z 12 21 12 8 9 22 9 r zi 
+ r abs_z 12 21 12 8 9 22 9 r zr 
+ r abs_z 12 21 12 8 9 22 Kr 2.0 
+ r abs_z 12 21 12 8 9 22 r Zi 
+ r abs_z 12 21 12 8 9 22 r Zr 
+ r abs_z 12 21 12 8 9 22 r zi 
+ r abs_z 12 21 12 8 9 22 r zi2 
+ r abs_z 12 21 12 8 9 22 r zr 
+ r abs_z 12 21 12 8 9 22 r zr2 
+ r abs_z 12 21 12 8 9 r ci 
+ r abs_z 12 21 12 8 9 r cr 
+ r abs_z 12 21 12 8 9 r zi 
+ r abs_z 12 21 12 8 9 r zr 
+ r abs_z 12 21 12 8 r Zi 
+ r abs_z 12 21 12 8 r Zr 
+ r abs_z 12 21 12 8 r abs_Zz 
+ r abs_z 12 21 12 8 r abs_z 
+ r abs_z 12 21 12 8 r zi 
+ r abs_z 12 21 12 8 r zi2 
+ r abs_z 12 21 12 8 r zi3 
+ r abs_z 12 21 12 8 r zr 
+ r abs_z 12 21 12 8 r zr2 
+ r abs_z 12 21 12 8 r zr3 
+ r abs_z 12 21 35 Ki 1 
+ r abs_z 12 21 35 i i 
+ r abs_z 12 21 4 i i 
+ r abs_z 12 21 4 i nmax 
+ r abs_z 12 8 8 14 Ki 0 
+ r abs_z 12 8 8 r zi 
+ r abs_z 12 8 Ki 0 
+ r abs_z 12 8 i i 
+ r abs_z 12 8 i m 
+ r abs_z 12 8 r zr 
+ r abs_z 12 i i 
+ r abs_z 12 i m 
+ r abs_z 12 r abs_Zz 
+ r abs_z 12 r zi3 
+ r abs_z 12 r zr3 
+ r abs_z 4 7 12 21 12 13 i i 
+ r abs_z 4 7 12 21 35 Ki 1 
+ r abs_z 4 7 12 21 35 i i 
+ r abs_z 4 7 12 7 1 35 Ki 1 
+ r abs_z 4 7 12 7 1 35 i m 
+ r abs_z 4 7 12 7 1 i ref_period 
+ r abs_z 4 7 12 7 13 i i 
+ r abs_z 4 7 12 7 2 Kr 8.0 
+ r abs_z 4 7 12 7 2 r abs_Zz 
+ r abs_z 4 7 12 7 8 Ki 0 
+ r abs_z 4 7 12 7 8 i m 
+ r abs_z 4 7 12 8 19 32 22 Ki 4 
+ r abs_z 4 7 12 8 19 32 22 i m 
+ r abs_z 4 7 12 8 19 32 p Zref_i 
+ r abs_z 4 7 12 8 19 32 p Zref_r 
+ r abs_z 4 7 12 8 9 10 22 r zi 
+ r abs_z 4 7 12 8 9 10 22 r zi2 
+ r abs_z 4 7 12 8 9 10 22 r zr 
+ r abs_z 4 7 12 8 9 10 22 r zr2 
+ r abs_z 4 7 12 8 9 22 9 r Zi 
+ r abs_z 4 7 12 8 9 22 9 r Zr 
+ r abs_z 4 7 12 8 9 22 9 r zi 
+ r abs_z 4 7 12 8 9 22 9 r zr 
+ r abs_z 4 7 12 8 9 22 Kr 2.0 
+ r abs_z 4 7 12 8 9 22 r Zi 
+ r abs_z 4 7 12 8 9 22 r Zr 
+ r abs_z 4 7 12 8 9 22 r zi 
+ r abs_z 4 7 12 8 9 22 r zi2 
+ r abs_z 4 7 12 8 9 22 r zr 
+ r abs_z 4 7 12 8 9 22 r zr2 
+ r abs_z 4 7 12 8 9 r Zr 
+ r abs_z 4 7 12 8 9 r ci 
+ r abs_z 4 7 12 8 9 r cr 
+ r abs_z 4 7 12 8 9 r zi 
+ r abs_z 4 7 12 8 9 r zr 
+ r abs_z 4 7 12 8 Ki 0 
+ r abs_z 4 7 12 8 i m 
+ r abs_z 4 7 12 8 r Zi 
+ r abs_z 4 7 12 8 r Zr 
+ r abs_z 4 7 12 8 r abs_Zz 
+ r abs_z 4 7 12 8 r zi 
+ r abs_z 4 7 12 8 r zi2 
+ r abs_z 4 7 12 8 r zi3 
+ r abs_z 4 7 12 8 r zr 
+ r abs_z 4 7 12 8 r zr2 
+ r abs_z 4 7 12 8 r zr3 
+ r abs_z 8 12 21 12 13 i i 
+ r abs_z 8 12 21 35 Ki 1 
+ r abs_z 8 12 21 35 i i 
+ r abs_z 8 12 7 1 35 Ki 1 
+ r abs_z 8 12 7 1 35 i m 
+ r abs_z 8 12 7 1 i ref_period 
+ r abs_z 8 12 7 12 8 19 32 22 Ki 4 
+ r abs_z 8 12 7 12 8 19 32 22 i m 
+ r abs_z 8 12 7 12 8 19 32 p Zref_i 
+ r abs_z 8 12 7 12 8 19 32 p Zref_r 
+ r abs_z 8 12 7 12 8 9 r Zr 
+ r abs_z 8 12 7 12 8 9 r zr 
+ r abs_z 8 12 7 12 8 Ki 0 
+ r abs_z 8 12 7 12 8 i m 
+ r abs_z 8 12 7 12 8 r Zi 
+ r abs_z 8 12 7 12 8 r Zr 
+ r abs_z 8 12 7 12 8 r zr 
+ r abs_z 8 12 7 13 i i 
+ r abs_z 8 12 7 2 Kr 8.0 
+ r abs_z 8 12 7 2 r abs_Zz 
+ r abs_z 8 12 7 4 r abs_Zz 
+ r abs_z 8 12 7 4 r abs_z 
+ r abs_z 8 12 7 8 Ki 0 
+ r abs_z 8 12 7 8 i m 
+ r abs_z 8 12 8 9 10 22 r zi 
+ r abs_z 8 12 8 9 10 22 r zi2 
+ r abs_z 8 12 8 9 10 22 r zr 
+ r abs_z 8 12 8 9 10 22 r zr2 
+ r abs_z 8 12 8 9 22 9 r Zi 
+ r abs_z 8 12 8 9 22 9 r Zr 
+ r abs_z 8 12 8 9 22 9 r zi 
+ r abs_z 8 12 8 9 22 9 r zr 
+ r abs_z 8 12 8 9 22 Kr 2.0 
+ r abs_z 8 12 8 9 22 r Zi 
+ r abs_z 8 12 8 9 22 r Zr 
+ r abs_z 8 12 8 9 22 r zi 
+ r abs_z 8 12 8 9 22 r zi2 
+ r abs_z 8 12 8 9 22 r zr 
+ r abs_z 8 12 8 9 22 r zr2 
+ r abs_z 8 12 8 9 r ci 
+ r abs_z 8 12 8 9 r cr 
+ r abs_z 8 12 8 9 r zi 
+ r abs_z 8 12 8 9 r zr 
+ r abs_z 8 12 8 r abs_Zz 
+ r abs_z 8 12 8 r zi 
+ r abs_z 8 12 8 r zi2 
+ r abs_z 8 12 8 r zi3 
+ r abs_z 8 12 8 r zr 
+ r abs_z 8 12 8 r zr2 
+ r abs_z 8 12 8 r zr3 
+ r abs_z 8 9 22 r zi 
+ r abs_z 8 9 22 r zr 
+ r ci 9 8 12 21 12 13 i i 
+ r ci 9 8 12 21 35 Ki 1 
+ r ci 9 8 12 21 35 i i 
+ r ci 9 8 12 7 1 35 Ki 1 
+ r ci 9 8 12 7 1 35 i m 
+ r ci 9 8 12 7 1 i ref_period 
+ r ci 9 8 12 7 8 Ki 0 
+ r ci 9 8 12 7 8 i m 
+ r ci 9 8 12 8 r zi 
+ r ci 9 8 12 8 r zi3 
+ r ci 9 8 12 8 r zr 
+ r ci 9 8 12 8 r zr3 
+ r cr 9 8 12 21 12 13 i i 
+ r cr 9 8 12 21 35 Ki 1 
+ r cr 9 8 12 21 35 i i 
+ r cr 9 8 12 7 1 35 Ki 1 
+ r cr 9 8 12 7 1 35 i m 
+ r cr 9 8 12 7 1 i ref_period 
+ r cr 9 8 12 7 8 Ki 0 
+ r cr 9 8 12 7 8 i m 
+ r cr 9 8 12 8 9 22 r zi 
+ r cr 9 8 12 8 9 22 r zi2 
+ r cr 9 8 12 8 9 22 r zr 
+ r cr 9 8 12 8 9 22 r zr2 
+ r cr 9 8 12 8 9 r ci 
+ r cr 9 8 12 8 r zi 
+ r cr 9 8 12 8 r zi3 
+ r cr 9 8 12 8 r zr 
+ r cr 9 8 12 8 r zr3 
+ r zi 12 13 i i 
+ r zi 12 21 12 7 1 35 Ki 1 
+ r zi 12 21 12 7 1 35 i m 
+ r zi 12 21 12 7 1 i ref_period 
+ r zi 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zi 12 21 12 7 12 8 19 32 22 i m 
+ r zi 12 21 12 7 12 8 19 32 p Zref_i 
+ r zi 12 21 12 7 12 8 19 32 p Zref_r 
+ r zi 12 21 12 7 12 8 9 r Zr 
+ r zi 12 21 12 7 12 8 9 r zr 
+ r zi 12 21 12 7 12 8 Ki 0 
+ r zi 12 21 12 7 12 8 i m 
+ r zi 12 21 12 7 12 8 r Zi 
+ r zi 12 21 12 7 12 8 r Zr 
+ r zi 12 21 12 7 12 8 r zr 
+ r zi 12 21 12 7 13 i i 
+ r zi 12 21 12 7 2 Kr 8.0 
+ r zi 12 21 12 7 2 r abs_Zz 
+ r zi 12 21 12 7 4 r abs_Zz 
+ r zi 12 21 12 7 4 r abs_z 
+ r zi 12 21 12 7 8 Ki 0 
+ r zi 12 21 12 7 8 i m 
+ r zi 12 21 12 8 19 32 22 Ki 4 
+ r zi 12 21 12 8 19 32 22 i m 
+ r zi 12 21 12 8 19 32 p Zref_i 
+ r zi 12 21 12 8 19 32 p Zref_r 
+ r zi 12 21 12 8 9 10 22 r zi 
+ r zi 12 21 12 8 9 10 22 r zi2 
+ r zi 12 21 12 8 9 10 22 r zr 
+ r zi 12 21 12 8 9 10 22 r zr2 
+ r zi 12 21 12 8 9 22 9 r Zi 
+ r zi 12 21 12 8 9 22 9 r Zr 
+ r zi 12 21 12 8 9 22 9 r zi 
+ r zi 12 21 12 8 9 22 9 r zr 
+ r zi 12 21 12 8 9 22 Kr 2.0 
+ r zi 12 21 12 8 9 22 r Zi 
+ r zi 12 21 12 8 9 22 r Zr 
+ r zi 12 21 12 8 9 22 r zi 
+ r zi 12 21 12 8 9 22 r zi2 
+ r zi 12 21 12 8 9 22 r zr 
+ r zi 12 21 12 8 9 22 r zr2 
+ r zi 12 21 12 8 9 r ci 
+ r zi 12 21 12 8 9 r cr 
+ r zi 12 21 12 8 9 r zi 
+ r zi 12 21 12 8 9 r zr 
+ r zi 12 21 12 8 r Zi 
+ r zi 12 21 12 8 r Zr 
+ r zi 12 21 12 8 r abs_Zz 
+ r zi 12 21 12 8 r abs_z 
+ r zi 12 21 12 8 r zi 
+ r zi 12 21 12 8 r zi2 
+ r zi 12 21 12 8 r zi3 
+ r zi 12 21 12 8 r zr 
+ r zi 12 21 12 8 r zr2 
+ r zi 12 21 12 8 r zr3 
+ r zi 12 21 35 Ki 1 
+ r zi 12 21 35 i i 
+ r zi 12 21 4 i i 
+ r zi 12 21 4 i nmax 
+ r zi 12 8 8 14 Ki 0 
+ r zi 12 8 8 r zi 
+ r zi 12 8 Ki 0 
+ r zi 12 8 i i 
+ r zi 12 8 i m 
+ r zi 12 8 r zr 
+ r zi 12 i i 
+ r zi 12 i m 
+ r zi 12 r Zi 
+ r zi 12 r Zr 
+ r zi 12 r abs_Zz 
+ r zi 12 r abs_z 
+ r zi 12 r zi2 
+ r zi 12 r zi3 
+ r zi 12 r zr2 
+ r zi 12 r zr3 
+ r zi 22 10 9 8 12 21 12 13 i i 
+ r zi 22 10 9 8 12 21 35 Ki 1 
+ r zi 22 10 9 8 12 21 35 i i 
+ r zi 22 10 9 8 12 7 1 35 Ki 1 
+ r zi 22 10 9 8 12 7 1 35 i m 
+ r zi 22 10 9 8 12 7 1 i ref_period 
+ r zi 22 10 9 8 12 7 8 Ki 0 
+ r zi 22 10 9 8 12 7 8 i m 
+ r zi 22 10 9 8 12 8 9 22 r zi 
+ r zi 22 10 9 8 12 8 9 22 r zi2 
+ r zi 22 10 9 8 12 8 9 22 r zr 
+ r zi 22 10 9 8 12 8 9 22 r zr2 
+ r zi 22 10 9 8 12 8 9 r ci 
+ r zi 22 10 9 8 12 8 r zi 
+ r zi 22 10 9 8 12 8 r zi3 
+ r zi 22 10 9 8 12 8 r zr 
+ r zi 22 10 9 8 12 8 r zr3 
+ r zi 22 10 9 r cr 
+ r zi 22 9 22 r zi2 
+ r zi 22 9 22 r zr 
+ r zi 22 9 8 12 21 12 13 i i 
+ r zi 22 9 8 12 21 35 Ki 1 
+ r zi 22 9 8 12 21 35 i i 
+ r zi 22 9 8 12 7 1 35 Ki 1 
+ r zi 22 9 8 12 7 1 35 i m 
+ r zi 22 9 8 12 7 1 i ref_period 
+ r zi 22 9 8 12 7 12 8 19 32 22 Ki 4 
+ r zi 22 9 8 12 7 12 8 19 32 22 i m 
+ r zi 22 9 8 12 7 12 8 19 32 p Zref_i 
+ r zi 22 9 8 12 7 12 8 19 32 p Zref_r 
+ r zi 22 9 8 12 7 12 8 9 r Zr 
+ r zi 22 9 8 12 7 12 8 9 r zr 
+ r zi 22 9 8 12 7 12 8 Ki 0 
+ r zi 22 9 8 12 7 12 8 i m 
+ r zi 22 9 8 12 7 12 8 r Zi 
+ r zi 22 9 8 12 7 12 8 r Zr 
+ r zi 22 9 8 12 7 12 8 r zr 
+ r zi 22 9 8 12 7 13 i i 
+ r zi 22 9 8 12 7 2 Kr 8.0 
+ r zi 22 9 8 12 7 2 r abs_Zz 
+ r zi 22 9 8 12 7 4 r abs_Zz 
+ r zi 22 9 8 12 7 4 r abs_z 
+ r zi 22 9 8 12 7 8 Ki 0 
+ r zi 22 9 8 12 7 8 i m 
+ r zi 22 9 8 12 8 9 10 22 r zi 
+ r zi 22 9 8 12 8 9 10 22 r zi2 
+ r zi 22 9 8 12 8 9 10 22 r zr 
+ r zi 22 9 8 12 8 9 10 22 r zr2 
+ r zi 22 9 8 12 8 9 22 9 r Zi 
+ r zi 22 9 8 12 8 9 22 9 r Zr 
+ r zi 22 9 8 12 8 9 22 9 r zi 
+ r zi 22 9 8 12 8 9 22 9 r zr 
+ r zi 22 9 8 12 8 9 22 Kr 2.0 
+ r zi 22 9 8 12 8 9 22 r Zi 
+ r zi 22 9 8 12 8 9 22 r Zr 
+ r zi 22 9 8 12 8 9 22 r zi 
+ r zi 22 9 8 12 8 9 22 r zi2 
+ r zi 22 9 8 12 8 9 22 r zr 
+ r zi 22 9 8 12 8 9 22 r zr2 
+ r zi 22 9 8 12 8 9 r ci 
+ r zi 22 9 8 12 8 9 r cr 
+ r zi 22 9 8 12 8 9 r zi 
+ r zi 22 9 8 12 8 9 r zr 
+ r zi 22 9 8 12 8 r abs_Zz 
+ r zi 22 9 8 12 8 r zi 
+ r zi 22 9 8 12 8 r zi2 
+ r zi 22 9 8 12 8 r zi3 
+ r zi 22 9 8 12 8 r zr 
+ r zi 22 9 8 12 8 r zr2 
+ r zi 22 9 8 12 8 r zr3 
+ r zi 22 9 r ci 
+ r zi 22 r zi 
+ r zi 8 12 21 12 13 i i 
+ r zi 8 12 21 35 Ki 1 
+ r zi 8 12 21 35 i i 
+ r zi 8 12 7 1 35 Ki 1 
+ r zi 8 12 7 1 35 i m 
+ r zi 8 12 7 1 i ref_period 
+ r zi 8 12 7 8 Ki 0 
+ r zi 8 12 7 8 i m 
+ r zi 8 14 Ki 0 
+ r zi 8 8 12 13 i i 
+ r zi 8 8 12 21 12 7 1 35 Ki 1 
+ r zi 8 8 12 21 12 7 1 35 i m 
+ r zi 8 8 12 21 12 7 1 i ref_period 
+ r zi 8 8 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zi 8 8 12 21 12 7 12 8 19 32 22 i m 
+ r zi 8 8 12 21 12 7 12 8 19 32 p Zref_i 
+ r zi 8 8 12 21 12 7 12 8 19 32 p Zref_r 
+ r zi 8 8 12 21 12 7 12 8 9 r Zr 
+ r zi 8 8 12 21 12 7 12 8 9 r zr 
+ r zi 8 8 12 21 12 7 12 8 Ki 0 
+ r zi 8 8 12 21 12 7 12 8 i m 
+ r zi 8 8 12 21 12 7 12 8 r Zi 
+ r zi 8 8 12 21 12 7 12 8 r Zr 
+ r zi 8 8 12 21 12 7 12 8 r zr 
+ r zi 8 8 12 21 12 7 13 i i 
+ r zi 8 8 12 21 12 7 2 Kr 8.0 
+ r zi 8 8 12 21 12 7 2 r abs_Zz 
+ r zi 8 8 12 21 12 7 4 r abs_Zz 
+ r zi 8 8 12 21 12 7 4 r abs_z 
+ r zi 8 8 12 21 12 7 8 Ki 0 
+ r zi 8 8 12 21 12 7 8 i m 
+ r zi 8 8 12 21 12 8 19 32 22 Ki 4 
+ r zi 8 8 12 21 12 8 19 32 22 i m 
+ r zi 8 8 12 21 12 8 19 32 p Zref_i 
+ r zi 8 8 12 21 12 8 19 32 p Zref_r 
+ r zi 8 8 12 21 12 8 9 10 22 r zi 
+ r zi 8 8 12 21 12 8 9 10 22 r zi2 
+ r zi 8 8 12 21 12 8 9 10 22 r zr 
+ r zi 8 8 12 21 12 8 9 10 22 r zr2 
+ r zi 8 8 12 21 12 8 9 22 9 r Zi 
+ r zi 8 8 12 21 12 8 9 22 9 r Zr 
+ r zi 8 8 12 21 12 8 9 22 9 r zi 
+ r zi 8 8 12 21 12 8 9 22 9 r zr 
+ r zi 8 8 12 21 12 8 9 22 Kr 2.0 
+ r zi 8 8 12 21 12 8 9 22 r Zi 
+ r zi 8 8 12 21 12 8 9 22 r Zr 
+ r zi 8 8 12 21 12 8 9 22 r zi 
+ r zi 8 8 12 21 12 8 9 22 r zi2 
+ r zi 8 8 12 21 12 8 9 22 r zr 
+ r zi 8 8 12 21 12 8 9 22 r zr2 
+ r zi 8 8 12 21 12 8 9 r ci 
+ r zi 8 8 12 21 12 8 9 r cr 
+ r zi 8 8 12 21 12 8 9 r zi 
+ r zi 8 8 12 21 12 8 9 r zr 
+ r zi 8 8 12 21 12 8 r Zi 
+ r zi 8 8 12 21 12 8 r Zr 
+ r zi 8 8 12 21 12 8 r abs_Zz 
+ r zi 8 8 12 21 12 8 r abs_z 
+ r zi 8 8 12 21 12 8 r zi 
+ r zi 8 8 12 21 12 8 r zi2 
+ r zi 8 8 12 21 12 8 r zi3 
+ r zi 8 8 12 21 12 8 r zr 
+ r zi 8 8 12 21 12 8 r zr2 
+ r zi 8 8 12 21 12 8 r zr3 
+ r zi 8 8 12 21 35 Ki 1 
+ r zi 8 8 12 21 35 i i 
+ r zi 8 8 12 21 4 i i 
+ r zi 8 8 12 21 4 i nmax 
+ r zi 8 8 12 8 Ki 0 
+ r zi 8 8 12 8 i i 
+ r zi 8 r zi3 
+ r zi 9 22 9 8 12 21 12 13 i i 
+ r zi 9 22 9 8 12 21 35 Ki 1 
+ r zi 9 22 9 8 12 21 35 i i 
+ r zi 9 22 9 8 12 7 1 35 Ki 1 
+ r zi 9 22 9 8 12 7 1 35 i m 
+ r zi 9 22 9 8 12 7 1 i ref_period 
+ r zi 9 22 9 8 12 7 12 8 19 32 22 Ki 4 
+ r zi 9 22 9 8 12 7 12 8 19 32 22 i m 
+ r zi 9 22 9 8 12 7 12 8 19 32 p Zref_i 
+ r zi 9 22 9 8 12 7 12 8 19 32 p Zref_r 
+ r zi 9 22 9 8 12 7 12 8 9 r Zr 
+ r zi 9 22 9 8 12 7 12 8 9 r zr 
+ r zi 9 22 9 8 12 7 12 8 Ki 0 
+ r zi 9 22 9 8 12 7 12 8 i m 
+ r zi 9 22 9 8 12 7 12 8 r Zi 
+ r zi 9 22 9 8 12 7 12 8 r Zr 
+ r zi 9 22 9 8 12 7 12 8 r zr 
+ r zi 9 22 9 8 12 7 13 i i 
+ r zi 9 22 9 8 12 7 2 Kr 8.0 
+ r zi 9 22 9 8 12 7 2 r abs_Zz 
+ r zi 9 22 9 8 12 7 4 r abs_Zz 
+ r zi 9 22 9 8 12 7 4 r abs_z 
+ r zi 9 22 9 8 12 7 8 Ki 0 
+ r zi 9 22 9 8 12 7 8 i m 
+ r zi 9 22 9 8 12 8 9 10 22 r zi 
+ r zi 9 22 9 8 12 8 9 10 22 r zi2 
+ r zi 9 22 9 8 12 8 9 10 22 r zr 
+ r zi 9 22 9 8 12 8 9 10 22 r zr2 
+ r zi 9 22 9 8 12 8 9 22 9 r Zi 
+ r zi 9 22 9 8 12 8 9 22 9 r Zr 
+ r zi 9 22 9 8 12 8 9 22 9 r zi 
+ r zi 9 22 9 8 12 8 9 22 9 r zr 
+ r zi 9 22 9 8 12 8 9 22 Kr 2.0 
+ r zi 9 22 9 8 12 8 9 22 r Zi 
+ r zi 9 22 9 8 12 8 9 22 r Zr 
+ r zi 9 22 9 8 12 8 9 22 r zi 
+ r zi 9 22 9 8 12 8 9 22 r zi2 
+ r zi 9 22 9 8 12 8 9 22 r zr 
+ r zi 9 22 9 8 12 8 9 22 r zr2 
+ r zi 9 22 9 8 12 8 9 r ci 
+ r zi 9 22 9 8 12 8 9 r cr 
+ r zi 9 22 9 8 12 8 9 r zi 
+ r zi 9 22 9 8 12 8 9 r zr 
+ r zi 9 22 9 8 12 8 r abs_Zz 
+ r zi 9 22 9 8 12 8 r abs_z 
+ r zi 9 22 9 8 12 8 r zi 
+ r zi 9 22 9 8 12 8 r zi2 
+ r zi 9 22 9 8 12 8 r zi3 
+ r zi 9 22 9 8 12 8 r zr 
+ r zi 9 22 9 8 12 8 r zr2 
+ r zi 9 22 9 8 12 8 r zr3 
+ r zi 9 22 9 r Zi 
+ r zi 9 22 9 r zi 
+ r zi 9 8 12 21 12 13 i i 
+ r zi 9 8 12 21 35 Ki 1 
+ r zi 9 8 12 21 35 i i 
+ r zi 9 8 12 7 1 35 Ki 1 
+ r zi 9 8 12 7 1 35 i m 
+ r zi 9 8 12 7 1 i ref_period 
+ r zi 9 8 12 7 8 Ki 0 
+ r zi 9 8 12 7 8 i m 
+ r zi 9 8 12 8 9 10 22 r zi 
+ r zi 9 8 12 8 9 10 22 r zi2 
+ r zi 9 8 12 8 9 10 22 r zr 
+ r zi 9 8 12 8 9 10 22 r zr2 
+ r zi 9 8 12 8 9 22 r zi 
+ r zi 9 8 12 8 9 22 r zi2 
+ r zi 9 8 12 8 9 22 r zr 
+ r zi 9 8 12 8 9 22 r zr2 
+ r zi 9 8 12 8 9 r ci 
+ r zi 9 8 12 8 9 r cr 
+ r zi 9 8 12 8 r zi 
+ r zi 9 8 12 8 r zi3 
+ r zi 9 8 12 8 r zr 
+ r zi 9 8 12 8 r zr3 
+ r zi2 12 13 i i 
+ r zi2 12 21 12 7 1 35 Ki 1 
+ r zi2 12 21 12 7 1 35 i m 
+ r zi2 12 21 12 7 1 i ref_period 
+ r zi2 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zi2 12 21 12 7 12 8 19 32 22 i m 
+ r zi2 12 21 12 7 12 8 19 32 p Zref_i 
+ r zi2 12 21 12 7 12 8 19 32 p Zref_r 
+ r zi2 12 21 12 7 12 8 9 r Zr 
+ r zi2 12 21 12 7 12 8 9 r zr 
+ r zi2 12 21 12 7 12 8 Ki 0 
+ r zi2 12 21 12 7 12 8 i m 
+ r zi2 12 21 12 7 12 8 r Zi 
+ r zi2 12 21 12 7 12 8 r Zr 
+ r zi2 12 21 12 7 12 8 r zr 
+ r zi2 12 21 12 7 13 i i 
+ r zi2 12 21 12 7 2 Kr 8.0 
+ r zi2 12 21 12 7 2 r abs_Zz 
+ r zi2 12 21 12 7 4 r abs_Zz 
+ r zi2 12 21 12 7 4 r abs_z 
+ r zi2 12 21 12 7 8 Ki 0 
+ r zi2 12 21 12 7 8 i m 
+ r zi2 12 21 12 8 19 32 22 Ki 4 
+ r zi2 12 21 12 8 19 32 22 i m 
+ r zi2 12 21 12 8 19 32 p Zref_i 
+ r zi2 12 21 12 8 19 32 p Zref_r 
+ r zi2 12 21 12 8 9 10 22 r zi 
+ r zi2 12 21 12 8 9 10 22 r zi2 
+ r zi2 12 21 12 8 9 10 22 r zr 
+ r zi2 12 21 12 8 9 10 22 r zr2 
+ r zi2 12 21 12 8 9 22 9 r Zi 
+ r zi2 12 21 12 8 9 22 9 r Zr 
+ r zi2 12 21 12 8 9 22 9 r zi 
+ r zi2 12 21 12 8 9 22 9 r zr 
+ r zi2 12 21 12 8 9 22 Kr 2.0 
+ r zi2 12 21 12 8 9 22 r Zi 
+ r zi2 12 21 12 8 9 22 r Zr 
+ r zi2 12 21 12 8 9 22 r zi 
+ r zi2 12 21 12 8 9 22 r zi2 
+ r zi2 12 21 12 8 9 22 r zr 
+ r zi2 12 21 12 8 9 22 r zr2 
+ r zi2 12 21 12 8 9 r ci 
+ r zi2 12 21 12 8 9 r cr 
+ r zi2 12 21 12 8 9 r zi 
+ r zi2 12 21 12 8 9 r zr 
+ r zi2 12 21 12 8 r Zi 
+ r zi2 12 21 12 8 r Zr 
+ r zi2 12 21 12 8 r abs_Zz 
+ r zi2 12 21 12 8 r abs_z 
+ r zi2 12 21 12 8 r zi 
+ r zi2 12 21 12 8 r zi2 
+ r zi2 12 21 12 8 r zi3 
+ r zi2 12 21 12 8 r zr 
+ r zi2 12 21 12 8 r zr2 
+ r zi2 12 21 12 8 r zr3 
+ r zi2 12 21 35 Ki 1 
+ r zi2 12 21 35 i i 
+ r zi2 12 21 4 i i 
+ r zi2 12 21 4 i nmax 
+ r zi2 12 8 8 14 Ki 0 
+ r zi2 12 8 8 r zi 
+ r zi2 12 8 Ki 0 
+ r zi2 12 8 i i 
+ r zi2 12 8 i m 
+ r zi2 12 8 r zr 
+ r zi2 12 i i 
+ r zi2 12 i m 
+ r zi2 12 r Zi 
+ r zi2 12 r Zr 
+ r zi2 12 r abs_Zz 
+ r zi2 12 r abs_z 
+ r zi2 12 r zi3 
+ r zi2 12 r zr3 
+ r zi2 22 10 9 8 12 21 12 13 i i 
+ r zi2 22 10 9 8 12 21 35 Ki 1 
+ r zi2 22 10 9 8 12 21 35 i i 
+ r zi2 22 10 9 8 12 7 1 35 Ki 1 
+ r zi2 22 10 9 8 12 7 1 35 i m 
+ r zi2 22 10 9 8 12 7 1 i ref_period 
+ r zi2 22 10 9 8 12 7 8 Ki 0 
+ r zi2 22 10 9 8 12 7 8 i m 
+ r zi2 22 10 9 8 12 8 9 22 r zi 
+ r zi2 22 10 9 8 12 8 9 22 r zi2 
+ r zi2 22 10 9 8 12 8 9 22 r zr 
+ r zi2 22 10 9 8 12 8 9 22 r zr2 
+ r zi2 22 10 9 8 12 8 9 r ci 
+ r zi2 22 10 9 8 12 8 r zi 
+ r zi2 22 10 9 8 12 8 r zi3 
+ r zi2 22 10 9 8 12 8 r zr 
+ r zi2 22 10 9 8 12 8 r zr3 
+ r zi2 22 10 9 r cr 
+ r zi2 22 9 8 12 21 12 13 i i 
+ r zi2 22 9 8 12 21 35 Ki 1 
+ r zi2 22 9 8 12 21 35 i i 
+ r zi2 22 9 8 12 7 1 35 Ki 1 
+ r zi2 22 9 8 12 7 1 35 i m 
+ r zi2 22 9 8 12 7 1 i ref_period 
+ r zi2 22 9 8 12 7 8 Ki 0 
+ r zi2 22 9 8 12 7 8 i m 
+ r zi2 22 9 8 12 8 r zi 
+ r zi2 22 9 8 12 8 r zi3 
+ r zi2 22 9 8 12 8 r zr 
+ r zi2 22 9 8 12 8 r zr3 
+ r zi2 22 9 r ci 
+ r zi2 22 r zi 
+ r zi2 22 r zr 
+ r zi2 8 12 21 12 13 i i 
+ r zi2 8 12 21 35 Ki 1 
+ r zi2 8 12 21 35 i i 
+ r zi2 8 12 7 1 35 Ki 1 
+ r zi2 8 12 7 1 35 i m 
+ r zi2 8 12 7 1 i ref_period 
+ r zi2 8 12 7 8 Ki 0 
+ r zi2 8 12 7 8 i m 
+ r zi2 8 12 8 9 10 22 r zi 
+ r zi2 8 12 8 9 10 22 r zi2 
+ r zi2 8 12 8 9 10 22 r zr 
+ r zi2 8 12 8 9 10 22 r zr2 
+ r zi2 8 12 8 9 22 r zi 
+ r zi2 8 12 8 9 22 r zi2 
+ r zi2 8 12 8 9 22 r zr 
+ r zi2 8 12 8 9 22 r zr2 
+ r zi2 8 12 8 9 r ci 
+ r zi2 8 12 8 9 r cr 
+ r zi2 8 12 8 r zi 
+ r zi2 8 12 8 r zi3 
+ r zi2 8 12 8 r zr 
+ r zi2 8 12 8 r zr3 
+ r zi2 8 9 22 Kr 2.0 
+ r zi2 8 9 22 r Zi 
+ r zi2 8 9 r zi 
+ r zi3 12 13 i i 
+ r zi3 12 21 12 7 1 35 Ki 1 
+ r zi3 12 21 12 7 1 35 i m 
+ r zi3 12 21 12 7 1 i ref_period 
+ r zi3 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zi3 12 21 12 7 12 8 19 32 22 i m 
+ r zi3 12 21 12 7 12 8 19 32 p Zref_i 
+ r zi3 12 21 12 7 12 8 19 32 p Zref_r 
+ r zi3 12 21 12 7 12 8 9 r Zr 
+ r zi3 12 21 12 7 12 8 9 r zr 
+ r zi3 12 21 12 7 12 8 Ki 0 
+ r zi3 12 21 12 7 12 8 i m 
+ r zi3 12 21 12 7 12 8 r Zi 
+ r zi3 12 21 12 7 12 8 r Zr 
+ r zi3 12 21 12 7 12 8 r zr 
+ r zi3 12 21 12 7 13 i i 
+ r zi3 12 21 12 7 2 Kr 8.0 
+ r zi3 12 21 12 7 2 r abs_Zz 
+ r zi3 12 21 12 7 4 r abs_Zz 
+ r zi3 12 21 12 7 4 r abs_z 
+ r zi3 12 21 12 7 8 Ki 0 
+ r zi3 12 21 12 7 8 i m 
+ r zi3 12 21 12 8 19 32 22 Ki 4 
+ r zi3 12 21 12 8 19 32 22 i m 
+ r zi3 12 21 12 8 19 32 p Zref_i 
+ r zi3 12 21 12 8 19 32 p Zref_r 
+ r zi3 12 21 12 8 9 10 22 r zi 
+ r zi3 12 21 12 8 9 10 22 r zi2 
+ r zi3 12 21 12 8 9 10 22 r zr 
+ r zi3 12 21 12 8 9 10 22 r zr2 
+ r zi3 12 21 12 8 9 22 9 r Zi 
+ r zi3 12 21 12 8 9 22 9 r Zr 
+ r zi3 12 21 12 8 9 22 9 r zi 
+ r zi3 12 21 12 8 9 22 9 r zr 
+ r zi3 12 21 12 8 9 22 Kr 2.0 
+ r zi3 12 21 12 8 9 22 r Zi 
+ r zi3 12 21 12 8 9 22 r Zr 
+ r zi3 12 21 12 8 9 22 r zi 
+ r zi3 12 21 12 8 9 22 r zi2 
+ r zi3 12 21 12 8 9 22 r zr 
+ r zi3 12 21 12 8 9 22 r zr2 
+ r zi3 12 21 12 8 9 r ci 
+ r zi3 12 21 12 8 9 r cr 
+ r zi3 12 21 12 8 9 r zi 
+ r zi3 12 21 12 8 9 r zr 
+ r zi3 12 21 12 8 r Zi 
+ r zi3 12 21 12 8 r Zr 
+ r zi3 12 21 12 8 r abs_Zz 
+ r zi3 12 21 12 8 r abs_z 
+ r zi3 12 21 12 8 r zi 
+ r zi3 12 21 12 8 r zi2 
+ r zi3 12 21 12 8 r zi3 
+ r zi3 12 21 12 8 r zr 
+ r zi3 12 21 12 8 r zr2 
+ r zi3 12 21 12 8 r zr3 
+ r zi3 12 21 35 Ki 1 
+ r zi3 12 21 35 i i 
+ r zi3 12 21 4 i i 
+ r zi3 12 21 4 i nmax 
+ r zi3 12 8 8 14 Ki 0 
+ r zi3 12 8 8 r zi 
+ r zi3 12 8 Ki 0 
+ r zi3 12 8 i i 
+ r zi3 12 8 i m 
+ r zi3 12 8 r zr 
+ r zi3 12 i i 
+ r zi3 12 i m 
+ r zi3 8 12 21 12 13 i i 
+ r zi3 8 12 21 35 Ki 1 
+ r zi3 8 12 21 35 i i 
+ r zi3 8 12 7 1 35 Ki 1 
+ r zi3 8 12 7 1 35 i m 
+ r zi3 8 12 7 1 i ref_period 
+ r zi3 8 12 7 8 Ki 0 
+ r zi3 8 12 7 8 i m 
+ r zi3 8 12 8 r zi 
+ r zi3 8 12 8 r zi3 
+ r zi3 8 12 8 r zr 
+ r zi3 8 12 8 r zr3 
+ r zi3 8 9 22 r zi 
+ r zi3 8 9 22 r zi2 
+ r zi3 8 9 22 r zr 
+ r zi3 8 9 22 r zr2 
+ r zi3 8 9 r ci 
+ r zr 12 13 i i 
+ r zr 12 21 12 7 1 35 Ki 1 
+ r zr 12 21 12 7 1 35 i m 
+ r zr 12 21 12 7 1 i ref_period 
+ r zr 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zr 12 21 12 7 12 8 19 32 22 i m 
+ r zr 12 21 12 7 12 8 19 32 p Zref_i 
+ r zr 12 21 12 7 12 8 19 32 p Zref_r 
+ r zr 12 21 12 7 12 8 9 r Zr 
+ r zr 12 21 12 7 12 8 9 r zr 
+ r zr 12 21 12 7 12 8 Ki 0 
+ r zr 12 21 12 7 12 8 i m 
+ r zr 12 21 12 7 12 8 r Zi 
+ r zr 12 21 12 7 12 8 r Zr 
+ r zr 12 21 12 7 12 8 r zr 
+ r zr 12 21 12 7 13 i i 
+ r zr 12 21 12 7 2 Kr 8.0 
+ r zr 12 21 12 7 2 r abs_Zz 
+ r zr 12 21 12 7 4 r abs_Zz 
+ r zr 12 21 12 7 4 r abs_z 
+ r zr 12 21 12 7 8 Ki 0 
+ r zr 12 21 12 7 8 i m 
+ r zr 12 21 12 8 19 32 22 Ki 4 
+ r zr 12 21 12 8 19 32 22 i m 
+ r zr 12 21 12 8 19 32 p Zref_i 
+ r zr 12 21 12 8 19 32 p Zref_r 
+ r zr 12 21 12 8 9 10 22 r zi 
+ r zr 12 21 12 8 9 10 22 r zi2 
+ r zr 12 21 12 8 9 10 22 r zr 
+ r zr 12 21 12 8 9 10 22 r zr2 
+ r zr 12 21 12 8 9 22 9 r Zi 
+ r zr 12 21 12 8 9 22 9 r Zr 
+ r zr 12 21 12 8 9 22 9 r zi 
+ r zr 12 21 12 8 9 22 9 r zr 
+ r zr 12 21 12 8 9 22 Kr 2.0 
+ r zr 12 21 12 8 9 22 r Zi 
+ r zr 12 21 12 8 9 22 r Zr 
+ r zr 12 21 12 8 9 22 r zi 
+ r zr 12 21 12 8 9 22 r zi2 
+ r zr 12 21 12 8 9 22 r zr 
+ r zr 12 21 12 8 9 22 r zr2 
+ r zr 12 21 12 8 9 r ci 
+ r zr 12 21 12 8 9 r cr 
+ r zr 12 21 12 8 9 r zi 
+ r zr 12 21 12 8 9 r zr 
+ r zr 12 21 12 8 r Zi 
+ r zr 12 21 12 8 r Zr 
+ r zr 12 21 12 8 r abs_Zz 
+ r zr 12 21 12 8 r abs_z 
+ r zr 12 21 12 8 r zi 
+ r zr 12 21 12 8 r zi2 
+ r zr 12 21 12 8 r zi3 
+ r zr 12 21 12 8 r zr 
+ r zr 12 21 12 8 r zr2 
+ r zr 12 21 12 8 r zr3 
+ r zr 12 21 35 Ki 1 
+ r zr 12 21 35 i i 
+ r zr 12 21 4 i i 
+ r zr 12 21 4 i nmax 
+ r zr 12 8 8 14 Ki 0 
+ r zr 12 8 8 r zi 
+ r zr 12 8 Ki 0 
+ r zr 12 8 i i 
+ r zr 12 8 i m 
+ r zr 12 8 r zr 
+ r zr 12 i i 
+ r zr 12 i m 
+ r zr 12 r Zi 
+ r zr 12 r Zr 
+ r zr 12 r abs_Zz 
+ r zr 12 r abs_z 
+ r zr 12 r zi 
+ r zr 12 r zi2 
+ r zr 12 r zi3 
+ r zr 12 r zr2 
+ r zr 12 r zr3 
+ r zr 22 10 22 r zi 
+ r zr 22 10 22 r zi2 
+ r zr 22 10 9 8 12 21 12 13 i i 
+ r zr 22 10 9 8 12 21 35 Ki 1 
+ r zr 22 10 9 8 12 21 35 i i 
+ r zr 22 10 9 8 12 7 1 35 Ki 1 
+ r zr 22 10 9 8 12 7 1 35 i m 
+ r zr 22 10 9 8 12 7 1 i ref_period 
+ r zr 22 10 9 8 12 7 8 Ki 0 
+ r zr 22 10 9 8 12 7 8 i m 
+ r zr 22 10 9 8 12 8 9 22 r zi 
+ r zr 22 10 9 8 12 8 9 22 r zi2 
+ r zr 22 10 9 8 12 8 9 22 r zr 
+ r zr 22 10 9 8 12 8 9 22 r zr2 
+ r zr 22 10 9 8 12 8 9 r ci 
+ r zr 22 10 9 8 12 8 r zi 
+ r zr 22 10 9 8 12 8 r zi3 
+ r zr 22 10 9 8 12 8 r zr 
+ r zr 22 10 9 8 12 8 r zr3 
+ r zr 22 10 9 r cr 
+ r zr 22 9 22 r zi 
+ r zr 22 9 8 12 21 12 13 i i 
+ r zr 22 9 8 12 21 35 Ki 1 
+ r zr 22 9 8 12 21 35 i i 
+ r zr 22 9 8 12 7 1 35 Ki 1 
+ r zr 22 9 8 12 7 1 35 i m 
+ r zr 22 9 8 12 7 1 i ref_period 
+ r zr 22 9 8 12 7 12 8 19 32 22 Ki 4 
+ r zr 22 9 8 12 7 12 8 19 32 22 i m 
+ r zr 22 9 8 12 7 12 8 19 32 p Zref_i 
+ r zr 22 9 8 12 7 12 8 19 32 p Zref_r 
+ r zr 22 9 8 12 7 12 8 9 r Zr 
+ r zr 22 9 8 12 7 12 8 9 r zr 
+ r zr 22 9 8 12 7 12 8 Ki 0 
+ r zr 22 9 8 12 7 12 8 i m 
+ r zr 22 9 8 12 7 12 8 r Zi 
+ r zr 22 9 8 12 7 12 8 r Zr 
+ r zr 22 9 8 12 7 12 8 r zr 
+ r zr 22 9 8 12 7 13 i i 
+ r zr 22 9 8 12 7 2 Kr 8.0 
+ r zr 22 9 8 12 7 2 r abs_Zz 
+ r zr 22 9 8 12 7 4 r abs_Zz 
+ r zr 22 9 8 12 7 4 r abs_z 
+ r zr 22 9 8 12 7 8 Ki 0 
+ r zr 22 9 8 12 7 8 i m 
+ r zr 22 9 8 12 8 9 10 22 r zi 
+ r zr 22 9 8 12 8 9 10 22 r zi2 
+ r zr 22 9 8 12 8 9 10 22 r zr 
+ r zr 22 9 8 12 8 9 10 22 r zr2 
+ r zr 22 9 8 12 8 9 22 9 r Zi 
+ r zr 22 9 8 12 8 9 22 9 r Zr 
+ r zr 22 9 8 12 8 9 22 9 r zi 
+ r zr 22 9 8 12 8 9 22 9 r zr 
+ r zr 22 9 8 12 8 9 22 Kr 2.0 
+ r zr 22 9 8 12 8 9 22 r Zi 
+ r zr 22 9 8 12 8 9 22 r Zr 
+ r zr 22 9 8 12 8 9 22 r zi 
+ r zr 22 9 8 12 8 9 22 r zi2 
+ r zr 22 9 8 12 8 9 22 r zr 
+ r zr 22 9 8 12 8 9 22 r zr2 
+ r zr 22 9 8 12 8 9 r ci 
+ r zr 22 9 8 12 8 9 r cr 
+ r zr 22 9 8 12 8 9 r zi 
+ r zr 22 9 8 12 8 9 r zr 
+ r zr 22 9 8 12 8 r abs_Zz 
+ r zr 22 9 8 12 8 r zi 
+ r zr 22 9 8 12 8 r zi2 
+ r zr 22 9 8 12 8 r zi3 
+ r zr 22 9 8 12 8 r zr 
+ r zr 22 9 8 12 8 r zr2 
+ r zr 22 9 8 12 8 r zr3 
+ r zr 22 9 r ci 
+ r zr 22 r zr 
+ r zr 8 12 13 i i 
+ r zr 8 12 21 12 13 i i 
+ r zr 8 12 21 12 7 1 35 Ki 1 
+ r zr 8 12 21 12 7 1 35 i m 
+ r zr 8 12 21 12 7 1 i ref_period 
+ r zr 8 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zr 8 12 21 12 7 12 8 19 32 22 i m 
+ r zr 8 12 21 12 7 12 8 19 32 p Zref_i 
+ r zr 8 12 21 12 7 12 8 19 32 p Zref_r 
+ r zr 8 12 21 12 7 12 8 9 r Zr 
+ r zr 8 12 21 12 7 12 8 9 r zr 
+ r zr 8 12 21 12 7 12 8 Ki 0 
+ r zr 8 12 21 12 7 12 8 i m 
+ r zr 8 12 21 12 7 12 8 r Zi 
+ r zr 8 12 21 12 7 12 8 r Zr 
+ r zr 8 12 21 12 7 12 8 r zr 
+ r zr 8 12 21 12 7 13 i i 
+ r zr 8 12 21 12 7 2 Kr 8.0 
+ r zr 8 12 21 12 7 2 r abs_Zz 
+ r zr 8 12 21 12 7 4 r abs_Zz 
+ r zr 8 12 21 12 7 4 r abs_z 
+ r zr 8 12 21 12 7 8 Ki 0 
+ r zr 8 12 21 12 7 8 i m 
+ r zr 8 12 21 12 8 19 32 22 Ki 4 
+ r zr 8 12 21 12 8 19 32 22 i m 
+ r zr 8 12 21 12 8 19 32 p Zref_i 
+ r zr 8 12 21 12 8 19 32 p Zref_r 
+ r zr 8 12 21 12 8 9 10 22 r zi 
+ r zr 8 12 21 12 8 9 10 22 r zi2 
+ r zr 8 12 21 12 8 9 10 22 r zr 
+ r zr 8 12 21 12 8 9 10 22 r zr2 
+ r zr 8 12 21 12 8 9 22 9 r Zi 
+ r zr 8 12 21 12 8 9 22 9 r Zr 
+ r zr 8 12 21 12 8 9 22 9 r zi 
+ r zr 8 12 21 12 8 9 22 9 r zr 
+ r zr 8 12 21 12 8 9 22 Kr 2.0 
+ r zr 8 12 21 12 8 9 22 r Zi 
+ r zr 8 12 21 12 8 9 22 r Zr 
+ r zr 8 12 21 12 8 9 22 r zi 
+ r zr 8 12 21 12 8 9 22 r zi2 
+ r zr 8 12 21 12 8 9 22 r zr 
+ r zr 8 12 21 12 8 9 22 r zr2 
+ r zr 8 12 21 12 8 9 r ci 
+ r zr 8 12 21 12 8 9 r cr 
+ r zr 8 12 21 12 8 9 r zi 
+ r zr 8 12 21 12 8 9 r zr 
+ r zr 8 12 21 12 8 r Zi 
+ r zr 8 12 21 12 8 r Zr 
+ r zr 8 12 21 12 8 r abs_Zz 
+ r zr 8 12 21 12 8 r abs_z 
+ r zr 8 12 21 12 8 r zi 
+ r zr 8 12 21 12 8 r zi2 
+ r zr 8 12 21 12 8 r zi3 
+ r zr 8 12 21 12 8 r zr 
+ r zr 8 12 21 12 8 r zr2 
+ r zr 8 12 21 12 8 r zr3 
+ r zr 8 12 21 35 Ki 1 
+ r zr 8 12 21 35 i i 
+ r zr 8 12 21 4 i i 
+ r zr 8 12 21 4 i nmax 
+ r zr 8 12 7 1 35 Ki 1 
+ r zr 8 12 7 1 35 i m 
+ r zr 8 12 7 1 i ref_period 
+ r zr 8 12 7 12 21 12 13 i i 
+ r zr 8 12 7 12 21 35 Ki 1 
+ r zr 8 12 7 12 21 35 i i 
+ r zr 8 12 7 12 7 1 35 Ki 1 
+ r zr 8 12 7 12 7 1 35 i m 
+ r zr 8 12 7 12 7 1 i ref_period 
+ r zr 8 12 7 12 7 13 i i 
+ r zr 8 12 7 12 7 2 Kr 8.0 
+ r zr 8 12 7 12 7 2 r abs_Zz 
+ r zr 8 12 7 12 7 8 Ki 0 
+ r zr 8 12 7 12 7 8 i m 
+ r zr 8 12 7 12 8 9 10 22 r zi 
+ r zr 8 12 7 12 8 9 10 22 r zi2 
+ r zr 8 12 7 12 8 9 10 22 r zr 
+ r zr 8 12 7 12 8 9 10 22 r zr2 
+ r zr 8 12 7 12 8 9 22 9 r Zi 
+ r zr 8 12 7 12 8 9 22 9 r Zr 
+ r zr 8 12 7 12 8 9 22 9 r zi 
+ r zr 8 12 7 12 8 9 22 9 r zr 
+ r zr 8 12 7 12 8 9 22 Kr 2.0 
+ r zr 8 12 7 12 8 9 22 r Zi 
+ r zr 8 12 7 12 8 9 22 r Zr 
+ r zr 8 12 7 12 8 9 22 r zi 
+ r zr 8 12 7 12 8 9 22 r zi2 
+ r zr 8 12 7 12 8 9 22 r zr 
+ r zr 8 12 7 12 8 9 22 r zr2 
+ r zr 8 12 7 12 8 9 r ci 
+ r zr 8 12 7 12 8 9 r cr 
+ r zr 8 12 7 12 8 9 r zi 
+ r zr 8 12 7 12 8 9 r zr 
+ r zr 8 12 7 12 8 r abs_Zz 
+ r zr 8 12 7 12 8 r zi 
+ r zr 8 12 7 12 8 r zi2 
+ r zr 8 12 7 12 8 r zi3 
+ r zr 8 12 7 12 8 r zr 
+ r zr 8 12 7 12 8 r zr2 
+ r zr 8 12 7 12 8 r zr3 
+ r zr 8 12 7 8 Ki 0 
+ r zr 8 12 7 8 i m 
+ r zr 8 12 8 19 32 22 Ki 4 
+ r zr 8 12 8 19 32 22 i m 
+ r zr 8 12 8 19 32 p Zref_i 
+ r zr 8 12 8 19 32 p Zref_r 
+ r zr 8 12 8 Ki 0 
+ r zr 8 12 8 i i 
+ r zr 8 12 8 i m 
+ r zr 8 12 8 r Zi 
+ r zr 8 12 8 r Zr 
+ r zr 8 12 8 r zi 
+ r zr 8 12 8 r zi3 
+ r zr 8 8 14 Ki 0 
+ r zr 8 8 r zi 
+ r zr 8 9 r Zr 
+ r zr 8 9 r zr 
+ r zr 8 r zr3 
+ r zr 9 22 9 22 9 r Zi 
+ r zr 9 22 9 22 9 r zi 
+ r zr 9 22 9 8 12 21 12 13 i i 
+ r zr 9 22 9 8 12 21 35 Ki 1 
+ r zr 9 22 9 8 12 21 35 i i 
+ r zr 9 22 9 8 12 7 1 35 Ki 1 
+ r zr 9 22 9 8 12 7 1 35 i m 
+ r zr 9 22 9 8 12 7 1 i ref_period 
+ r zr 9 22 9 8 12 7 12 8 19 32 22 Ki 4 
+ r zr 9 22 9 8 12 7 12 8 19 32 22 i m 
+ r zr 9 22 9 8 12 7 12 8 19 32 p Zref_i 
+ r zr 9 22 9 8 12 7 12 8 19 32 p Zref_r 
+ r zr 9 22 9 8 12 7 12 8 9 r Zr 
+ r zr 9 22 9 8 12 7 12 8 9 r zr 
+ r zr 9 22 9 8 12 7 12 8 Ki 0 
+ r zr 9 22 9 8 12 7 12 8 i m 
+ r zr 9 22 9 8 12 7 12 8 r Zi 
+ r zr 9 22 9 8 12 7 12 8 r Zr 
+ r zr 9 22 9 8 12 7 12 8 r zr 
+ r zr 9 22 9 8 12 7 13 i i 
+ r zr 9 22 9 8 12 7 2 Kr 8.0 
+ r zr 9 22 9 8 12 7 2 r abs_Zz 
+ r zr 9 22 9 8 12 7 4 r abs_Zz 
+ r zr 9 22 9 8 12 7 4 r abs_z 
+ r zr 9 22 9 8 12 7 8 Ki 0 
+ r zr 9 22 9 8 12 7 8 i m 
+ r zr 9 22 9 8 12 8 9 10 22 r zi 
+ r zr 9 22 9 8 12 8 9 10 22 r zi2 
+ r zr 9 22 9 8 12 8 9 10 22 r zr 
+ r zr 9 22 9 8 12 8 9 10 22 r zr2 
+ r zr 9 22 9 8 12 8 9 22 9 r Zi 
+ r zr 9 22 9 8 12 8 9 22 9 r Zr 
+ r zr 9 22 9 8 12 8 9 22 9 r zi 
+ r zr 9 22 9 8 12 8 9 22 9 r zr 
+ r zr 9 22 9 8 12 8 9 22 Kr 2.0 
+ r zr 9 22 9 8 12 8 9 22 r Zi 
+ r zr 9 22 9 8 12 8 9 22 r Zr 
+ r zr 9 22 9 8 12 8 9 22 r zi 
+ r zr 9 22 9 8 12 8 9 22 r zi2 
+ r zr 9 22 9 8 12 8 9 22 r zr 
+ r zr 9 22 9 8 12 8 9 22 r zr2 
+ r zr 9 22 9 8 12 8 9 r ci 
+ r zr 9 22 9 8 12 8 9 r cr 
+ r zr 9 22 9 8 12 8 9 r zi 
+ r zr 9 22 9 8 12 8 9 r zr 
+ r zr 9 22 9 8 12 8 r abs_Zz 
+ r zr 9 22 9 8 12 8 r abs_z 
+ r zr 9 22 9 8 12 8 r zi 
+ r zr 9 22 9 8 12 8 r zi2 
+ r zr 9 22 9 8 12 8 r zi3 
+ r zr 9 22 9 8 12 8 r zr 
+ r zr 9 22 9 8 12 8 r zr2 
+ r zr 9 22 9 8 12 8 r zr3 
+ r zr 9 22 9 r Zr 
+ r zr 9 22 9 r zr 
+ r zr 9 8 12 21 12 13 i i 
+ r zr 9 8 12 21 35 Ki 1 
+ r zr 9 8 12 21 35 i i 
+ r zr 9 8 12 7 1 35 Ki 1 
+ r zr 9 8 12 7 1 35 i m 
+ r zr 9 8 12 7 1 i ref_period 
+ r zr 9 8 12 7 12 21 12 13 i i 
+ r zr 9 8 12 7 12 21 35 Ki 1 
+ r zr 9 8 12 7 12 21 35 i i 
+ r zr 9 8 12 7 12 7 1 35 Ki 1 
+ r zr 9 8 12 7 12 7 1 35 i m 
+ r zr 9 8 12 7 12 7 1 i ref_period 
+ r zr 9 8 12 7 12 7 13 i i 
+ r zr 9 8 12 7 12 7 2 Kr 8.0 
+ r zr 9 8 12 7 12 7 2 r abs_Zz 
+ r zr 9 8 12 7 12 7 8 Ki 0 
+ r zr 9 8 12 7 12 7 8 i m 
+ r zr 9 8 12 7 12 8 9 10 22 r zi 
+ r zr 9 8 12 7 12 8 9 10 22 r zi2 
+ r zr 9 8 12 7 12 8 9 10 22 r zr 
+ r zr 9 8 12 7 12 8 9 10 22 r zr2 
+ r zr 9 8 12 7 12 8 9 22 9 r Zi 
+ r zr 9 8 12 7 12 8 9 22 9 r Zr 
+ r zr 9 8 12 7 12 8 9 22 9 r zi 
+ r zr 9 8 12 7 12 8 9 22 9 r zr 
+ r zr 9 8 12 7 12 8 9 22 Kr 2.0 
+ r zr 9 8 12 7 12 8 9 22 r Zi 
+ r zr 9 8 12 7 12 8 9 22 r Zr 
+ r zr 9 8 12 7 12 8 9 22 r zi 
+ r zr 9 8 12 7 12 8 9 22 r zi2 
+ r zr 9 8 12 7 12 8 9 22 r zr 
+ r zr 9 8 12 7 12 8 9 22 r zr2 
+ r zr 9 8 12 7 12 8 9 r ci 
+ r zr 9 8 12 7 12 8 9 r cr 
+ r zr 9 8 12 7 12 8 9 r zi 
+ r zr 9 8 12 7 12 8 9 r zr 
+ r zr 9 8 12 7 12 8 r abs_Zz 
+ r zr 9 8 12 7 12 8 r zi 
+ r zr 9 8 12 7 12 8 r zi2 
+ r zr 9 8 12 7 12 8 r zi3 
+ r zr 9 8 12 7 12 8 r zr 
+ r zr 9 8 12 7 12 8 r zr2 
+ r zr 9 8 12 7 12 8 r zr3 
+ r zr 9 8 12 7 8 Ki 0 
+ r zr 9 8 12 7 8 i m 
+ r zr 9 8 12 8 19 32 22 Ki 4 
+ r zr 9 8 12 8 19 32 22 i m 
+ r zr 9 8 12 8 19 32 p Zref_i 
+ r zr 9 8 12 8 19 32 p Zref_r 
+ r zr 9 8 12 8 9 10 22 r zi 
+ r zr 9 8 12 8 9 10 22 r zi2 
+ r zr 9 8 12 8 9 10 22 r zr 
+ r zr 9 8 12 8 9 10 22 r zr2 
+ r zr 9 8 12 8 9 22 Kr 2.0 
+ r zr 9 8 12 8 9 22 r Zi 
+ r zr 9 8 12 8 9 22 r zi 
+ r zr 9 8 12 8 9 22 r zi2 
+ r zr 9 8 12 8 9 22 r zr 
+ r zr 9 8 12 8 9 22 r zr2 
+ r zr 9 8 12 8 9 r ci 
+ r zr 9 8 12 8 9 r cr 
+ r zr 9 8 12 8 9 r zi 
+ r zr 9 8 12 8 Ki 0 
+ r zr 9 8 12 8 i m 
+ r zr 9 8 12 8 r Zi 
+ r zr 9 8 12 8 r Zr 
+ r zr 9 8 12 8 r zi 
+ r zr 9 8 12 8 r zi2 
+ r zr 9 8 12 8 r zi3 
+ r zr 9 8 12 8 r zr 
+ r zr 9 8 12 8 r zr3 
+ r zr2 12 13 i i 
+ r zr2 12 21 12 7 1 35 Ki 1 
+ r zr2 12 21 12 7 1 35 i m 
+ r zr2 12 21 12 7 1 i ref_period 
+ r zr2 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zr2 12 21 12 7 12 8 19 32 22 i m 
+ r zr2 12 21 12 7 12 8 19 32 p Zref_i 
+ r zr2 12 21 12 7 12 8 19 32 p Zref_r 
+ r zr2 12 21 12 7 12 8 9 r Zr 
+ r zr2 12 21 12 7 12 8 9 r zr 
+ r zr2 12 21 12 7 12 8 Ki 0 
+ r zr2 12 21 12 7 12 8 i m 
+ r zr2 12 21 12 7 12 8 r Zi 
+ r zr2 12 21 12 7 12 8 r Zr 
+ r zr2 12 21 12 7 12 8 r zr 
+ r zr2 12 21 12 7 13 i i 
+ r zr2 12 21 12 7 2 Kr 8.0 
+ r zr2 12 21 12 7 2 r abs_Zz 
+ r zr2 12 21 12 7 4 r abs_Zz 
+ r zr2 12 21 12 7 4 r abs_z 
+ r zr2 12 21 12 7 8 Ki 0 
+ r zr2 12 21 12 7 8 i m 
+ r zr2 12 21 12 8 19 32 22 Ki 4 
+ r zr2 12 21 12 8 19 32 22 i m 
+ r zr2 12 21 12 8 19 32 p Zref_i 
+ r zr2 12 21 12 8 19 32 p Zref_r 
+ r zr2 12 21 12 8 9 10 22 r zi 
+ r zr2 12 21 12 8 9 10 22 r zi2 
+ r zr2 12 21 12 8 9 10 22 r zr 
+ r zr2 12 21 12 8 9 10 22 r zr2 
+ r zr2 12 21 12 8 9 22 9 r Zi 
+ r zr2 12 21 12 8 9 22 9 r Zr 
+ r zr2 12 21 12 8 9 22 9 r zi 
+ r zr2 12 21 12 8 9 22 9 r zr 
+ r zr2 12 21 12 8 9 22 Kr 2.0 
+ r zr2 12 21 12 8 9 22 r Zi 
+ r zr2 12 21 12 8 9 22 r Zr 
+ r zr2 12 21 12 8 9 22 r zi 
+ r zr2 12 21 12 8 9 22 r zi2 
+ r zr2 12 21 12 8 9 22 r zr 
+ r zr2 12 21 12 8 9 22 r zr2 
+ r zr2 12 21 12 8 9 r ci 
+ r zr2 12 21 12 8 9 r cr 
+ r zr2 12 21 12 8 9 r zi 
+ r zr2 12 21 12 8 9 r zr 
+ r zr2 12 21 12 8 r Zi 
+ r zr2 12 21 12 8 r Zr 
+ r zr2 12 21 12 8 r abs_Zz 
+ r zr2 12 21 12 8 r abs_z 
+ r zr2 12 21 12 8 r zi 
+ r zr2 12 21 12 8 r zi2 
+ r zr2 12 21 12 8 r zi3 
+ r zr2 12 21 12 8 r zr 
+ r zr2 12 21 12 8 r zr2 
+ r zr2 12 21 12 8 r zr3 
+ r zr2 12 21 35 Ki 1 
+ r zr2 12 21 35 i i 
+ r zr2 12 21 4 i i 
+ r zr2 12 21 4 i nmax 
+ r zr2 12 8 8 14 Ki 0 
+ r zr2 12 8 8 r zi 
+ r zr2 12 8 Ki 0 
+ r zr2 12 8 i i 
+ r zr2 12 8 i m 
+ r zr2 12 8 r zr 
+ r zr2 12 i i 
+ r zr2 12 i m 
+ r zr2 12 r Zi 
+ r zr2 12 r Zr 
+ r zr2 12 r abs_Zz 
+ r zr2 12 r abs_z 
+ r zr2 12 r zi2 
+ r zr2 12 r zi3 
+ r zr2 12 r zr3 
+ r zr2 22 10 22 r zi 
+ r zr2 22 10 22 r zi2 
+ r zr2 22 10 9 8 12 21 12 13 i i 
+ r zr2 22 10 9 8 12 21 35 Ki 1 
+ r zr2 22 10 9 8 12 21 35 i i 
+ r zr2 22 10 9 8 12 7 1 35 Ki 1 
+ r zr2 22 10 9 8 12 7 1 35 i m 
+ r zr2 22 10 9 8 12 7 1 i ref_period 
+ r zr2 22 10 9 8 12 7 8 Ki 0 
+ r zr2 22 10 9 8 12 7 8 i m 
+ r zr2 22 10 9 8 12 8 9 22 r zi 
+ r zr2 22 10 9 8 12 8 9 22 r zi2 
+ r zr2 22 10 9 8 12 8 9 22 r zr 
+ r zr2 22 10 9 8 12 8 9 22 r zr2 
+ r zr2 22 10 9 8 12 8 9 r ci 
+ r zr2 22 10 9 8 12 8 r zi 
+ r zr2 22 10 9 8 12 8 r zi3 
+ r zr2 22 10 9 8 12 8 r zr 
+ r zr2 22 10 9 8 12 8 r zr3 
+ r zr2 22 10 9 r cr 
+ r zr2 22 9 22 r zi2 
+ r zr2 22 9 22 r zr 
+ r zr2 22 9 8 12 21 12 13 i i 
+ r zr2 22 9 8 12 21 35 Ki 1 
+ r zr2 22 9 8 12 21 35 i i 
+ r zr2 22 9 8 12 7 1 35 Ki 1 
+ r zr2 22 9 8 12 7 1 35 i m 
+ r zr2 22 9 8 12 7 1 i ref_period 
+ r zr2 22 9 8 12 7 8 Ki 0 
+ r zr2 22 9 8 12 7 8 i m 
+ r zr2 22 9 8 12 8 r zi 
+ r zr2 22 9 8 12 8 r zi3 
+ r zr2 22 9 8 12 8 r zr 
+ r zr2 22 9 8 12 8 r zr3 
+ r zr2 22 9 r ci 
+ r zr2 22 r zi 
+ r zr2 22 r zr 
+ r zr2 8 12 21 12 13 i i 
+ r zr2 8 12 21 35 Ki 1 
+ r zr2 8 12 21 35 i i 
+ r zr2 8 12 7 1 35 Ki 1 
+ r zr2 8 12 7 1 35 i m 
+ r zr2 8 12 7 1 i ref_period 
+ r zr2 8 12 7 8 Ki 0 
+ r zr2 8 12 7 8 i m 
+ r zr2 8 12 8 9 10 22 r zi 
+ r zr2 8 12 8 9 10 22 r zi2 
+ r zr2 8 12 8 9 10 22 r zr 
+ r zr2 8 12 8 9 10 22 r zr2 
+ r zr2 8 12 8 9 22 Kr 2.0 
+ r zr2 8 12 8 9 22 r Zi 
+ r zr2 8 12 8 9 22 r zi 
+ r zr2 8 12 8 9 22 r zi2 
+ r zr2 8 12 8 9 22 r zr 
+ r zr2 8 12 8 9 22 r zr2 
+ r zr2 8 12 8 9 r ci 
+ r zr2 8 12 8 9 r cr 
+ r zr2 8 12 8 9 r zi 
+ r zr2 8 12 8 r zi 
+ r zr2 8 12 8 r zi2 
+ r zr2 8 12 8 r zi3 
+ r zr2 8 12 8 r zr 
+ r zr2 8 12 8 r zr3 
+ r zr2 8 9 22 Kr 2.0 
+ r zr2 8 9 22 r Zr 
+ r zr2 8 9 r zr 
+ r zr3 12 13 i i 
+ r zr3 12 21 12 7 1 35 Ki 1 
+ r zr3 12 21 12 7 1 35 i m 
+ r zr3 12 21 12 7 1 i ref_period 
+ r zr3 12 21 12 7 12 8 19 32 22 Ki 4 
+ r zr3 12 21 12 7 12 8 19 32 22 i m 
+ r zr3 12 21 12 7 12 8 19 32 p Zref_i 
+ r zr3 12 21 12 7 12 8 19 32 p Zref_r 
+ r zr3 12 21 12 7 12 8 9 r Zr 
+ r zr3 12 21 12 7 12 8 9 r zr 
+ r zr3 12 21 12 7 12 8 Ki 0 
+ r zr3 12 21 12 7 12 8 i m 
+ r zr3 12 21 12 7 12 8 r Zi 
+ r zr3 12 21 12 7 12 8 r Zr 
+ r zr3 12 21 12 7 12 8 r zr 
+ r zr3 12 21 12 7 13 i i 
+ r zr3 12 21 12 7 2 Kr 8.0 
+ r zr3 12 21 12 7 2 r abs_Zz 
+ r zr3 12 21 12 7 4 r abs_Zz 
+ r zr3 12 21 12 7 4 r abs_z 
+ r zr3 12 21 12 7 8 Ki 0 
+ r zr3 12 21 12 7 8 i m 
+ r zr3 12 21 12 8 19 32 22 Ki 4 
+ r zr3 12 21 12 8 19 32 22 i m 
+ r zr3 12 21 12 8 19 32 p Zref_i 
+ r zr3 12 21 12 8 19 32 p Zref_r 
+ r zr3 12 21 12 8 9 10 22 r zi 
+ r zr3 12 21 12 8 9 10 22 r zi2 
+ r zr3 12 21 12 8 9 10 22 r zr 
+ r zr3 12 21 12 8 9 10 22 r zr2 
+ r zr3 12 21 12 8 9 22 9 r Zi 
+ r zr3 12 21 12 8 9 22 9 r Zr 
+ r zr3 12 21 12 8 9 22 9 r zi 
+ r zr3 12 21 12 8 9 22 9 r zr 
+ r zr3 12 21 12 8 9 22 Kr 2.0 
+ r zr3 12 21 12 8 9 22 r Zi 
+ r zr3 12 21 12 8 9 22 r Zr 
+ r zr3 12 21 12 8 9 22 r zi 
+ r zr3 12 21 12 8 9 22 r zi2 
+ r zr3 12 21 12 8 9 22 r zr 
+ r zr3 12 21 12 8 9 22 r zr2 
+ r zr3 12 21 12 8 9 r ci 
+ r zr3 12 21 12 8 9 r cr 
+ r zr3 12 21 12 8 9 r zi 
+ r zr3 12 21 12 8 9 r zr 
+ r zr3 12 21 12 8 r Zi 
+ r zr3 12 21 12 8 r Zr 
+ r zr3 12 21 12 8 r abs_Zz 
+ r zr3 12 21 12 8 r abs_z 
+ r zr3 12 21 12 8 r zi 
+ r zr3 12 21 12 8 r zi2 
+ r zr3 12 21 12 8 r zi3 
+ r zr3 12 21 12 8 r zr 
+ r zr3 12 21 12 8 r zr2 
+ r zr3 12 21 12 8 r zr3 
+ r zr3 12 21 35 Ki 1 
+ r zr3 12 21 35 i i 
+ r zr3 12 21 4 i i 
+ r zr3 12 21 4 i nmax 
+ r zr3 12 8 8 14 Ki 0 
+ r zr3 12 8 8 r zi 
+ r zr3 12 8 Ki 0 
+ r zr3 12 8 i i 
+ r zr3 12 8 i m 
+ r zr3 12 8 r zr 
+ r zr3 12 i i 
+ r zr3 12 i m 
+ r zr3 12 r zi3 
+ r zr3 8 12 21 12 13 i i 
+ r zr3 8 12 21 35 Ki 1 
+ r zr3 8 12 21 35 i i 
+ r zr3 8 12 7 1 35 Ki 1 
+ r zr3 8 12 7 1 35 i m 
+ r zr3 8 12 7 1 i ref_period 
+ r zr3 8 12 7 8 Ki 0 
+ r zr3 8 12 7 8 i m 
+ r zr3 8 12 8 9 22 r zi 
+ r zr3 8 12 8 9 22 r zi2 
+ r zr3 8 12 8 9 22 r zr 
+ r zr3 8 12 8 9 22 r zr2 
+ r zr3 8 12 8 9 r ci 
+ r zr3 8 12 8 r zi 
+ r zr3 8 12 8 r zi3 
+ r zr3 8 12 8 r zr 
+ r zr3 8 12 8 r zr3 
+ r zr3 8 9 10 22 r zi 
+ r zr3 8 9 10 22 r zi2 
+ r zr3 8 9 10 22 r zr 
+ r zr3 8 9 10 22 r zr2 
+ r zr3 8 9 r cr 

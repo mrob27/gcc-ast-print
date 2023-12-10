@@ -30,6 +30,8 @@ path counts (including unique and dupes) by function
  20201120 Sort and uniq the tok output. Add q45-reductions.pl
  20201128 Use dump-tree-all dump-rtl-all flags to dump all the tree
 and RTL representations.
+ 20231210 Create out/gen-$fn.tok for stats that come from
+ignoring variable names
 
 `;
 
@@ -351,9 +353,11 @@ foreach $fn (sort (keys %json_fns)) {
 
   # Eliminate variations that are due only to the choice of
   # names for parameters and variables
-  $testtok = "out/$fn.tok";
+  $generictok = "out/gen-$fn.tok";
+  $fntok = "out/$fn.tok";
   $err100 = "out/err100-$fn.txt";
-  &sys1("./q50-canonvars.pl $out65 $out95 > $testtok 2> $err100");
+  &sys1("./q50-canonvars.pl -minimise $out65 $out95 > $generictok 2>/dev/null");
+  &sys1("./q50-canonvars.pl $out65 $out95 > $fntok 2> $err100");
   $errs = (`cat $err100 | grep \033 | wc -l`) + 0;
   if ($errs) {
     &sys1("cat $err100");
@@ -365,15 +369,22 @@ foreach $fn (sort (keys %json_fns)) {
     die "${avc_bd_red}No file '$testex' exists (use ./accept-all to fix)$avc_normal\n";
   }
 
-  &sys1("$df -u $testex $testtok");
+  &sys1("$df -u $testex $fntok");
 }
 
-print sprintf(" %6s %5s %4s %4s\n", 'fname', 'paths', 'uniq', 'dupe');
+print sprintf(" %6s & %6s & %6s & %6s & %5s & %6s \\\\\n",
+  'fname', 'paths', 'dupe', 'unique', 'avlen', 'g_uniq');
 foreach $fn (sort (keys %json_fns)) {
   $out95 = "out/95-$fn.tok";
-  $testtok = "out/$fn.tok";
+  $generictok = "out/gen-$fn.tok";
   $paths = `wc -l $out95` + 0;
-  $duped = `cat $out95 | sort | uniq -d | wc -l` + 0;
-  $unique = `cat $testtok | wc -l` + 0;
-  print sprintf(" %6s %5d %4d %4d\n", $fn, $paths, $unique, $duped);
+  $tlen = `wc -w $out95` + 0;
+  $avglen = $tlen / $paths;
+  $dupgrps = `cat $out95 | sort | uniq -d | wc -l` + 0;
+  $dupes = `cat $out95 | sort | uniq -D | wc -l` + 0;
+  $unique = $paths - $dupes + $dupgrps;
+  $uniq1 = `cat $out95 | sort | uniq | wc -l` + 0;
+  $genuniq = `cat $generictok | sort | uniq | wc -l` + 0;
+  print sprintf(" %6s & %6d & %6d & %6d & %5.1f & %6d \\\\\n",
+                $fn, $paths, $dupes-$dupgrps, $unique, $avglen, $genuniq);
 }

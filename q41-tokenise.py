@@ -7,6 +7,7 @@ REVISION HISTORY
  20201116 encode.leaf now no longer has to handle parm_decl etc.
 Simplify the types and const types to 1 or 2 letters. Remove unneeded
 punctuation.
+ 20231210 More node types
 
 """
 
@@ -56,6 +57,10 @@ nodecodes = {
   'rshift_expr': 29,
   'negate_expr': 30,
   'sizeof_expr': 31,
+  'pointer_plus_expr': 32,
+  'bit_xor_expr': 33,
+  'bit_not_expr': 34,
+  'preincrement_expr': 35,
 }
 leafcodes = {
   'int_const' : 'Ki',

@@ -11,6 +11,8 @@ names for parameters and variables.
 REVISION HISTORY
  20201124 First version
  20201125 Register variables with original orders and types
+ 20231210 Actually remove variable name info when new option -minimise
+is given
 
 `;
 
@@ -40,8 +42,12 @@ sub reg_var
 
 $| = 1;
 
+$g_minimise = 0;
 while ($arg = shift) {
-  if (!(-f $arg)) {
+  if (0) {
+  } elsif ($arg eq '-minimise') {
+    $g_minimise = 1;
+  } elsif (!(-f $arg)) {
     die "${red}No file '$arg' exists, or argument not recognised.$norm\n";
   } elsif ($parmlist eq '') {
     $parmlist = $arg;
@@ -108,11 +114,13 @@ close $IN;
 
 # Sort the paths, note variables at beginning and/or end
 foreach $l (sort (keys %ll)) {
+  if ($g_minimise) {
+    if ($l =~ s/^ ($p_vartype) ($p_ident) / $1 /) {
+      &reg_var($1, $2);
+    }
+    if ($l =~ s/ ($p_vartype) ($p_ident) $/ $1 /) {
+      &reg_var($1, $2);
+    }
+  }
   print "$l\n";
-  if ($l =~ m/^ ($p_vartype) ($p_ident) /) {
-    &reg_var($1, $2);
-  }
-  if ($l =~ m/ ($p_vartype) ($p_ident) $/) {
-    &reg_var($1, $2);
-  }
 }

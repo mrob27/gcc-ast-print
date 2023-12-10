@@ -23,6 +23,7 @@ decl_expr, for_stmt, non_lvalue_expr, real_const, and var_decl
  20201105 Handle bit_ior_expr
  20201111 Handle var_decl (now accessible because of the removal of
 view_convert_expr)
+ 20231210 Recognise more node types
 
 """
 
@@ -136,11 +137,13 @@ def create_tree(node_list, nodenr=1, indt=""):
   elif nodestr == 'float_expr':
     res.append(get_type(node_list, node['type']))
     res.append(create_tree(node_list, node['op 0'], indt=("  %s"%indt)))
-  elif nodestr in ['bit_and_expr', 'bit_ior_expr', 'bit_not_expr', 'cond_expr',
-                   'gt_expr',
+  elif nodestr in ['bit_and_expr', 'bit_ior_expr', 'bit_not_expr',
+                   'bit_xor_expr', 'cond_expr',
+                   'ge_expr', 'gt_expr',
                    'le_expr', 'lt_expr', 'lshift_expr',
                    'minus_expr','modify_expr', 'mult_expr',
-                   'ne_expr', 'negate_expr', 'plus_expr',
+                   'ne_expr', 'negate_expr',
+                   'plus_expr', 'pointer_plus_expr',
                    'rshift_expr', 'sizeof_expr']:
     # res.append(get_type(node_list, node['type']))
     cnt = 0
@@ -181,7 +184,7 @@ def create_tree(node_list, nodenr=1, indt=""):
     res = create_tree(node_list, node['vcop'], indt=("  %s"%indt))
   elif nodestr == 'indirect_ref':
     res.append(create_tree(node_list, node['op 0'], indt=("  %s"%indt)))
-  elif nodestr in ['postincrement_expr', 'component_ref']:
+  elif nodestr in ['preincrement_expr', 'postincrement_expr', 'component_ref']:
     res.append(create_tree(node_list, node['op 0'], indt=("  %s"%indt)))
     res.append(create_tree(node_list, node['op 1'], indt=("  %s"%indt)))
   elif nodestr == 'field_decl':
